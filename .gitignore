@@ -1,0 +1,17 @@
+.venv/
+.venv_backup/
+.venv_broken*/
+
+__pycache__/
+*.pyc
+
+.env
+.env.*
+
+data/raw/
+data/processed/
+data/external/
+
+.ipynb_checkpoints/
+.vscode/
+.idea/

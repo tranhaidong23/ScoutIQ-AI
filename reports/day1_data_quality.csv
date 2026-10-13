@@ -1,0 +1,6 @@
+dataset,rows,columns,duplicates,missing_percent
+players,50149,26,0,15.29
+clubs,796,17,0,9.51
+appearances,1894350,13,0,0.0
+games,88958,23,0,4.0
+player_valuations,656301,6,0,2.36
