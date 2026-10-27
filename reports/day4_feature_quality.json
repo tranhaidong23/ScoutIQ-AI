@@ -1,0 +1,431 @@
+{
+  "cutoff": "2026-06-12",
+  "season": "2025/26",
+  "environment": {
+    "python": "3.13.7",
+    "pandas": "3.0.6",
+    "numpy": "2.5.4",
+    "matplotlib": "3.11.2"
+  },
+  "input_path": "data\\processed\\scoutiq_candidates_2025_26.csv",
+  "input_sha256": "5480a88b2fb13047f65364db1795ee8f1871108de7de998f2fdc97cc1571edc9",
+  "output_path": "data\\processed\\scoutiq_features_2025_26.csv",
+  "input_quality": {
+    "rows": 4112,
+    "columns": 21,
+    "schema": {
+      "player_id": "int64",
+      "matches_played": "int64",
+      "minutes_played": "int64",
+      "goals": "int64",
+      "assists": "int64",
+      "goals_per90": "float64",
+      "assists_per90": "float64",
+      "goal_contributions_per90": "float64",
+      "name": "str",
+      "position": "str",
+      "sub_position": "str",
+      "age": "int64",
+      "foot": "str",
+      "height_in_cm": "float64",
+      "current_club_id": "int64",
+      "current_club_name": "str",
+      "image_url": "str",
+      "valuation_date": "str",
+      "market_value_in_eur": "float64",
+      "club_name_verified": "str",
+      "valuation_age_days": "int64"
+    },
+    "unique_player_ids": 4112,
+    "duplicate_player_ids": 0,
+    "missing_by_column": {
+      "player_id": 0,
+      "matches_played": 0,
+      "minutes_played": 0,
+      "goals": 0,
+      "assists": 0,
+      "goals_per90": 0,
+      "assists_per90": 0,
+      "goal_contributions_per90": 0,
+      "name": 0,
+      "position": 0,
+      "sub_position": 0,
+      "age": 0,
+      "foot": 24,
+      "height_in_cm": 23,
+      "current_club_id": 0,
+      "current_club_name": 16,
+      "image_url": 0,
+      "valuation_date": 0,
+      "market_value_in_eur": 0,
+      "club_name_verified": 16,
+      "valuation_age_days": 0
+    },
+    "infinity_by_column": {
+      "player_id": 0,
+      "matches_played": 0,
+      "minutes_played": 0,
+      "goals": 0,
+      "assists": 0,
+      "goals_per90": 0,
+      "assists_per90": 0,
+      "goal_contributions_per90": 0,
+      "age": 0,
+      "height_in_cm": 0,
+      "current_club_id": 0,
+      "market_value_in_eur": 0,
+      "valuation_age_days": 0
+    },
+    "numeric_ranges": {
+      "player_id": {
+        "min": 3333.0,
+        "max": 1396595.0
+      },
+      "matches_played": {
+        "min": 10.0,
+        "max": 60.0
+      },
+      "minutes_played": {
+        "min": 900.0,
+        "max": 4970.0
+      },
+      "goals": {
+        "min": 0.0,
+        "max": 61.0
+      },
+      "assists": {
+        "min": 0.0,
+        "max": 32.0
+      },
+      "goals_per90": {
+        "min": 0.0,
+        "max": 1.2661439114391144
+      },
+      "assists_per90": {
+        "min": 0.0,
+        "max": 0.7390510948905109
+      },
+      "goal_contributions_per90": {
+        "min": 0.0,
+        "max": 1.4321955719557196
+      },
+      "age": {
+        "min": 17.0,
+        "max": 42.0
+      },
+      "height_in_cm": {
+        "min": 19.0,
+        "max": 206.0
+      },
+      "current_club_id": {
+        "min": 3.0,
+        "max": 110302.0
+      },
+      "market_value_in_eur": {
+        "min": 25000.0,
+        "max": 200000000.0
+      },
+      "valuation_age_days": {
+        "min": 1.0,
+        "max": 254.0
+      }
+    },
+    "position_counts": {
+      "Defender": 1523,
+      "Midfield": 1204,
+      "Attack": 1059,
+      "Goalkeeper": 326
+    },
+    "max_absolute_per90_error": {
+      "goals_per90": 2.220446049250313e-16,
+      "assists_per90": 9.71445146547012e-17,
+      "goal_contributions_per90": 2.220446049250313e-16
+    }
+  },
+  "output_quality": {
+    "rows": 4112,
+    "columns": 28,
+    "schema": {
+      "player_id": "int64",
+      "matches_played": "int64",
+      "minutes_played": "int64",
+      "goals": "int64",
+      "assists": "int64",
+      "goals_per90": "float64",
+      "assists_per90": "float64",
+      "goal_contributions_per90": "float64",
+      "name": "str",
+      "position": "str",
+      "sub_position": "str",
+      "age": "int64",
+      "foot": "str",
+      "height_in_cm": "float64",
+      "current_club_id": "int64",
+      "current_club_name": "str",
+      "image_url": "str",
+      "valuation_date": "str",
+      "market_value_in_eur": "float64",
+      "club_name_verified": "str",
+      "valuation_age_days": "int64",
+      "goal_contributions": "int64",
+      "market_value_m": "float64",
+      "log1p_market_value_m": "float64",
+      "minutes_reliability": "float64",
+      "goals_per90_position_percentile": "float64",
+      "assists_per90_position_percentile": "float64",
+      "goal_contributions_per90_position_percentile": "float64"
+    },
+    "unique_player_ids": 4112,
+    "duplicate_player_ids": 0,
+    "missing_by_column": {
+      "player_id": 0,
+      "matches_played": 0,
+      "minutes_played": 0,
+      "goals": 0,
+      "assists": 0,
+      "goals_per90": 0,
+      "assists_per90": 0,
+      "goal_contributions_per90": 0,
+      "name": 0,
+      "position": 0,
+      "sub_position": 0,
+      "age": 0,
+      "foot": 24,
+      "height_in_cm": 23,
+      "current_club_id": 0,
+      "current_club_name": 16,
+      "image_url": 0,
+      "valuation_date": 0,
+      "market_value_in_eur": 0,
+      "club_name_verified": 16,
+      "valuation_age_days": 0,
+      "goal_contributions": 0,
+      "market_value_m": 0,
+      "log1p_market_value_m": 0,
+      "minutes_reliability": 0,
+      "goals_per90_position_percentile": 0,
+      "assists_per90_position_percentile": 0,
+      "goal_contributions_per90_position_percentile": 0
+    },
+    "infinity_by_column": {
+      "player_id": 0,
+      "matches_played": 0,
+      "minutes_played": 0,
+      "goals": 0,
+      "assists": 0,
+      "goals_per90": 0,
+      "assists_per90": 0,
+      "goal_contributions_per90": 0,
+      "age": 0,
+      "height_in_cm": 0,
+      "current_club_id": 0,
+      "market_value_in_eur": 0,
+      "valuation_age_days": 0,
+      "goal_contributions": 0,
+      "market_value_m": 0,
+      "log1p_market_value_m": 0,
+      "minutes_reliability": 0,
+      "goals_per90_position_percentile": 0,
+      "assists_per90_position_percentile": 0,
+      "goal_contributions_per90_position_percentile": 0
+    },
+    "numeric_ranges": {
+      "player_id": {
+        "min": 3333.0,
+        "max": 1396595.0
+      },
+      "matches_played": {
+        "min": 10.0,
+        "max": 60.0
+      },
+      "minutes_played": {
+        "min": 900.0,
+        "max": 4970.0
+      },
+      "goals": {
+        "min": 0.0,
+        "max": 61.0
+      },
+      "assists": {
+        "min": 0.0,
+        "max": 32.0
+      },
+      "goals_per90": {
+        "min": 0.0,
+        "max": 1.2661439114391144
+      },
+      "assists_per90": {
+        "min": 0.0,
+        "max": 0.7390510948905109
+      },
+      "goal_contributions_per90": {
+        "min": 0.0,
+        "max": 1.4321955719557196
+      },
+      "age": {
+        "min": 17.0,
+        "max": 42.0
+      },
+      "height_in_cm": {
+        "min": 19.0,
+        "max": 206.0
+      },
+      "current_club_id": {
+        "min": 3.0,
+        "max": 110302.0
+      },
+      "market_value_in_eur": {
+        "min": 25000.0,
+        "max": 200000000.0
+      },
+      "valuation_age_days": {
+        "min": 1.0,
+        "max": 254.0
+      },
+      "goal_contributions": {
+        "min": 0.0,
+        "max": 69.0
+      },
+      "market_value_m": {
+        "min": 0.025,
+        "max": 200.0
+      },
+      "log1p_market_value_m": {
+        "min": 0.0246926125903715,
+        "max": 5.303304908059076
+      },
+      "minutes_reliability": {
+        "min": 0.3333333333333333,
+        "max": 1.0
+      },
+      "goals_per90_position_percentile": {
+        "min": 1.8413597733711047,
+        "max": 100.0
+      },
+      "assists_per90_position_percentile": {
+        "min": 5.099150141643059,
+        "max": 100.0
+      },
+      "goal_contributions_per90_position_percentile": {
+        "min": 0.2360717658168083,
+        "max": 100.0
+      }
+    },
+    "position_counts": {
+      "Defender": 1523,
+      "Midfield": 1204,
+      "Attack": 1059,
+      "Goalkeeper": 326
+    },
+    "max_absolute_per90_error": {
+      "goals_per90": 2.220446049250313e-16,
+      "assists_per90": 9.71445146547012e-17,
+      "goal_contributions_per90": 0.0
+    }
+  },
+  "engineered_columns": [
+    "goal_contributions",
+    "goal_contributions_per90",
+    "market_value_m",
+    "log1p_market_value_m",
+    "minutes_reliability",
+    "goals_per90_position_percentile",
+    "assists_per90_position_percentile",
+    "goal_contributions_per90_position_percentile"
+  ],
+  "new_columns": [
+    "goal_contributions",
+    "market_value_m",
+    "log1p_market_value_m",
+    "minutes_reliability",
+    "goals_per90_position_percentile",
+    "assists_per90_position_percentile",
+    "goal_contributions_per90_position_percentile"
+  ],
+  "percentile_method": "100 * average rank / position group size; ties averaged; range (0,100]",
+  "percentile_reference": "All 4112 candidates at cutoff, before user search filters",
+  "per90_tolerance": {
+    "rtol": 1e-09,
+    "atol": 1e-12
+  },
+  "market_value_distribution": {
+    "market_value_m": {
+      "count": 4112.0,
+      "mean": 9.241719357976653,
+      "std": 15.959946030334935,
+      "min": 0.025,
+      "25%": 1.0,
+      "50%": 3.0,
+      "75%": 10.0,
+      "max": 200.0,
+      "skewness": 4.222779018928329
+    },
+    "log1p_market_value_m": {
+      "count": 4112.0,
+      "mean": 1.639694922843815,
+      "std": 1.0988055943565134,
+      "min": 0.0246926125903715,
+      "25%": 0.6931471805599453,
+      "50%": 1.3862943611198906,
+      "75%": 2.3978952727983707,
+      "max": 5.303304908059076,
+      "skewness": 0.6320627666907036
+    }
+  },
+  "minutes_reliability": {
+    "formula": "min(minutes_played / 2700, 1); heuristic, not a probability or skill",
+    "capped_players": 939,
+    "median": 0.7344444444444445
+  },
+  "zero_goals_by_position": {
+    "Attack": {
+      "players": 1059,
+      "zero_goals": 38,
+      "zero_goals_percentile": 1.8413597733711047
+    },
+    "Defender": {
+      "players": 1523,
+      "zero_goals": 638,
+      "zero_goals_percentile": 20.978332239001972
+    },
+    "Goalkeeper": {
+      "players": 326,
+      "zero_goals": 323,
+      "zero_goals_percentile": 49.693251533742334
+    },
+    "Midfield": {
+      "players": 1204,
+      "zero_goals": 261,
+      "zero_goals_percentile": 10.880398671096346
+    }
+  },
+  "warnings": {
+    "optional_metadata_missing_preserved": {
+      "foot": 24,
+      "height_in_cm": 23,
+      "current_club_name": 16,
+      "club_name_verified": 16
+    },
+    "height_review_range_cm": [
+      140,
+      220
+    ],
+    "height_values_requiring_source_review": [
+      {
+        "player_id": 743556,
+        "name": "Connor Allan",
+        "height_in_cm": 19.0
+      }
+    ],
+    "market_value_is_not_skill_or_transfer_fee": true,
+    "defender_goalkeeper_quality_not_fully_measured": true,
+    "recommendation_quality_not_evaluated": true
+  },
+  "output_sha256": "425aeb9cf0f7ed13077bf31c6b5326ad02ef010253a45a043c92eabfab4ca6b0",
+  "checks": {
+    "candidate_validation": "passed",
+    "feature_validation": "passed",
+    "csv_round_trip": "passed",
+    "input_hash_unchanged": true
+  }
+}
