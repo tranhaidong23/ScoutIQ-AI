@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-03",
+  "scope": "Day 11 local evaluation protocol; no relevance quality claim",
+  "baseline": {
+    "command": ".venv/Scripts/python.exe -B -m pytest tests -q -p no:cacheprovider",
+    "passed": 549,
+    "failed": 0,
+    "seconds": 83.95,
+    "exit_code": 0
+  },
+  "day11_initial_unit_suite": {
+    "command": ".venv/Scripts/python.exe -B -m pytest tests/test_evaluation_protocol.py -q -p no:cacheprovider",
+    "passed": 64,
+    "failed": 0,
+    "seconds": 7.27,
+    "exit_code": 0
+  },
+  "intermediate_full_suite": {
+    "passed": 613,
+    "failed": 0,
+    "seconds": 111.68,
+    "exit_code": 0,
+    "note": "Before six final artifact/provenance checks were added"
+  },
+  "final_full_suite": {
+    "command": ".venv/Scripts/python.exe -B -m pytest tests -q -p no:cacheprovider",
+    "passed": 619,
+    "failed": 0,
+    "seconds": 139.0,
+    "exit_code": 0,
+    "old_tests": 549,
+    "new_day11_tests": 70
+  },
+  "runner": {
+    "command": ".venv/Scripts/python.exe -B -m src.evaluation.run_day11",
+    "exit_code": 0,
+    "full_day10_parity_repeat_filter_cases": 16,
+    "unlabeled_rows": 173
+  },
+  "real_relevance_metrics": "UNAVAILABLE_NO_INDEPENDENT_LABELS",
+  "git_actions": "no stage, commit, fetch, push or deploy",
+  "preservation": {
+    "before_file_count": 112,
+    "changed_existing_docs": [
+      "reports/insights_and_defense.md",
+      "reports/PRESENTATION_AND_DEFENSE.md",
+      "reports/project_log.md",
+      "docs/ARCHITECTURE.md",
+      "docs/FILE_INVENTORY.md",
+      "docs/HANDOFF.md",
+      "docs/PROJECT_CONTEXT.md",
+      "docs/SETUP.md",
+      "AGENTS.md",
+      "CLAUDE.md"
+    ],
+    "old_document_bytes_preserved": 10,
+    "unchanged_existing_files": 102,
+    "unexpected_changes": []
+  },
+  "broken_relative_links": [],
+  "git_diff_check_exit_code": 0,
+  "credential_pattern_scan": {
+    "matches": [],
+    "scope": "changed documents and new Day 11 files; heuristic, not a comprehensive security audit"
+  },
+  "new_file_trailing_whitespace": [],
+  "branch": "main",
+  "head": "c4d638c2d10c542c897ccf95dedde540814925b1",
+  "origin": "https://github.com/tranhaidong23/ScoutIQ-AI.git",
+  "git_index_sha256": "e6aa240d15d89b0cc6f88f5a28f2d2fd59d7fa4b247c3acc47f0738a947b5270",
+  "git_index_unchanged": true,
+  "new_code_and_test_sha256": {
+    "src/evaluation/audit.py": "0b1e54ae228ba933f4f63f2047800edfd81e90b84d1b045b27b6feecedcd3bb2",
+    "src/evaluation/metrics.py": "5163f9c6fe0026f3e7a346f1b92b2ec3fde98196d1d24ead0f2bab2884a9b12a",
+    "src/evaluation/run_day11.py": "a07f124aada6778ed5cd5670687713a700a2beeb77a6ca7d25eafa39dc490dd3",
+    "src/evaluation/__init__.py": "d7cba831010fcce21cf7f98279e7b491c858d3fd3725084a109d3d168a2db5f5",
+    "tests/test_evaluation_protocol.py": "2a0e4208cf253965de72cd5927b3c91ab8929a8446f23806e35ecd46189e298a"
+  },
+  "day11_new_files": [
+    "src/evaluation/audit.py",
+    "src/evaluation/metrics.py",
+    "src/evaluation/run_day11.py",
+    "src/evaluation/__init__.py",
+    "tests/test_evaluation_protocol.py",
+    "reports/day11/annotation_evidence.csv",
+    "reports/day11/annotation_template.csv",
+    "reports/day11/audit_evidence.json",
+    "reports/day11/audit_findings.md",
+    "reports/day11/evaluation.json",
+    "reports/day11/evaluation_protocol.md",
+    "reports/day11/relevance_rubric.md",
+    "reports/day11/run_summary.md",
+    "reports/day11/summary.md",
+    "reports/day11/synthetic_metrics.json",
+    "reports/day11/validation.json"
+  ],
+  "docs_updated": [
+    "reports/insights_and_defense.md",
+    "reports/PRESENTATION_AND_DEFENSE.md",
+    "reports/project_log.md",
+    "docs/ARCHITECTURE.md",
+    "docs/FILE_INVENTORY.md",
+    "docs/HANDOFF.md",
+    "docs/PROJECT_CONTEXT.md",
+    "docs/SETUP.md",
+    "AGENTS.md",
+    "CLAUDE.md"
+  ]
+}

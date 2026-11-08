@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-06",
+  "new_tests": {
+    "passed": 25,
+    "failed": 0,
+    "seconds": 9.61
+  },
+  "preservation": {
+    "checked_existing_files": 152,
+    "changed_docs": [
+      "reports/insights_and_defense.md",
+      "reports/PRESENTATION_AND_DEFENSE.md",
+      "reports/project_log.md",
+      "docs/ARCHITECTURE.md",
+      "docs/FILE_INVENTORY.md",
+      "docs/HANDOFF.md",
+      "docs/PROJECT_CONTEXT.md",
+      "docs/SETUP.md",
+      "AGENTS.md",
+      "CLAUDE.md"
+    ],
+    "historical_document_bytes_preserved": 10,
+    "unexpected_changes": [],
+    "git_index_unchanged": true,
+    "datasets_and_prior_source_reports_unchanged": true
+  },
+  "new_file_sha256": {
+    "src/evaluation/review.py": "6ec54a86595781213056e22d5b9a4373aeb1ed184f53f7528d245806e5f88422",
+    "src/evaluation/run_day13.py": "b99295d2a1da51a8f7f1b86ac026c4144e860938a5d9c0f976195fb5b23163eb",
+    "tests/test_day13_review.py": "04889f482ab513a6dc3c26bfb041532e2b1841b01c6bc163cc8b4520e5c52fe5",
+    "reports/day13/correction_decision.md": "b96c89070bfe917d1a64edb59784741d8e6374b0a464ad0b627a4a86cf29556a",
+    "reports/day13/final_evaluation_plan.md": "23090dbc27398360c0c2b4ff4559d933c60a3bb4fdf464307597225d25549395",
+    "reports/day13/phase_review.md": "8880572be231e63ea46bcc820f176c3c68741313ffc53a12f0807e35a8fbb03d",
+    "reports/day13/pilot_review_workflow.md": "56fd53366a3a65287331bb4e313408f0f4b98d39dbc40ea32d0b436d62e9f623",
+    "reports/day13/review.json": "a7538a191a92eca5fc2f8f92ffba74dbe75f3cc3dcac235fce3d92b39122ec4c",
+    "reports/day13/review_queue.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+    "reports/day13/summary.md": "a76487f469b32421a66dcad8c341b120ca24a56c0b743916f3d98d34b161a8cf"
+  },
+  "broken_relative_links": [],
+  "runner": {
+    "exit_code": 0,
+    "pending": 32,
+    "graded": 0,
+    "assessors": 0,
+    "correction_applied": false
+  },
+  "real_metrics": "BLOCKED_NO_REVIEWED_HUMAN_LABELS",
+  "git_actions": "no stage, commit, push, reset or checkout; index unchanged",
+  "full_suite": {
+    "command": ".venv/Scripts/python.exe -B -m pytest tests -q -p no:cacheprovider --basetemp=C:/Users/Admin/Documents/ChatGPT/khdl/pytest-day13-full-20261106 --tb=short",
+    "passed": 742,
+    "failed": 0,
+    "seconds": 762.99,
+    "exit_code": 0,
+    "prior_tests": 717,
+    "new_tests": 25
+  },
+  "git_diff_check_exit_code": 0
+}

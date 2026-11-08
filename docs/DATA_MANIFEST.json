@@ -1,0 +1,127 @@
+{
+  "verified_on": "2026-11-02",
+  "season": "2025/26",
+  "cutoff": "2026-06-12",
+  "description": "Hashes and sizes verified on local files. Processed rows/schema read directly; raw row counts not recomputed. No dataset payload. Source URL is mutable; this manifest identifies the local snapshot, not a downloadable immutable version.",
+  "source_url_from_code": "https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data",
+  "files": [
+    {
+      "path": "data/processed/scoutiq_candidates_2025_26.csv",
+      "bytes": 1067078,
+      "sha256": "5480a88b2fb13047f65364db1795ee8f1871108de7de998f2fdc97cc1571edc9",
+      "rows": 4112,
+      "columns": [
+        "player_id",
+        "matches_played",
+        "minutes_played",
+        "goals",
+        "assists",
+        "goals_per90",
+        "assists_per90",
+        "goal_contributions_per90",
+        "name",
+        "position",
+        "sub_position",
+        "age",
+        "foot",
+        "height_in_cm",
+        "current_club_id",
+        "current_club_name",
+        "image_url",
+        "valuation_date",
+        "market_value_in_eur",
+        "club_name_verified",
+        "valuation_age_days"
+      ]
+    },
+    {
+      "path": "data/processed/scoutiq_features_2025_26.csv",
+      "bytes": 1460526,
+      "sha256": "425aeb9cf0f7ed13077bf31c6b5326ad02ef010253a45a043c92eabfab4ca6b0",
+      "rows": 4112,
+      "columns": [
+        "player_id",
+        "matches_played",
+        "minutes_played",
+        "goals",
+        "assists",
+        "goals_per90",
+        "assists_per90",
+        "goal_contributions_per90",
+        "name",
+        "position",
+        "sub_position",
+        "age",
+        "foot",
+        "height_in_cm",
+        "current_club_id",
+        "current_club_name",
+        "image_url",
+        "valuation_date",
+        "market_value_in_eur",
+        "club_name_verified",
+        "valuation_age_days",
+        "goal_contributions",
+        "market_value_m",
+        "log1p_market_value_m",
+        "minutes_reliability",
+        "goals_per90_position_percentile",
+        "assists_per90_position_percentile",
+        "goal_contributions_per90_position_percentile"
+      ]
+    },
+    {
+      "path": "data/processed/scoutiq_players_2025_26.csv",
+      "bytes": 2040853,
+      "sha256": "b459f4749c88e41a9da578cf72260ae2976e51a63405ed1527d1f53dad5c4780",
+      "rows": 8322,
+      "columns": [
+        "player_id",
+        "matches_played",
+        "minutes_played",
+        "goals",
+        "assists",
+        "goals_per90",
+        "assists_per90",
+        "goal_contributions_per90",
+        "name",
+        "position",
+        "sub_position",
+        "age",
+        "foot",
+        "height_in_cm",
+        "current_club_id",
+        "current_club_name",
+        "image_url",
+        "valuation_date",
+        "market_value_in_eur",
+        "club_name_verified"
+      ]
+    },
+    {
+      "path": "data/raw/appearances.csv.gz",
+      "bytes": 45253638,
+      "sha256": "e096c2b158fc3d52c4550526c4d4850dd62f31007652f4bcae112eadb1646802"
+    },
+    {
+      "path": "data/raw/clubs.csv.gz",
+      "bytes": 51281,
+      "sha256": "aa57ab56e87faffaea1e8697439a32caf10116d8f2f2dfb3a57193c0bb1d641b"
+    },
+    {
+      "path": "data/raw/games.csv.gz",
+      "bytes": 4995595,
+      "sha256": "142561989017d379bcf9e72bad0b87e0996bae0e7b710ebb3def9255f464c741"
+    },
+    {
+      "path": "data/raw/player_valuations.csv.gz",
+      "bytes": 7197935,
+      "sha256": "608e32e5ad2231074f3505c469ad727be66d7e6efda6af918afd85379439631d"
+    },
+    {
+      "path": "data/raw/players.csv.gz",
+      "bytes": 4389958,
+      "sha256": "d22e407981d5b51a79bf8ff59835729f3526f7dc3495a6d8ed2f852ed2e86403"
+    }
+  ]
+}

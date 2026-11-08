@@ -1,0 +1,38 @@
+{
+  "proposal_version": "scoutiq.age-calendar.v2.proposed",
+  "status": "PROPOSED",
+  "applied": false,
+  "approval": null,
+  "input_sha256": {
+    "data/raw/appearances.csv.gz": "e096c2b158fc3d52c4550526c4d4850dd62f31007652f4bcae112eadb1646802",
+    "data/raw/clubs.csv.gz": "aa57ab56e87faffaea1e8697439a32caf10116d8f2f2dfb3a57193c0bb1d641b",
+    "data/raw/games.csv.gz": "142561989017d379bcf9e72bad0b87e0996bae0e7b710ebb3def9255f464c741",
+    "data/raw/player_valuations.csv.gz": "608e32e5ad2231074f3505c469ad727be66d7e6efda6af918afd85379439631d",
+    "data/raw/players.csv.gz": "d22e407981d5b51a79bf8ff59835729f3526f7dc3495a6d8ed2f852ed2e86403",
+    "data/processed/scoutiq_candidates_2025_26.csv": "5480a88b2fb13047f65364db1795ee8f1871108de7de998f2fdc97cc1571edc9",
+    "data/processed/scoutiq_features_2025_26.csv": "425aeb9cf0f7ed13077bf31c6b5326ad02ef010253a45a043c92eabfab4ca6b0",
+    "data/processed/scoutiq_players_2025_26.csv": "b459f4749c88e41a9da578cf72260ae2976e51a63405ed1527d1f53dad5c4780"
+  },
+  "policy": "completed_calendar_years; Feb29 anniversary March1 in non-leap years",
+  "changes": [
+    {
+      "player_id": 341429,
+      "field": "age",
+      "old_value": 29,
+      "proposed_value": 30,
+      "dob": "1996-06-12",
+      "cutoff": "2026-06-12",
+      "reason": "approximate_year_length"
+    }
+  ],
+  "future_destination_pattern": "data/processed/versions/<approved-version>/ (not created)",
+  "gates": [
+    "explicit authorization and DOB evidence review",
+    "unchanged input hashes",
+    "new output paths and manifest, preserve old snapshot",
+    "ID/schema/per90 and dependent feature checks",
+    "quantify age-filter, scaler and ranking differences under separate version",
+    "explicit service configuration promotion; never overwrite baseline"
+  ],
+  "current_ranking_impact": "not_applied_or_measured_with_corrected_data"
+}

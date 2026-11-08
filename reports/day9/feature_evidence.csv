@@ -1,0 +1,261 @@
+scenario,engine,player_id,reference_player_id,feature,source_column,unit,kind,candidate_value,reference_value,weight,cosine_component_sum,signed_difference,absolute_difference,relative_difference_pct,relative_reason,direction,raw_match,candidate_known_in_reference_vocabulary,reference_known_in_reference_vocabulary
+young_low_budget_striker,cosine,1360186,132098,goals_per90,goals_per90,goals/90 minutes,numeric,0.6293706293706294,1.2661439114391144,1.0,0.8451022733013274,-0.636773282068485,0.636773282068485,-50.29233062019948,,lower,,,
+young_low_budget_striker,cosine,1360186,132098,assists_per90,assists_per90,assists/90 minutes,numeric,0.1258741258741259,0.1660516605166051,1.0,-0.0010452550464813545,-0.04017753464247922,0.04017753464247922,-24.195804195804165,,lower,,,
+young_low_budget_striker,cosine,1360186,132098,sub_position,sub_position,category,categorical,Centre-Forward,Centre-Forward,1.0,0.09183834826460296,,,,,,True,True,True
+young_low_budget_striker,cosine,818445,132098,goals_per90,goals_per90,goals/90 minutes,numeric,0.7505686125852918,1.2661439114391144,1.0,0.8521496767356218,-0.5155752988538226,0.5155752988538226,-40.72011832113251,,lower,,,
+young_low_budget_striker,cosine,818445,132098,assists_per90,assists_per90,assists/90 minutes,numeric,0.2729340409401061,0.1660516605166051,1.0,0.0023797352176736274,0.10688238042350098,0.10688238042350098,64.36694465504172,,higher,,,
+young_low_budget_striker,cosine,818445,132098,sub_position,sub_position,category,categorical,Centre-Forward,Centre-Forward,1.0,0.06765171348272421,,,,,,True,True,True
+young_low_budget_striker,cosine,467720,132098,goals_per90,goals_per90,goals/90 minutes,numeric,0.5674653215636822,1.2661439114391144,1.0,0.7838370512521327,-0.6986785898754322,0.6986785898754322,-55.18160957558968,,lower,,,
+young_low_budget_striker,cosine,467720,132098,assists_per90,assists_per90,assists/90 minutes,numeric,0.1134930643127364,0.1660516605166051,1.0,-0.0016059079143850106,-0.05255859620386871,0.05255859620386871,-31.65195460277428,,lower,,,
+young_low_budget_striker,cosine,467720,132098,sub_position,sub_position,category,categorical,Centre-Forward,Centre-Forward,1.0,0.1049531394006934,,,,,,True,True,True
+young_low_budget_striker,cosine,670987,132098,goals_per90,goals_per90,goals/90 minutes,numeric,0.6245434623813002,1.2661439114391144,1.0,0.7871681860885618,-0.6416004490578142,0.6416004490578142,-50.673580093163615,,lower,,,
+young_low_budget_striker,cosine,670987,132098,assists_per90,assists_per90,assists/90 minutes,numeric,0.0657414170927684,0.1660516605166051,1.0,-0.002640906689230658,-0.10031024342383671,0.10031024342383671,-60.40905770635502,,lower,,,
+young_low_budget_striker,cosine,670987,132098,sub_position,sub_position,category,categorical,Centre-Forward,Centre-Forward,1.0,0.08681796232198037,,,,,,True,True,True
+young_low_budget_striker,cosine,845568,132098,goals_per90,goals_per90,goals/90 minutes,numeric,0.5276872964169381,1.2661439114391144,1.0,0.7382955024807328,-0.7384566150221763,0.7384566150221763,-58.32327655257116,,lower,,,
+young_low_budget_striker,cosine,845568,132098,assists_per90,assists_per90,assists/90 minutes,numeric,0.1172638436482084,0.1660516605166051,1.0,-0.0016390654873628047,-0.04878781686839671,0.04878781686839671,-29.381107491856696,,lower,,,
+young_low_budget_striker,cosine,845568,132098,sub_position,sub_position,category,categorical,Centre-Forward,Centre-Forward,1.0,0.11618482110481936,,,,,,True,True,True
+young_low_budget_striker,weighted,1360186,132098,goals_per90,goals_per90,goals/90 minutes,numeric,0.6293706293706294,1.2661439114391144,0.4,0.9081120977380543,-0.636773282068485,0.636773282068485,-50.29233062019948,,lower,,,
+young_low_budget_striker,weighted,1360186,132098,assists_per90,assists_per90,assists/90 minutes,numeric,0.1258741258741259,0.1660516605166051,0.4,-0.001123188024596667,-0.04017753464247922,0.04017753464247922,-24.195804195804165,,lower,,,
+young_low_budget_striker,weighted,1360186,132098,sub_position,sub_position,category,categorical,Centre-Forward,Centre-Forward,0.2,0.04934285336233494,,,,,,True,True,True
+young_low_budget_striker,weighted,818445,132098,goals_per90,goals_per90,goals/90 minutes,numeric,0.7505686125852918,1.2661439114391144,0.4,0.8888365221323306,-0.5155752988538226,0.5155752988538226,-40.72011832113251,,lower,,,
+young_low_budget_striker,weighted,818445,132098,assists_per90,assists_per90,assists/90 minutes,numeric,0.2729340409401061,0.1660516605166051,0.4,0.002482187850584713,0.10688238042350098,0.10688238042350098,64.36694465504172,,higher,,,
+young_low_budget_striker,weighted,818445,132098,sub_position,sub_position,category,categorical,Centre-Forward,Centre-Forward,0.2,0.03528213139657925,,,,,,True,True,True
+young_low_budget_striker,weighted,467720,132098,goals_per90,goals_per90,goals/90 minutes,numeric,0.5674653215636822,1.2661439114391144,0.4,0.8601087082022145,-0.6986785898754322,0.6986785898754322,-55.18160957558968,,lower,,,
+young_low_budget_striker,weighted,467720,132098,assists_per90,assists_per90,assists/90 minutes,numeric,0.1134930643127364,0.1660516605166051,0.4,-0.0017621715885041815,-0.05255859620386871,0.05255859620386871,-31.65195460277428,,lower,,,
+young_low_budget_striker,weighted,467720,132098,sub_position,sub_position,category,categorical,Centre-Forward,Centre-Forward,0.2,0.05758282860416887,,,,,,True,True,True
+young_low_budget_striker,weighted,845568,132098,goals_per90,goals_per90,goals/90 minutes,numeric,0.5276872964169381,1.2661439114391144,0.4,0.8273476639902634,-0.7384566150221763,0.7384566150221763,-58.32327655257116,,lower,,,
+young_low_budget_striker,weighted,845568,132098,assists_per90,assists_per90,assists/90 minutes,numeric,0.1172638436482084,0.1660516605166051,0.4,-0.0018367672531393595,-0.04878781686839671,0.04878781686839671,-29.381107491856696,,lower,,,
+young_low_budget_striker,weighted,845568,132098,sub_position,sub_position,category,categorical,Centre-Forward,Centre-Forward,0.2,0.065099435124019,,,,,,True,True,True
+young_low_budget_striker,weighted,670987,132098,goals_per90,goals_per90,goals/90 minutes,numeric,0.6245434623813002,1.2661439114391144,0.4,0.8398917766265469,-0.6416004490578142,0.6416004490578142,-50.673580093163615,,lower,,,
+young_low_budget_striker,weighted,670987,132098,assists_per90,assists_per90,assists/90 minutes,numeric,0.0657414170927684,0.1660516605166051,0.4,-0.002817791483856184,-0.10031024342383671,0.10031024342383671,-60.40905770635502,,lower,,,
+young_low_budget_striker,weighted,670987,132098,sub_position,sub_position,category,categorical,Centre-Forward,Centre-Forward,0.2,0.04631646318179643,,,,,,True,True,True
+young_low_budget_striker,knn_cosine,1360186,132098,goals_per90,goals_per90,goals/90 minutes,numeric,0.6293706293706294,1.2661439114391144,1.0,0.8451022733013274,-0.636773282068485,0.636773282068485,-50.29233062019948,,lower,,,
+young_low_budget_striker,knn_cosine,1360186,132098,assists_per90,assists_per90,assists/90 minutes,numeric,0.1258741258741259,0.1660516605166051,1.0,-0.0010452550464813545,-0.04017753464247922,0.04017753464247922,-24.195804195804165,,lower,,,
+young_low_budget_striker,knn_cosine,1360186,132098,sub_position,sub_position,category,categorical,Centre-Forward,Centre-Forward,1.0,0.09183834826460296,,,,,,True,True,True
+young_low_budget_striker,knn_cosine,818445,132098,goals_per90,goals_per90,goals/90 minutes,numeric,0.7505686125852918,1.2661439114391144,1.0,0.8521496767356218,-0.5155752988538226,0.5155752988538226,-40.72011832113251,,lower,,,
+young_low_budget_striker,knn_cosine,818445,132098,assists_per90,assists_per90,assists/90 minutes,numeric,0.2729340409401061,0.1660516605166051,1.0,0.0023797352176736274,0.10688238042350098,0.10688238042350098,64.36694465504172,,higher,,,
+young_low_budget_striker,knn_cosine,818445,132098,sub_position,sub_position,category,categorical,Centre-Forward,Centre-Forward,1.0,0.06765171348272421,,,,,,True,True,True
+young_low_budget_striker,knn_cosine,467720,132098,goals_per90,goals_per90,goals/90 minutes,numeric,0.5674653215636822,1.2661439114391144,1.0,0.7838370512521327,-0.6986785898754322,0.6986785898754322,-55.18160957558968,,lower,,,
+young_low_budget_striker,knn_cosine,467720,132098,assists_per90,assists_per90,assists/90 minutes,numeric,0.1134930643127364,0.1660516605166051,1.0,-0.0016059079143850106,-0.05255859620386871,0.05255859620386871,-31.65195460277428,,lower,,,
+young_low_budget_striker,knn_cosine,467720,132098,sub_position,sub_position,category,categorical,Centre-Forward,Centre-Forward,1.0,0.1049531394006934,,,,,,True,True,True
+young_low_budget_striker,knn_cosine,670987,132098,goals_per90,goals_per90,goals/90 minutes,numeric,0.6245434623813002,1.2661439114391144,1.0,0.7871681860885618,-0.6416004490578142,0.6416004490578142,-50.673580093163615,,lower,,,
+young_low_budget_striker,knn_cosine,670987,132098,assists_per90,assists_per90,assists/90 minutes,numeric,0.0657414170927684,0.1660516605166051,1.0,-0.002640906689230658,-0.10031024342383671,0.10031024342383671,-60.40905770635502,,lower,,,
+young_low_budget_striker,knn_cosine,670987,132098,sub_position,sub_position,category,categorical,Centre-Forward,Centre-Forward,1.0,0.08681796232198037,,,,,,True,True,True
+young_low_budget_striker,knn_cosine,845568,132098,goals_per90,goals_per90,goals/90 minutes,numeric,0.5276872964169381,1.2661439114391144,1.0,0.7382955024807328,-0.7384566150221763,0.7384566150221763,-58.32327655257116,,lower,,,
+young_low_budget_striker,knn_cosine,845568,132098,assists_per90,assists_per90,assists/90 minutes,numeric,0.1172638436482084,0.1660516605166051,1.0,-0.0016390654873628047,-0.04878781686839671,0.04878781686839671,-29.381107491856696,,lower,,,
+young_low_budget_striker,knn_cosine,845568,132098,sub_position,sub_position,category,categorical,Centre-Forward,Centre-Forward,1.0,0.11618482110481936,,,,,,True,True,True
+young_low_budget_striker,knn_weighted,1360186,132098,goals_per90,goals_per90,goals/90 minutes,numeric,0.6293706293706294,1.2661439114391144,0.4,0.9081120977380543,-0.636773282068485,0.636773282068485,-50.29233062019948,,lower,,,
+young_low_budget_striker,knn_weighted,1360186,132098,assists_per90,assists_per90,assists/90 minutes,numeric,0.1258741258741259,0.1660516605166051,0.4,-0.001123188024596667,-0.04017753464247922,0.04017753464247922,-24.195804195804165,,lower,,,
+young_low_budget_striker,knn_weighted,1360186,132098,sub_position,sub_position,category,categorical,Centre-Forward,Centre-Forward,0.2,0.04934285336233494,,,,,,True,True,True
+young_low_budget_striker,knn_weighted,818445,132098,goals_per90,goals_per90,goals/90 minutes,numeric,0.7505686125852918,1.2661439114391144,0.4,0.8888365221323306,-0.5155752988538226,0.5155752988538226,-40.72011832113251,,lower,,,
+young_low_budget_striker,knn_weighted,818445,132098,assists_per90,assists_per90,assists/90 minutes,numeric,0.2729340409401061,0.1660516605166051,0.4,0.002482187850584713,0.10688238042350098,0.10688238042350098,64.36694465504172,,higher,,,
+young_low_budget_striker,knn_weighted,818445,132098,sub_position,sub_position,category,categorical,Centre-Forward,Centre-Forward,0.2,0.03528213139657925,,,,,,True,True,True
+young_low_budget_striker,knn_weighted,467720,132098,goals_per90,goals_per90,goals/90 minutes,numeric,0.5674653215636822,1.2661439114391144,0.4,0.8601087082022145,-0.6986785898754322,0.6986785898754322,-55.18160957558968,,lower,,,
+young_low_budget_striker,knn_weighted,467720,132098,assists_per90,assists_per90,assists/90 minutes,numeric,0.1134930643127364,0.1660516605166051,0.4,-0.0017621715885041815,-0.05255859620386871,0.05255859620386871,-31.65195460277428,,lower,,,
+young_low_budget_striker,knn_weighted,467720,132098,sub_position,sub_position,category,categorical,Centre-Forward,Centre-Forward,0.2,0.05758282860416887,,,,,,True,True,True
+young_low_budget_striker,knn_weighted,845568,132098,goals_per90,goals_per90,goals/90 minutes,numeric,0.5276872964169381,1.2661439114391144,0.4,0.8273476639902634,-0.7384566150221763,0.7384566150221763,-58.32327655257116,,lower,,,
+young_low_budget_striker,knn_weighted,845568,132098,assists_per90,assists_per90,assists/90 minutes,numeric,0.1172638436482084,0.1660516605166051,0.4,-0.0018367672531393595,-0.04878781686839671,0.04878781686839671,-29.381107491856696,,lower,,,
+young_low_budget_striker,knn_weighted,845568,132098,sub_position,sub_position,category,categorical,Centre-Forward,Centre-Forward,0.2,0.065099435124019,,,,,,True,True,True
+young_low_budget_striker,knn_weighted,670987,132098,goals_per90,goals_per90,goals/90 minutes,numeric,0.6245434623813002,1.2661439114391144,0.4,0.8398917766265469,-0.6416004490578142,0.6416004490578142,-50.673580093163615,,lower,,,
+young_low_budget_striker,knn_weighted,670987,132098,assists_per90,assists_per90,assists/90 minutes,numeric,0.0657414170927684,0.1660516605166051,0.4,-0.002817791483856184,-0.10031024342383671,0.10031024342383671,-60.40905770635502,,lower,,,
+young_low_budget_striker,knn_weighted,670987,132098,sub_position,sub_position,category,categorical,Centre-Forward,Centre-Forward,0.2,0.04631646318179643,,,,,,True,True,True
+creative_midfielder,cosine,1175048,137576,goals_per90,goals_per90,goals/90 minutes,numeric,0.2535211267605634,0.2290076335877862,1.0,0.47837166417778065,0.02451349317277718,0.02451349317277718,10.704225352112704,,higher,,,
+creative_midfielder,cosine,1175048,137576,assists_per90,assists_per90,assists/90 minutes,numeric,0.1901408450704225,0.1335877862595419,1.0,0.047934305290173056,0.0565530588108806,0.0565530588108806,42.33400402414493,,higher,,,
+creative_midfielder,cosine,1175048,137576,sub_position,sub_position,category,categorical,Attacking Midfield,Attacking Midfield,1.0,0.4201244534268999,,,,,,True,True,True
+creative_midfielder,cosine,543302,137576,goals_per90,goals_per90,goals/90 minutes,numeric,0.4214697406340058,0.2290076335877862,1.0,0.6375143442976797,0.19246210704621958,0.19246210704621958,84.0417867435159,,higher,,,
+creative_midfielder,cosine,543302,137576,assists_per90,assists_per90,assists/90 minutes,numeric,0.1621037463976945,0.1335877862595419,1.0,0.01767820087176653,0.028515960138152607,0.028515960138152607,21.346233017702822,,higher,,,
+creative_midfielder,cosine,543302,137576,sub_position,sub_position,category,categorical,Attacking Midfield,Attacking Midfield,1.0,0.25121495176202996,,,,,,True,True,True
+creative_midfielder,cosine,652061,137576,goals_per90,goals_per90,goals/90 minutes,numeric,0.1929949964260185,0.2290076335877862,1.0,0.3225660139562086,-0.0360126371617677,0.0360126371617677,-15.725518227305232,,lower,,,
+creative_midfielder,cosine,652061,137576,assists_per90,assists_per90,assists/90 minutes,numeric,0.1929949964260185,0.1335877862595419,1.0,0.060272708649449044,0.0594072101664766,0.0594072101664766,44.47054018176251,,higher,,,
+creative_midfielder,cosine,652061,137576,sub_position,sub_position,category,categorical,Attacking Midfield,Attacking Midfield,1.0,0.5084304174896168,,,,,,True,True,True
+creative_midfielder,cosine,896234,137576,goals_per90,goals_per90,goals/90 minutes,numeric,0.3280680437424058,0.2290076335877862,1.0,0.43112641870082996,0.09906041015461958,0.09906041015461958,43.25637910085056,,higher,,,
+creative_midfielder,cosine,896234,137576,assists_per90,assists_per90,assists/90 minutes,numeric,0.3280680437424058,0.1335877862595419,1.0,0.0806555586019509,0.19448025748286388,0.19448025748286388,145.58236417288677,,higher,,,
+creative_midfielder,cosine,896234,137576,sub_position,sub_position,category,categorical,Attacking Midfield,Attacking Midfield,1.0,0.24500697642612768,,,,,,True,True,True
+creative_midfielder,cosine,485672,137576,goals_per90,goals_per90,goals/90 minutes,numeric,0.2629382303839733,0.2290076335877862,1.0,0.36257628759179333,0.033930596796187096,0.033930596796187096,14.816360601001701,,higher,,,
+creative_midfielder,cosine,485672,137576,assists_per90,assists_per90,assists/90 minutes,numeric,0.3005008347245409,0.1335877862595419,1.0,0.08526164246376051,0.16691304846499902,0.16691304846499902,124.94633913665649,,higher,,,
+creative_midfielder,cosine,485672,137576,sub_position,sub_position,category,categorical,Attacking Midfield,Attacking Midfield,1.0,0.2979039740065935,,,,,,True,True,True
+creative_midfielder,weighted,543302,137576,goals_per90,goals_per90,goals/90 minutes,numeric,0.4214697406340058,0.2290076335877862,0.3,0.7051327239749762,0.19246210704621958,0.19246210704621958,84.0417867435159,,higher,,,
+creative_midfielder,weighted,543302,137576,assists_per90,assists_per90,assists/90 minutes,numeric,0.1621037463976945,0.1335877862595419,0.5,0.03258875152427138,0.028515960138152607,0.028515960138152607,21.346233017702822,,higher,,,
+creative_midfielder,weighted,543302,137576,sub_position,sub_position,category,categorical,Attacking Midfield,Attacking Midfield,0.2,0.18524015427903748,,,,,,True,True,True
+creative_midfielder,weighted,1175048,137576,goals_per90,goals_per90,goals/90 minutes,numeric,0.2535211267605634,0.2290076335877862,0.3,0.5221708571450588,0.02451349317277718,0.02451349317277718,10.704225352112704,,higher,,,
+creative_midfielder,weighted,1175048,137576,assists_per90,assists_per90,assists/90 minutes,numeric,0.1901408450704225,0.1335877862595419,0.5,0.08720519752859135,0.0565530588108806,0.0565530588108806,42.33400402414493,,higher,,,
+creative_midfielder,weighted,1175048,137576,sub_position,sub_position,category,categorical,Attacking Midfield,Attacking Midfield,0.2,0.3057270631202425,,,,,,True,True,True
+creative_midfielder,weighted,652061,137576,goals_per90,goals_per90,goals/90 minutes,numeric,0.1929949964260185,0.2290076335877862,0.3,0.349698481304038,-0.0360126371617677,0.0360126371617677,-15.725518227305232,,lower,,,
+creative_midfielder,weighted,652061,137576,assists_per90,assists_per90,assists/90 minutes,numeric,0.1929949964260185,0.1335877862595419,0.5,0.10890419204575862,0.0594072101664766,0.0594072101664766,44.47054018176251,,higher,,,
+creative_midfielder,weighted,652061,137576,sub_position,sub_position,category,categorical,Attacking Midfield,Attacking Midfield,0.2,0.36746451300360206,,,,,,True,True,True
+creative_midfielder,weighted,896234,137576,goals_per90,goals_per90,goals/90 minutes,numeric,0.3280680437424058,0.2290076335877862,0.3,0.41462080178704225,0.09906041015461958,0.09906041015461958,43.25637910085056,,higher,,,
+creative_midfielder,weighted,896234,137576,assists_per90,assists_per90,assists/90 minutes,numeric,0.3280680437424058,0.1335877862595419,0.5,0.12927945232744897,0.19448025748286388,0.19448025748286388,145.58236417288677,,higher,,,
+creative_midfielder,weighted,896234,137576,sub_position,sub_position,category,categorical,Attacking Midfield,Attacking Midfield,0.2,0.15708461153975742,,,,,,True,True,True
+creative_midfielder,weighted,485672,137576,goals_per90,goals_per90,goals/90 minutes,numeric,0.2629382303839733,0.2290076335877862,0.3,0.346047877936097,0.033930596796187096,0.033930596796187096,14.816360601001701,,higher,,,
+creative_midfielder,weighted,485672,137576,assists_per90,assists_per90,assists/90 minutes,numeric,0.3005008347245409,0.1335877862595419,0.5,0.13562483930346592,0.16691304846499902,0.16691304846499902,124.94633913665649,,higher,,,
+creative_midfielder,weighted,485672,137576,sub_position,sub_position,category,categorical,Attacking Midfield,Attacking Midfield,0.2,0.1895491451255167,,,,,,True,True,True
+creative_midfielder,knn_cosine,1175048,137576,goals_per90,goals_per90,goals/90 minutes,numeric,0.2535211267605634,0.2290076335877862,1.0,0.47837166417778065,0.02451349317277718,0.02451349317277718,10.704225352112704,,higher,,,
+creative_midfielder,knn_cosine,1175048,137576,assists_per90,assists_per90,assists/90 minutes,numeric,0.1901408450704225,0.1335877862595419,1.0,0.047934305290173056,0.0565530588108806,0.0565530588108806,42.33400402414493,,higher,,,
+creative_midfielder,knn_cosine,1175048,137576,sub_position,sub_position,category,categorical,Attacking Midfield,Attacking Midfield,1.0,0.4201244534268999,,,,,,True,True,True
+creative_midfielder,knn_cosine,543302,137576,goals_per90,goals_per90,goals/90 minutes,numeric,0.4214697406340058,0.2290076335877862,1.0,0.6375143442976797,0.19246210704621958,0.19246210704621958,84.0417867435159,,higher,,,
+creative_midfielder,knn_cosine,543302,137576,assists_per90,assists_per90,assists/90 minutes,numeric,0.1621037463976945,0.1335877862595419,1.0,0.01767820087176653,0.028515960138152607,0.028515960138152607,21.346233017702822,,higher,,,
+creative_midfielder,knn_cosine,543302,137576,sub_position,sub_position,category,categorical,Attacking Midfield,Attacking Midfield,1.0,0.25121495176202996,,,,,,True,True,True
+creative_midfielder,knn_cosine,652061,137576,goals_per90,goals_per90,goals/90 minutes,numeric,0.1929949964260185,0.2290076335877862,1.0,0.3225660139562086,-0.0360126371617677,0.0360126371617677,-15.725518227305232,,lower,,,
+creative_midfielder,knn_cosine,652061,137576,assists_per90,assists_per90,assists/90 minutes,numeric,0.1929949964260185,0.1335877862595419,1.0,0.060272708649449044,0.0594072101664766,0.0594072101664766,44.47054018176251,,higher,,,
+creative_midfielder,knn_cosine,652061,137576,sub_position,sub_position,category,categorical,Attacking Midfield,Attacking Midfield,1.0,0.5084304174896168,,,,,,True,True,True
+creative_midfielder,knn_cosine,896234,137576,goals_per90,goals_per90,goals/90 minutes,numeric,0.3280680437424058,0.2290076335877862,1.0,0.43112641870082996,0.09906041015461958,0.09906041015461958,43.25637910085056,,higher,,,
+creative_midfielder,knn_cosine,896234,137576,assists_per90,assists_per90,assists/90 minutes,numeric,0.3280680437424058,0.1335877862595419,1.0,0.0806555586019509,0.19448025748286388,0.19448025748286388,145.58236417288677,,higher,,,
+creative_midfielder,knn_cosine,896234,137576,sub_position,sub_position,category,categorical,Attacking Midfield,Attacking Midfield,1.0,0.24500697642612768,,,,,,True,True,True
+creative_midfielder,knn_cosine,485672,137576,goals_per90,goals_per90,goals/90 minutes,numeric,0.2629382303839733,0.2290076335877862,1.0,0.36257628759179333,0.033930596796187096,0.033930596796187096,14.816360601001701,,higher,,,
+creative_midfielder,knn_cosine,485672,137576,assists_per90,assists_per90,assists/90 minutes,numeric,0.3005008347245409,0.1335877862595419,1.0,0.08526164246376051,0.16691304846499902,0.16691304846499902,124.94633913665649,,higher,,,
+creative_midfielder,knn_cosine,485672,137576,sub_position,sub_position,category,categorical,Attacking Midfield,Attacking Midfield,1.0,0.2979039740065935,,,,,,True,True,True
+creative_midfielder,knn_weighted,543302,137576,goals_per90,goals_per90,goals/90 minutes,numeric,0.4214697406340058,0.2290076335877862,0.3,0.7051327239749762,0.19246210704621958,0.19246210704621958,84.0417867435159,,higher,,,
+creative_midfielder,knn_weighted,543302,137576,assists_per90,assists_per90,assists/90 minutes,numeric,0.1621037463976945,0.1335877862595419,0.5,0.03258875152427138,0.028515960138152607,0.028515960138152607,21.346233017702822,,higher,,,
+creative_midfielder,knn_weighted,543302,137576,sub_position,sub_position,category,categorical,Attacking Midfield,Attacking Midfield,0.2,0.18524015427903748,,,,,,True,True,True
+creative_midfielder,knn_weighted,1175048,137576,goals_per90,goals_per90,goals/90 minutes,numeric,0.2535211267605634,0.2290076335877862,0.3,0.5221708571450588,0.02451349317277718,0.02451349317277718,10.704225352112704,,higher,,,
+creative_midfielder,knn_weighted,1175048,137576,assists_per90,assists_per90,assists/90 minutes,numeric,0.1901408450704225,0.1335877862595419,0.5,0.08720519752859135,0.0565530588108806,0.0565530588108806,42.33400402414493,,higher,,,
+creative_midfielder,knn_weighted,1175048,137576,sub_position,sub_position,category,categorical,Attacking Midfield,Attacking Midfield,0.2,0.3057270631202425,,,,,,True,True,True
+creative_midfielder,knn_weighted,652061,137576,goals_per90,goals_per90,goals/90 minutes,numeric,0.1929949964260185,0.2290076335877862,0.3,0.349698481304038,-0.0360126371617677,0.0360126371617677,-15.725518227305232,,lower,,,
+creative_midfielder,knn_weighted,652061,137576,assists_per90,assists_per90,assists/90 minutes,numeric,0.1929949964260185,0.1335877862595419,0.5,0.10890419204575862,0.0594072101664766,0.0594072101664766,44.47054018176251,,higher,,,
+creative_midfielder,knn_weighted,652061,137576,sub_position,sub_position,category,categorical,Attacking Midfield,Attacking Midfield,0.2,0.36746451300360206,,,,,,True,True,True
+creative_midfielder,knn_weighted,896234,137576,goals_per90,goals_per90,goals/90 minutes,numeric,0.3280680437424058,0.2290076335877862,0.3,0.41462080178704225,0.09906041015461958,0.09906041015461958,43.25637910085056,,higher,,,
+creative_midfielder,knn_weighted,896234,137576,assists_per90,assists_per90,assists/90 minutes,numeric,0.3280680437424058,0.1335877862595419,0.5,0.12927945232744897,0.19448025748286388,0.19448025748286388,145.58236417288677,,higher,,,
+creative_midfielder,knn_weighted,896234,137576,sub_position,sub_position,category,categorical,Attacking Midfield,Attacking Midfield,0.2,0.15708461153975742,,,,,,True,True,True
+creative_midfielder,knn_weighted,485672,137576,goals_per90,goals_per90,goals/90 minutes,numeric,0.2629382303839733,0.2290076335877862,0.3,0.346047877936097,0.033930596796187096,0.033930596796187096,14.816360601001701,,higher,,,
+creative_midfielder,knn_weighted,485672,137576,assists_per90,assists_per90,assists/90 minutes,numeric,0.3005008347245409,0.1335877862595419,0.5,0.13562483930346592,0.16691304846499902,0.16691304846499902,124.94633913665649,,higher,,,
+creative_midfielder,knn_weighted,485672,137576,sub_position,sub_position,category,categorical,Attacking Midfield,Attacking Midfield,0.2,0.1895491451255167,,,,,,True,True,True
+experienced_defender,cosine,236168,139208,age,age,years,numeric,33,34,1.0,0.16519113932320187,-1.0,1.0,-2.941176470588235,,lower,,,
+experienced_defender,cosine,236168,139208,minutes_played,minutes_played,minutes,numeric,4783,4941,1.0,0.7118708710189431,-158.0,158.0,-3.1977332523780615,,lower,,,
+experienced_defender,cosine,236168,139208,sub_position,sub_position,category,categorical,Centre-Back,Centre-Back,1.0,0.06104880545343956,,,,,,True,True,True
+experienced_defender,cosine,236168,139208,foot,foot,category,categorical,right,right,1.0,0.06104880545343956,,,,,,True,True,True
+experienced_defender,cosine,124502,139208,age,age,years,numeric,32,34,1.0,0.14955962730401665,-2.0,2.0,-5.88235294117647,,lower,,,
+experienced_defender,cosine,124502,139208,minutes_played,minutes_played,minutes,numeric,4606,4941,1.0,0.7151518268521502,-335.0,335.0,-6.78000404776361,,lower,,,
+experienced_defender,cosine,124502,139208,sub_position,sub_position,category,categorical,Centre-Back,Centre-Back,1.0,0.06574033219861158,,,,,,True,True,True
+experienced_defender,cosine,124502,139208,foot,foot,category,categorical,right,right,1.0,0.06574033219861158,,,,,,True,True,True
+experienced_defender,cosine,244221,139208,age,age,years,numeric,34,34,1.0,0.23334587835609064,0.0,0.0,0.0,,equal,,,
+experienced_defender,cosine,244221,139208,minutes_played,minutes_played,minutes,numeric,3957,4941,1.0,0.5958816761043817,-984.0,984.0,-19.91499696417729,,lower,,,
+experienced_defender,cosine,244221,139208,sub_position,sub_position,category,categorical,Centre-Back,Centre-Back,1.0,0.07439055897076279,,,,,,True,True,True
+experienced_defender,cosine,244221,139208,foot,foot,category,categorical,right,right,1.0,0.07439055897076279,,,,,,True,True,True
+experienced_defender,cosine,187718,139208,age,age,years,numeric,33,34,1.0,0.2236424436868509,-1.0,1.0,-2.941176470588235,,lower,,,
+experienced_defender,cosine,187718,139208,minutes_played,minutes_played,minutes,numeric,3742,4941,1.0,0.583510297591138,-1199.0,1199.0,-24.266342845577817,,lower,,,
+experienced_defender,cosine,187718,139208,sub_position,sub_position,category,categorical,Centre-Back,Centre-Back,1.0,0.08265034124534748,,,,,,True,True,True
+experienced_defender,cosine,187718,139208,foot,foot,category,categorical,right,right,1.0,0.08265034124534748,,,,,,True,True,True
+experienced_defender,cosine,173504,139208,age,age,years,numeric,33,34,1.0,0.2313124588627888,-1.0,1.0,-2.941176470588235,,lower,,,
+experienced_defender,cosine,173504,139208,minutes_played,minutes_played,minutes,numeric,3630,4941,1.0,0.5612086496954999,-1311.0,1311.0,-26.533090467516697,,lower,,,
+experienced_defender,cosine,173504,139208,sub_position,sub_position,category,categorical,Centre-Back,Centre-Back,1.0,0.08548490771313255,,,,,,True,True,True
+experienced_defender,cosine,173504,139208,foot,foot,category,categorical,right,right,1.0,0.08548490771313255,,,,,,True,True,True
+experienced_defender,weighted,236168,139208,age,age,years,numeric,33,34,0.2,0.1556683337916575,-1.0,1.0,-2.941176470588235,,lower,,,
+experienced_defender,weighted,236168,139208,minutes_played,minutes_played,minutes,numeric,4783,4941,0.2,0.6708335133491644,-158.0,158.0,-3.1977332523780615,,lower,,,
+experienced_defender,weighted,236168,139208,sub_position,sub_position,category,categorical,Centre-Back,Centre-Back,0.4,0.11505902633572064,,,,,,True,True,True
+experienced_defender,weighted,236168,139208,foot,foot,category,categorical,right,right,0.2,0.05752951316786033,,,,,,True,True,True
+experienced_defender,weighted,124502,139208,age,age,years,numeric,32,34,0.2,0.14025445644124584,-2.0,2.0,-5.88235294117647,,lower,,,
+experienced_defender,weighted,124502,139208,minutes_played,minutes_played,minutes,numeric,4606,4941,0.2,0.6706571322501451,-335.0,335.0,-6.78000404776361,,lower,,,
+experienced_defender,weighted,124502,139208,sub_position,sub_position,category,categorical,Centre-Back,Centre-Back,0.4,0.12330031473053255,,,,,,True,True,True
+experienced_defender,weighted,124502,139208,foot,foot,category,categorical,right,right,0.2,0.06165015736526627,,,,,,True,True,True
+experienced_defender,weighted,244221,139208,age,age,years,numeric,34,34,0.2,0.21670185639162085,0.0,0.0,0.0,,equal,,,
+experienced_defender,weighted,244221,139208,minutes_played,minutes_played,minutes,numeric,3957,4941,0.2,0.5533788139360964,-984.0,984.0,-19.91499696417729,,lower,,,
+experienced_defender,weighted,244221,139208,sub_position,sub_position,category,categorical,Centre-Back,Centre-Back,0.4,0.1381689048081176,,,,,,True,True,True
+experienced_defender,weighted,244221,139208,foot,foot,category,categorical,right,right,0.2,0.0690844524040588,,,,,,True,True,True
+experienced_defender,weighted,187718,139208,age,age,years,numeric,33,34,0.2,0.20557467862946674,-1.0,1.0,-2.941176470588235,,lower,,,
+experienced_defender,weighted,187718,139208,minutes_played,minutes_played,minutes,numeric,3742,4941,0.2,0.5363693041748653,-1199.0,1199.0,-24.266342845577817,,lower,,,
+experienced_defender,weighted,187718,139208,sub_position,sub_position,category,categorical,Centre-Back,Centre-Back,0.4,0.15194626798050004,,,,,,True,True,True
+experienced_defender,weighted,187718,139208,foot,foot,category,categorical,right,right,0.2,0.07597313399025002,,,,,,True,True,True
+experienced_defender,weighted,173504,139208,age,age,years,numeric,33,34,0.2,0.21183760942671256,-1.0,1.0,-2.941176470588235,,lower,,,
+experienced_defender,weighted,173504,139208,minutes_played,minutes_played,minutes,numeric,3630,4941,0.2,0.5139589079013206,-1311.0,1311.0,-26.533090467516697,,lower,,,
+experienced_defender,weighted,173504,139208,sub_position,sub_position,category,categorical,Centre-Back,Centre-Back,0.4,0.15657538362648327,,,,,,True,True,True
+experienced_defender,weighted,173504,139208,foot,foot,category,categorical,right,right,0.2,0.07828769181324165,,,,,,True,True,True
+experienced_defender,knn_cosine,236168,139208,age,age,years,numeric,33,34,1.0,0.16519113932320187,-1.0,1.0,-2.941176470588235,,lower,,,
+experienced_defender,knn_cosine,236168,139208,minutes_played,minutes_played,minutes,numeric,4783,4941,1.0,0.7118708710189431,-158.0,158.0,-3.1977332523780615,,lower,,,
+experienced_defender,knn_cosine,236168,139208,sub_position,sub_position,category,categorical,Centre-Back,Centre-Back,1.0,0.06104880545343956,,,,,,True,True,True
+experienced_defender,knn_cosine,236168,139208,foot,foot,category,categorical,right,right,1.0,0.06104880545343956,,,,,,True,True,True
+experienced_defender,knn_cosine,124502,139208,age,age,years,numeric,32,34,1.0,0.14955962730401665,-2.0,2.0,-5.88235294117647,,lower,,,
+experienced_defender,knn_cosine,124502,139208,minutes_played,minutes_played,minutes,numeric,4606,4941,1.0,0.7151518268521502,-335.0,335.0,-6.78000404776361,,lower,,,
+experienced_defender,knn_cosine,124502,139208,sub_position,sub_position,category,categorical,Centre-Back,Centre-Back,1.0,0.06574033219861158,,,,,,True,True,True
+experienced_defender,knn_cosine,124502,139208,foot,foot,category,categorical,right,right,1.0,0.06574033219861158,,,,,,True,True,True
+experienced_defender,knn_cosine,244221,139208,age,age,years,numeric,34,34,1.0,0.23334587835609064,0.0,0.0,0.0,,equal,,,
+experienced_defender,knn_cosine,244221,139208,minutes_played,minutes_played,minutes,numeric,3957,4941,1.0,0.5958816761043817,-984.0,984.0,-19.91499696417729,,lower,,,
+experienced_defender,knn_cosine,244221,139208,sub_position,sub_position,category,categorical,Centre-Back,Centre-Back,1.0,0.07439055897076279,,,,,,True,True,True
+experienced_defender,knn_cosine,244221,139208,foot,foot,category,categorical,right,right,1.0,0.07439055897076279,,,,,,True,True,True
+experienced_defender,knn_cosine,187718,139208,age,age,years,numeric,33,34,1.0,0.2236424436868509,-1.0,1.0,-2.941176470588235,,lower,,,
+experienced_defender,knn_cosine,187718,139208,minutes_played,minutes_played,minutes,numeric,3742,4941,1.0,0.583510297591138,-1199.0,1199.0,-24.266342845577817,,lower,,,
+experienced_defender,knn_cosine,187718,139208,sub_position,sub_position,category,categorical,Centre-Back,Centre-Back,1.0,0.08265034124534748,,,,,,True,True,True
+experienced_defender,knn_cosine,187718,139208,foot,foot,category,categorical,right,right,1.0,0.08265034124534748,,,,,,True,True,True
+experienced_defender,knn_cosine,173504,139208,age,age,years,numeric,33,34,1.0,0.2313124588627888,-1.0,1.0,-2.941176470588235,,lower,,,
+experienced_defender,knn_cosine,173504,139208,minutes_played,minutes_played,minutes,numeric,3630,4941,1.0,0.5612086496954999,-1311.0,1311.0,-26.533090467516697,,lower,,,
+experienced_defender,knn_cosine,173504,139208,sub_position,sub_position,category,categorical,Centre-Back,Centre-Back,1.0,0.08548490771313255,,,,,,True,True,True
+experienced_defender,knn_cosine,173504,139208,foot,foot,category,categorical,right,right,1.0,0.08548490771313255,,,,,,True,True,True
+experienced_defender,knn_weighted,236168,139208,age,age,years,numeric,33,34,0.2,0.1556683337916575,-1.0,1.0,-2.941176470588235,,lower,,,
+experienced_defender,knn_weighted,236168,139208,minutes_played,minutes_played,minutes,numeric,4783,4941,0.2,0.6708335133491644,-158.0,158.0,-3.1977332523780615,,lower,,,
+experienced_defender,knn_weighted,236168,139208,sub_position,sub_position,category,categorical,Centre-Back,Centre-Back,0.4,0.11505902633572064,,,,,,True,True,True
+experienced_defender,knn_weighted,236168,139208,foot,foot,category,categorical,right,right,0.2,0.05752951316786033,,,,,,True,True,True
+experienced_defender,knn_weighted,124502,139208,age,age,years,numeric,32,34,0.2,0.14025445644124584,-2.0,2.0,-5.88235294117647,,lower,,,
+experienced_defender,knn_weighted,124502,139208,minutes_played,minutes_played,minutes,numeric,4606,4941,0.2,0.6706571322501451,-335.0,335.0,-6.78000404776361,,lower,,,
+experienced_defender,knn_weighted,124502,139208,sub_position,sub_position,category,categorical,Centre-Back,Centre-Back,0.4,0.12330031473053255,,,,,,True,True,True
+experienced_defender,knn_weighted,124502,139208,foot,foot,category,categorical,right,right,0.2,0.06165015736526627,,,,,,True,True,True
+experienced_defender,knn_weighted,244221,139208,age,age,years,numeric,34,34,0.2,0.21670185639162085,0.0,0.0,0.0,,equal,,,
+experienced_defender,knn_weighted,244221,139208,minutes_played,minutes_played,minutes,numeric,3957,4941,0.2,0.5533788139360964,-984.0,984.0,-19.91499696417729,,lower,,,
+experienced_defender,knn_weighted,244221,139208,sub_position,sub_position,category,categorical,Centre-Back,Centre-Back,0.4,0.1381689048081176,,,,,,True,True,True
+experienced_defender,knn_weighted,244221,139208,foot,foot,category,categorical,right,right,0.2,0.0690844524040588,,,,,,True,True,True
+experienced_defender,knn_weighted,187718,139208,age,age,years,numeric,33,34,0.2,0.20557467862946674,-1.0,1.0,-2.941176470588235,,lower,,,
+experienced_defender,knn_weighted,187718,139208,minutes_played,minutes_played,minutes,numeric,3742,4941,0.2,0.5363693041748653,-1199.0,1199.0,-24.266342845577817,,lower,,,
+experienced_defender,knn_weighted,187718,139208,sub_position,sub_position,category,categorical,Centre-Back,Centre-Back,0.4,0.15194626798050004,,,,,,True,True,True
+experienced_defender,knn_weighted,187718,139208,foot,foot,category,categorical,right,right,0.2,0.07597313399025002,,,,,,True,True,True
+experienced_defender,knn_weighted,173504,139208,age,age,years,numeric,33,34,0.2,0.21183760942671256,-1.0,1.0,-2.941176470588235,,lower,,,
+experienced_defender,knn_weighted,173504,139208,minutes_played,minutes_played,minutes,numeric,3630,4941,0.2,0.5139589079013206,-1311.0,1311.0,-26.533090467516697,,lower,,,
+experienced_defender,knn_weighted,173504,139208,sub_position,sub_position,category,categorical,Centre-Back,Centre-Back,0.4,0.15657538362648327,,,,,,True,True,True
+experienced_defender,knn_weighted,173504,139208,foot,foot,category,categorical,right,right,0.2,0.07828769181324165,,,,,,True,True,True
+budget_goalkeeper,cosine,464373,629773,age,age,years,numeric,26,23,1.0,0.16969078262409565,3.0,3.0,13.043478260869565,,higher,,,
+budget_goalkeeper,cosine,464373,629773,minutes_played,minutes_played,minutes,numeric,3182,4970,1.0,0.4805736461306968,-1788.0,1788.0,-35.97585513078471,,lower,,,
+budget_goalkeeper,cosine,464373,629773,foot,foot,category,categorical,right,right,1.0,0.23257699531790604,,,,,,True,True,True
+budget_goalkeeper,cosine,338665,629773,age,age,years,numeric,27,23,1.0,0.11129849315721534,4.0,4.0,17.391304347826086,,higher,,,
+budget_goalkeeper,cosine,338665,629773,minutes_played,minutes_played,minutes,numeric,3240,4970,1.0,0.5317252820823034,-1730.0,1730.0,-34.80885311871227,,lower,,,
+budget_goalkeeper,cosine,338665,629773,foot,foot,category,categorical,right,right,1.0,0.2393699829468712,,,,,,True,True,True
+budget_goalkeeper,cosine,403564,629773,age,age,years,numeric,26,23,1.0,0.1698295598512801,3.0,3.0,13.043478260869565,,higher,,,
+budget_goalkeeper,cosine,403564,629773,minutes_played,minutes_played,minutes,numeric,3180,4970,1.0,0.4797221362844451,-1790.0,1790.0,-36.016096579476866,,lower,,,
+budget_goalkeeper,cosine,403564,629773,foot,foot,category,categorical,right,right,1.0,0.23276720241117288,,,,,,True,True,True
+budget_goalkeeper,cosine,337290,629773,age,age,years,numeric,28,23,1.0,0.05005282514361186,5.0,5.0,21.73913043478261,,higher,,,
+budget_goalkeeper,cosine,337290,629773,minutes_played,minutes_played,minutes,numeric,3218,4970,1.0,0.5403486498069636,-1752.0,1752.0,-35.25150905432596,,lower,,,
+budget_goalkeeper,cosine,337290,629773,foot,foot,category,categorical,right,right,1.0,0.2498676319503826,,,,,,True,True,True
+budget_goalkeeper,cosine,360338,629773,age,age,years,numeric,27,23,1.0,0.12068379080504082,4.0,4.0,17.391304347826086,,higher,,,
+budget_goalkeeper,cosine,360338,629773,minutes_played,minutes_played,minutes,numeric,3060,4970,1.0,0.45166481691311033,-1910.0,1910.0,-38.43058350100604,,lower,,,
+budget_goalkeeper,cosine,360338,629773,foot,foot,category,categorical,right,right,1.0,0.2595549690521,,,,,,True,True,True
+budget_goalkeeper,weighted,464373,629773,age,age,years,numeric,26,23,0.25,0.13140317892122141,3.0,3.0,13.043478260869565,,higher,,,
+budget_goalkeeper,weighted,464373,629773,minutes_played,minutes_played,minutes,numeric,3182,4970,0.25,0.3721410428474782,-1788.0,1788.0,-35.97585513078471,,lower,,,
+budget_goalkeeper,weighted,464373,629773,foot,foot,category,categorical,right,right,0.5,0.36020054897642084,,,,,,True,True,True
+budget_goalkeeper,weighted,403564,629773,age,age,years,numeric,26,23,0.25,0.13147446782680475,3.0,3.0,13.043478260869565,,higher,,,
+budget_goalkeeper,weighted,403564,629773,minutes_played,minutes_played,minutes,numeric,3180,4970,0.25,0.3713794737969458,-1790.0,1790.0,-36.016096579476866,,lower,,,
+budget_goalkeeper,weighted,403564,629773,foot,foot,category,categorical,right,right,0.5,0.360395965123411,,,,,,True,True,True
+budget_goalkeeper,weighted,338665,629773,age,age,years,numeric,27,23,0.25,0.0853396043858809,4.0,4.0,17.391304347826086,,higher,,,
+budget_goalkeeper,weighted,338665,629773,minutes_played,minutes_played,minutes,numeric,3240,4970,0.25,0.40770745342236403,-1730.0,1730.0,-34.80885311871227,,lower,,,
+budget_goalkeeper,weighted,338665,629773,foot,foot,category,categorical,right,right,0.5,0.36708025539367756,,,,,,True,True,True
+budget_goalkeeper,weighted,337290,629773,age,age,years,numeric,28,23,0.25,0.03779157512574228,5.0,5.0,21.73913043478261,,higher,,,
+budget_goalkeeper,weighted,337290,629773,minutes_played,minutes_played,minutes,numeric,3218,4970,0.25,0.40798149824075436,-1752.0,1752.0,-35.25150905432596,,lower,,,
+budget_goalkeeper,weighted,337290,629773,foot,foot,category,categorical,right,right,0.5,0.37731701885959895,,,,,,True,True,True
+budget_goalkeeper,weighted,360338,629773,age,age,years,numeric,27,23,0.25,0.08981959367044111,4.0,4.0,17.391304347826086,,higher,,,
+budget_goalkeeper,weighted,360338,629773,minutes_played,minutes_played,minutes,numeric,3060,4970,0.25,0.33615409376646166,-1910.0,1910.0,-38.43058350100604,,lower,,,
+budget_goalkeeper,weighted,360338,629773,foot,foot,category,categorical,right,right,0.5,0.3863505065575016,,,,,,True,True,True
+budget_goalkeeper,knn_cosine,464373,629773,age,age,years,numeric,26,23,1.0,0.16969078262409565,3.0,3.0,13.043478260869565,,higher,,,
+budget_goalkeeper,knn_cosine,464373,629773,minutes_played,minutes_played,minutes,numeric,3182,4970,1.0,0.4805736461306968,-1788.0,1788.0,-35.97585513078471,,lower,,,
+budget_goalkeeper,knn_cosine,464373,629773,foot,foot,category,categorical,right,right,1.0,0.23257699531790604,,,,,,True,True,True
+budget_goalkeeper,knn_cosine,338665,629773,age,age,years,numeric,27,23,1.0,0.11129849315721534,4.0,4.0,17.391304347826086,,higher,,,
+budget_goalkeeper,knn_cosine,338665,629773,minutes_played,minutes_played,minutes,numeric,3240,4970,1.0,0.5317252820823034,-1730.0,1730.0,-34.80885311871227,,lower,,,
+budget_goalkeeper,knn_cosine,338665,629773,foot,foot,category,categorical,right,right,1.0,0.2393699829468712,,,,,,True,True,True
+budget_goalkeeper,knn_cosine,403564,629773,age,age,years,numeric,26,23,1.0,0.1698295598512801,3.0,3.0,13.043478260869565,,higher,,,
+budget_goalkeeper,knn_cosine,403564,629773,minutes_played,minutes_played,minutes,numeric,3180,4970,1.0,0.4797221362844451,-1790.0,1790.0,-36.016096579476866,,lower,,,
+budget_goalkeeper,knn_cosine,403564,629773,foot,foot,category,categorical,right,right,1.0,0.23276720241117288,,,,,,True,True,True
+budget_goalkeeper,knn_cosine,337290,629773,age,age,years,numeric,28,23,1.0,0.05005282514361186,5.0,5.0,21.73913043478261,,higher,,,
+budget_goalkeeper,knn_cosine,337290,629773,minutes_played,minutes_played,minutes,numeric,3218,4970,1.0,0.5403486498069636,-1752.0,1752.0,-35.25150905432596,,lower,,,
+budget_goalkeeper,knn_cosine,337290,629773,foot,foot,category,categorical,right,right,1.0,0.2498676319503826,,,,,,True,True,True
+budget_goalkeeper,knn_cosine,360338,629773,age,age,years,numeric,27,23,1.0,0.12068379080504082,4.0,4.0,17.391304347826086,,higher,,,
+budget_goalkeeper,knn_cosine,360338,629773,minutes_played,minutes_played,minutes,numeric,3060,4970,1.0,0.45166481691311033,-1910.0,1910.0,-38.43058350100604,,lower,,,
+budget_goalkeeper,knn_cosine,360338,629773,foot,foot,category,categorical,right,right,1.0,0.2595549690521,,,,,,True,True,True
+budget_goalkeeper,knn_weighted,464373,629773,age,age,years,numeric,26,23,0.25,0.13140317892122141,3.0,3.0,13.043478260869565,,higher,,,
+budget_goalkeeper,knn_weighted,464373,629773,minutes_played,minutes_played,minutes,numeric,3182,4970,0.25,0.3721410428474782,-1788.0,1788.0,-35.97585513078471,,lower,,,
+budget_goalkeeper,knn_weighted,464373,629773,foot,foot,category,categorical,right,right,0.5,0.36020054897642084,,,,,,True,True,True
+budget_goalkeeper,knn_weighted,403564,629773,age,age,years,numeric,26,23,0.25,0.13147446782680475,3.0,3.0,13.043478260869565,,higher,,,
+budget_goalkeeper,knn_weighted,403564,629773,minutes_played,minutes_played,minutes,numeric,3180,4970,0.25,0.3713794737969458,-1790.0,1790.0,-36.016096579476866,,lower,,,
+budget_goalkeeper,knn_weighted,403564,629773,foot,foot,category,categorical,right,right,0.5,0.360395965123411,,,,,,True,True,True
+budget_goalkeeper,knn_weighted,338665,629773,age,age,years,numeric,27,23,0.25,0.0853396043858809,4.0,4.0,17.391304347826086,,higher,,,
+budget_goalkeeper,knn_weighted,338665,629773,minutes_played,minutes_played,minutes,numeric,3240,4970,0.25,0.40770745342236403,-1730.0,1730.0,-34.80885311871227,,lower,,,
+budget_goalkeeper,knn_weighted,338665,629773,foot,foot,category,categorical,right,right,0.5,0.36708025539367756,,,,,,True,True,True
+budget_goalkeeper,knn_weighted,337290,629773,age,age,years,numeric,28,23,0.25,0.03779157512574228,5.0,5.0,21.73913043478261,,higher,,,
+budget_goalkeeper,knn_weighted,337290,629773,minutes_played,minutes_played,minutes,numeric,3218,4970,0.25,0.40798149824075436,-1752.0,1752.0,-35.25150905432596,,lower,,,
+budget_goalkeeper,knn_weighted,337290,629773,foot,foot,category,categorical,right,right,0.5,0.37731701885959895,,,,,,True,True,True
+budget_goalkeeper,knn_weighted,360338,629773,age,age,years,numeric,27,23,0.25,0.08981959367044111,4.0,4.0,17.391304347826086,,higher,,,
+budget_goalkeeper,knn_weighted,360338,629773,minutes_played,minutes_played,minutes,numeric,3060,4970,0.25,0.33615409376646166,-1910.0,1910.0,-38.43058350100604,,lower,,,
+budget_goalkeeper,knn_weighted,360338,629773,foot,foot,category,categorical,right,right,0.5,0.3863505065575016,,,,,,True,True,True

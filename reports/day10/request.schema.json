@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "reference_player_id": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "filters": {
+      "type": "object",
+      "properties": {
+        "position": {
+          "enum": [
+            "Attack",
+            "Midfield",
+            "Defender",
+            "Goalkeeper"
+          ]
+        },
+        "min_age": {
+          "type": "number",
+          "minimum": 0
+        },
+        "max_age": {
+          "type": "number",
+          "minimum": 0
+        },
+        "max_budget_eur": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "min_minutes": {
+          "type": "number",
+          "minimum": 0
+        },
+        "budget_value": {
+          "type": "number",
+          "minimum": 0
+        },
+        "budget_unit": {
+          "enum": [
+            "EUR",
+            "EUR_million"
+          ]
+        },
+        "sub_positions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "min_goals_per90": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "min_assists_per90": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "preferred_foot": {
+          "enum": [
+            "left",
+            "right",
+            "both",
+            null
+          ]
+        },
+        "foot_mode": {
+          "enum": [
+            "hard",
+            "soft"
+          ]
+        },
+        "excluded_club_ids": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "position"
+      ],
+      "additionalProperties": false
+    },
+    "method": {
+      "enum": [
+        "cosine",
+        "weighted_cosine",
+        "knn_cosine",
+        "knn_weighted_cosine"
+      ]
+    },
+    "top_k": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "include_comparison": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "reference_player_id",
+    "filters"
+  ],
+  "additionalProperties": false
+}

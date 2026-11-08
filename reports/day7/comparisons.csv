@@ -1,0 +1,11 @@
+﻿representation,scenario,eligible,excluded_zero_vectors,filter_correct,score_valid,unique_and_excludes_query,sorted_correctly,explanations_sum_to_score,returned_all_rankable,checked_rows,empty_checks_are_vacuous,ordered_ids_match,score_max_abs_error,distance_vs_rounded_score_max_error,distance_vs_dot_components_max_error,parity_passed,deterministic,k,baseline_returned_at_k,returned_at_k,intersection_at_k,overlap_at_k,overlap_reason,common_rankable_candidates,same_rankable_pool,spearman_full_common,spearman_reason
+day5,attack_budget_30m,349,0,True,True,True,True,True,True,349,False,True,0.0,4.984901380566953e-13,2.220446049250313e-16,True,True,5,5,5,5,1.0,,349,True,1.0,
+day5,midfield_budget_15m,405,0,True,True,True,True,True,True,405,False,True,0.0,4.989342272665453e-13,3.3306690738754696e-16,True,True,5,5,5,5,1.0,,405,True,0.9999999999999999,
+day5,defender_context_15m,512,0,True,True,True,True,True,True,512,False,True,0.0,4.991562718714704e-13,2.220446049250313e-16,True,True,5,5,5,5,1.0,,512,True,1.0,
+day5,goalkeeper_context_10m,107,0,True,True,True,True,True,True,107,False,True,0.0,4.966027589148325e-13,3.3306690738754696e-16,True,True,5,5,5,5,1.0,,107,True,1.0,
+day5,empty_budget,0,0,True,True,True,True,True,True,0,True,True,0.0,0.0,0.0,True,True,5,0,0,0,,one_or_both_shortlists_empty,0,True,,fewer_than_two_common_candidates
+day6_default,attack_budget_30m,349,0,True,True,True,True,True,True,349,False,True,0.0,4.991562718714704e-13,4.440892098500626e-16,True,True,5,5,5,5,1.0,,349,True,1.0,
+day6_default,midfield_budget_15m,405,0,True,True,True,True,True,True,405,False,True,0.0,4.993783164763954e-13,3.3306690738754696e-16,True,True,5,5,5,5,1.0,,405,True,0.9999999999999999,
+day6_default,defender_context_15m,512,0,True,True,True,True,True,True,512,False,True,0.0,4.998224056862455e-13,2.220446049250313e-16,True,True,5,5,5,5,1.0,,512,True,0.9999999999999998,
+day6_default,goalkeeper_context_10m,107,0,True,True,True,True,True,True,107,False,True,0.0,4.950484466803573e-13,3.3306690738754696e-16,True,True,5,5,5,5,1.0,,107,True,1.0,
+day6_default,empty_budget,0,0,True,True,True,True,True,True,0,True,True,0.0,0.0,0.0,True,True,5,0,0,0,,one_or_both_shortlists_empty,0,True,,fewer_than_two_common_candidates

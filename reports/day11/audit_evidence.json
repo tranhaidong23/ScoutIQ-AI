@@ -1,0 +1,188 @@
+{
+  "scope": "read_only_snapshot_audit_not_temporal_validation_or_source_truth",
+  "cutoff": "2026-06-12",
+  "dataset_sha256": "425aeb9cf0f7ed13077bf31c6b5326ad02ef010253a45a043c92eabfab4ca6b0",
+  "input_sha256": {
+    "data/raw/appearances.csv.gz": "e096c2b158fc3d52c4550526c4d4850dd62f31007652f4bcae112eadb1646802",
+    "data/raw/clubs.csv.gz": "aa57ab56e87faffaea1e8697439a32caf10116d8f2f2dfb3a57193c0bb1d641b",
+    "data/raw/games.csv.gz": "142561989017d379bcf9e72bad0b87e0996bae0e7b710ebb3def9255f464c741",
+    "data/raw/player_valuations.csv.gz": "608e32e5ad2231074f3505c469ad727be66d7e6efda6af918afd85379439631d",
+    "data/raw/players.csv.gz": "d22e407981d5b51a79bf8ff59835729f3526f7dc3495a6d8ed2f852ed2e86403",
+    "data/processed/scoutiq_candidates_2025_26.csv": "5480a88b2fb13047f65364db1795ee8f1871108de7de998f2fdc97cc1571edc9",
+    "data/processed/scoutiq_features_2025_26.csv": "425aeb9cf0f7ed13077bf31c6b5326ad02ef010253a45a043c92eabfab4ca6b0",
+    "data/processed/scoutiq_players_2025_26.csv": "b459f4749c88e41a9da578cf72260ae2976e51a63405ed1527d1f53dad5c4780"
+  },
+  "shape": [
+    4112,
+    28
+  ],
+  "missing_values": {
+    "player_id": 0,
+    "matches_played": 0,
+    "minutes_played": 0,
+    "goals": 0,
+    "assists": 0,
+    "goals_per90": 0,
+    "assists_per90": 0,
+    "goal_contributions_per90": 0,
+    "name": 0,
+    "position": 0,
+    "sub_position": 0,
+    "age": 0,
+    "foot": 24,
+    "height_in_cm": 23,
+    "current_club_id": 0,
+    "current_club_name": 16,
+    "image_url": 0,
+    "valuation_date": 0,
+    "market_value_in_eur": 0,
+    "club_name_verified": 16,
+    "valuation_age_days": 0,
+    "goal_contributions": 0,
+    "market_value_m": 0,
+    "log1p_market_value_m": 0,
+    "minutes_reliability": 0,
+    "goals_per90_position_percentile": 0,
+    "assists_per90_position_percentile": 0,
+    "goal_contributions_per90_position_percentile": 0
+  },
+  "duplicate_feature_ids": 0,
+  "integrated_rows": 8322,
+  "eligibility_reconstruction_count": 4112,
+  "eligibility_ids_exact": true,
+  "integrated_below_900_minutes": 4198,
+  "position_retention": [
+    {
+      "position": "Attack",
+      "integrated": 2457,
+      "eligible": 1059,
+      "retention_fraction": 0.43101343101343104
+    },
+    {
+      "position": "Defender",
+      "integrated": 2740,
+      "eligible": 1523,
+      "retention_fraction": 0.5558394160583942
+    },
+    {
+      "position": "Goalkeeper",
+      "integrated": 701,
+      "eligible": 326,
+      "retention_fraction": 0.46504992867332384
+    },
+    {
+      "position": "Midfield",
+      "integrated": 2423,
+      "eligible": 1204,
+      "retention_fraction": 0.49690466364011554
+    },
+    {
+      "position": "Missing",
+      "integrated": 1,
+      "eligible": 0,
+      "retention_fraction": 0.0
+    }
+  ],
+  "games": {
+    "raw_rows": 88958,
+    "selected_rows": 9515,
+    "selected_max_date": "2026-06-12",
+    "invalid_raw_dates": 0,
+    "competition_types": {
+      "domestic_league": 7038,
+      "domestic_cup": 982,
+      "other": 763,
+      "MISSING": 364,
+      "international_cup": 281,
+      "national_team_competition": 87
+    }
+  },
+  "appearances": {
+    "raw_rows": 1894350,
+    "joined_rows": 155687,
+    "retained_rows": 155684,
+    "duplicate_appearance_ids_removed": 0,
+    "retained_duplicate_player_game_pairs": 0,
+    "joined_invalid_dates": 0,
+    "joined_after_cutoff": 0,
+    "joined_game_date_disagreements": 0,
+    "feature_aggregate_check": {
+      "minutes_played": {
+        "missing_source": 0,
+        "mismatched_players": 0,
+        "max_abs_error": 0.0
+      },
+      "goals": {
+        "missing_source": 0,
+        "mismatched_players": 0,
+        "max_abs_error": 0.0
+      },
+      "assists": {
+        "missing_source": 0,
+        "mismatched_players": 0,
+        "max_abs_error": 0.0
+      },
+      "matches_played": {
+        "missing_source": 0,
+        "mismatched_players": 0,
+        "max_abs_error": 0.0
+      }
+    }
+  },
+  "valuations": {
+    "raw_rows": 656301,
+    "invalid_raw_dates": 0,
+    "feature_dates_after_cutoff": 0,
+    "feature_dates_older_than_365_days": 0,
+    "missing_positive_source": 0,
+    "value_mismatches": 0,
+    "date_mismatches": 0,
+    "latest_any_nonpositive_for_candidates": 0,
+    "same_date_conflicting_positive_value_groups": 0
+  },
+  "age_calendar_check": {
+    "missing_dob": 0,
+    "different_from_calendar_age": 1
+  },
+  "current_club_competition_proxy": {
+    "GB1": 393,
+    "ES1": 376,
+    "IT1": 371,
+    "FR1": 304,
+    "L1": 301,
+    "NL1": 293,
+    "TR1": 292,
+    "PO1": 281,
+    "BE1": 275,
+    "RU1": 270,
+    "UKR1": 251,
+    "GR1": 227,
+    "SC1": 191,
+    "DK1": 163,
+    "NO1": 19,
+    "MISSING": 16,
+    "A1": 12,
+    "TS1": 11,
+    "BRA1": 10,
+    "RO1": 10,
+    "SER1": 9,
+    "ARG1": 6,
+    "PL1": 6,
+    "C1": 6,
+    "SE1": 5,
+    "MEX1": 4,
+    "SA1": 3,
+    "MLS1": 3,
+    "KR1": 2,
+    "JAP1": 1,
+    "AUS1": 1
+  },
+  "competition_proxy_warning": "Current club metadata, not verified league at cutoff; games include cups. No league-strength correction.",
+  "unverified": [
+    "historical validity of club/role/foot metadata",
+    "source event completeness and correctness",
+    "independent relevance judgments",
+    "temporal holdout quality",
+    "fresh-machine reproduction"
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "run_utc": "2026-11-03T11:54:43.333283+00:00",
+  "cutoff": "2026-06-12",
+  "shape": [
+    4112,
+    28
+  ],
+  "dataset_sha256": "425aeb9cf0f7ed13077bf31c6b5326ad02ef010253a45a043c92eabfab4ca6b0",
+  "input_sha256": {
+    "data/raw/appearances.csv.gz": "e096c2b158fc3d52c4550526c4d4850dd62f31007652f4bcae112eadb1646802",
+    "data/raw/clubs.csv.gz": "aa57ab56e87faffaea1e8697439a32caf10116d8f2f2dfb3a57193c0bb1d641b",
+    "data/raw/games.csv.gz": "142561989017d379bcf9e72bad0b87e0996bae0e7b710ebb3def9255f464c741",
+    "data/raw/player_valuations.csv.gz": "608e32e5ad2231074f3505c469ad727be66d7e6efda6af918afd85379439631d",
+    "data/raw/players.csv.gz": "d22e407981d5b51a79bf8ff59835729f3526f7dc3495a6d8ed2f852ed2e86403",
+    "data/processed/scoutiq_candidates_2025_26.csv": "5480a88b2fb13047f65364db1795ee8f1871108de7de998f2fdc97cc1571edc9",
+    "data/processed/scoutiq_features_2025_26.csv": "425aeb9cf0f7ed13077bf31c6b5326ad02ef010253a45a043c92eabfab4ca6b0",
+    "data/processed/scoutiq_players_2025_26.csv": "b459f4749c88e41a9da578cf72260ae2976e51a63405ed1527d1f53dad5c4780"
+  },
+  "prior_evidence_sha256": {
+    "reports/day11/evaluation.json": "817e74ecf4c7fbfecf68b7db46fd5424f492f45574538121c202e694ada9ab79",
+    "reports/day11/audit_evidence.json": "0ce2603d717eead4f2615a3709774104de237b049d7753fa179ce19ea6d110d7",
+    "reports/day11/annotation_evidence.csv": "c2fe168d57ef8118f181bdb3a2f00476aaf25e86fc5eb2d6646930a0bd3bac1b"
+  },
+  "age_findings": {
+    "consistent": 4111,
+    "approximate_year_length": 1
+  },
+  "candidate_dob_status": {
+    "valid": 4112
+  },
+  "raw_dob_status": {
+    "valid": 50100,
+    "missing_dob": 49
+  },
+  "raw_player_rows": 50149,
+  "raw_duplicate_player_ids": 0,
+  "raw_legacy_parser_nat": 49,
+  "raw_nonmissing_unparseable_legacy": 0,
+  "missing_features": {
+    "player_id": 0,
+    "matches_played": 0,
+    "minutes_played": 0,
+    "goals": 0,
+    "assists": 0,
+    "goals_per90": 0,
+    "assists_per90": 0,
+    "goal_contributions_per90": 0,
+    "name": 0,
+    "position": 0,
+    "sub_position": 0,
+    "age": 0,
+    "foot": 24,
+    "height_in_cm": 23,
+    "current_club_id": 0,
+    "current_club_name": 16,
+    "image_url": 0,
+    "valuation_date": 0,
+    "market_value_in_eur": 0,
+    "club_name_verified": 16,
+    "valuation_age_days": 0,
+    "goal_contributions": 0,
+    "market_value_m": 0,
+    "log1p_market_value_m": 0,
+    "minutes_reliability": 0,
+    "goals_per90_position_percentile": 0,
+    "assists_per90_position_percentile": 0,
+    "goal_contributions_per90_position_percentile": 0
+  },
+  "infinite_numeric_features": 0,
+  "height_review_ids": [
+    743556
+  ],
+  "height_policy_note": "100..230 cm review flag only, not automatic correction",
+  "eligibility_stages": [
+    {
+      "rule": "minutes_ge_900",
+      "independent_failed": 4198,
+      "before": 8322,
+      "after": 4124,
+      "removed_at_stage": 4198
+    },
+    {
+      "rule": "market_value_positive",
+      "independent_failed": 0,
+      "before": 4124,
+      "after": 4124,
+      "removed_at_stage": 0
+    },
+    {
+      "rule": "valuation_age_0_365",
+      "independent_failed": 226,
+      "before": 4124,
+      "after": 4112,
+      "removed_at_stage": 12
+    },
+    {
+      "rule": "position_nonempty",
+      "independent_failed": 0,
+      "before": 4112,
+      "after": 4112,
+      "removed_at_stage": 0
+    }
+  ],
+  "eligible_ids_exact": true,
+  "day11_read_only_audit_reproduced": true,
+  "pilot_validation": {
+    "rows": 32,
+    "graded": 0,
+    "abstain": 0,
+    "pending": 32
+  },
+  "pilot_reproducible_under_row_permutation": true,
+  "correction_applied": false,
+  "independent_human_labels": 0,
+  "environment": {
+    "python": "3.13.7",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "packages": {
+      "pandas": "3.0.6",
+      "numpy": "2.5.4",
+      "scikit-learn": "1.9.1",
+      "pytest": "9.1.1"
+    }
+  },
+  "git_head": "c4d638c2d10c542c897ccf95dedde540814925b1",
+  "source_sha256": {
+    "src/evaluation/__init__.py": "d7cba831010fcce21cf7f98279e7b491c858d3fd3725084a109d3d168a2db5f5",
+    "src/evaluation/audit.py": "0b1e54ae228ba933f4f63f2047800edfd81e90b84d1b045b27b6feecedcd3bb2",
+    "src/evaluation/integrity.py": "66dc91df91419b15fd293dd5f99b50f093cb960ab0c23e0ec60ff59ac3ef70a3",
+    "src/evaluation/metrics.py": "5163f9c6fe0026f3e7a346f1b92b2ec3fde98196d1d24ead0f2bab2884a9b12a",
+    "src/evaluation/pilot.py": "0d43a6529abac9de6357e4d038513ec2ef4652c8a26ad5de533461a7c18f03f1",
+    "src/evaluation/run_day11.py": "a07f124aada6778ed5cd5670687713a700a2beeb77a6ca7d25eafa39dc490dd3",
+    "src/evaluation/run_day12.py": "75f1a14b233ed2bee9957d840152d78cc5733b04cc0249d368819f6961d301d8"
+  }
+}

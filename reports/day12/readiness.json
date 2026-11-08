@@ -1,0 +1,81 @@
+{
+  "schema_version": "scoutiq.evaluation-readiness.v1",
+  "annotation_counts": {
+    "rows": 32,
+    "graded": 0,
+    "abstain": 0,
+    "pending": 32
+  },
+  "k": 5,
+  "cases": [
+    {
+      "scenario_id": "young_low_budget_striker",
+      "candidate_count": 22,
+      "pilot_count": 8,
+      "status": "BLOCKED_NO_REVIEWED_HUMAN_LABELS",
+      "assessments": [],
+      "agreement": {
+        "scenario_id": "young_low_budget_striker",
+        "assessment_scope": "attack_output_and_role",
+        "label_source": "independent_human",
+        "status": "BLOCKED",
+        "reason": "need_two_independent_compatible_label_sets",
+        "pairs": [],
+        "interpretation": "agreement_not_relevance_quality; independence_declared_requires_external_audit"
+      }
+    },
+    {
+      "scenario_id": "creative_midfielder",
+      "candidate_count": 10,
+      "pilot_count": 8,
+      "status": "BLOCKED_NO_REVIEWED_HUMAN_LABELS",
+      "assessments": [],
+      "agreement": {
+        "scenario_id": "creative_midfielder",
+        "assessment_scope": "attack_output_and_role",
+        "label_source": "independent_human",
+        "status": "BLOCKED",
+        "reason": "need_two_independent_compatible_label_sets",
+        "pairs": [],
+        "interpretation": "agreement_not_relevance_quality; independence_declared_requires_external_audit"
+      }
+    },
+    {
+      "scenario_id": "experienced_defender",
+      "candidate_count": 94,
+      "pilot_count": 8,
+      "status": "BLOCKED_NO_REVIEWED_HUMAN_LABELS",
+      "assessments": [],
+      "agreement": {
+        "scenario_id": "experienced_defender",
+        "assessment_scope": "context_profile_only",
+        "label_source": "independent_human",
+        "status": "BLOCKED",
+        "reason": "need_two_independent_compatible_label_sets",
+        "pairs": [],
+        "interpretation": "agreement_not_relevance_quality; independence_declared_requires_external_audit"
+      }
+    },
+    {
+      "scenario_id": "budget_goalkeeper",
+      "candidate_count": 47,
+      "pilot_count": 8,
+      "status": "BLOCKED_NO_REVIEWED_HUMAN_LABELS",
+      "assessments": [],
+      "agreement": {
+        "scenario_id": "budget_goalkeeper",
+        "assessment_scope": "context_profile_only",
+        "label_source": "independent_human",
+        "status": "BLOCKED",
+        "reason": "need_two_independent_compatible_label_sets",
+        "pairs": [],
+        "interpretation": "agreement_not_relevance_quality; independence_declared_requires_external_audit"
+      }
+    }
+  ],
+  "coverage_status": "COMPUTABLE_WITH_FROZEN_QUERY_POOLS; not quality",
+  "temporal_evaluation_status": "BLOCKED_NO_ASOF_METADATA_OR_VALID_TEMPORAL_SPLIT",
+  "actual_relevance_metrics": null,
+  "actual_agreement_summary": null,
+  "synthetic_metrics_are_real_quality": false
+}

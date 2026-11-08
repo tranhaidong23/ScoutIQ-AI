@@ -1,0 +1,3 @@
+# Preserve exact bytes of hash-frozen source and evidence across platforms.
+# Frozen historical files retain their existing terminal blank lines.
+* -text whitespace=cr-at-eol,-blank-at-eof

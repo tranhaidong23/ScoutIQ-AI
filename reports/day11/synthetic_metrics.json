@@ -1,0 +1,81 @@
+{
+  "warning": "SYNTHETIC; NOT real relevance or scouting quality",
+  "annotations": [
+    {
+      "scenario_id": "SYNTHETIC_math",
+      "player_id": 1,
+      "assessor_id": "SYNTHETIC_fixture",
+      "timestamp": "2026-11-03T00:00:00+00:00",
+      "relevance_grade": 3,
+      "evidence": "SYNTHETIC mathematical fixture, not a real player",
+      "notes": "No human assessor",
+      "label_source": "SYNTHETIC"
+    },
+    {
+      "scenario_id": "SYNTHETIC_math",
+      "player_id": 2,
+      "assessor_id": "SYNTHETIC_fixture",
+      "timestamp": "2026-11-03T00:00:00+00:00",
+      "relevance_grade": 2,
+      "evidence": "SYNTHETIC mathematical fixture, not a real player",
+      "notes": "No human assessor",
+      "label_source": "SYNTHETIC"
+    },
+    {
+      "scenario_id": "SYNTHETIC_math",
+      "player_id": 3,
+      "assessor_id": "SYNTHETIC_fixture",
+      "timestamp": "2026-11-03T00:00:00+00:00",
+      "relevance_grade": 0,
+      "evidence": "SYNTHETIC mathematical fixture, not a real player",
+      "notes": "No human assessor",
+      "label_source": "SYNTHETIC"
+    },
+    {
+      "scenario_id": "SYNTHETIC_math",
+      "player_id": 4,
+      "assessor_id": "SYNTHETIC_fixture",
+      "timestamp": "2026-11-03T00:00:00+00:00",
+      "relevance_grade": 1,
+      "evidence": "SYNTHETIC mathematical fixture, not a real player",
+      "notes": "No human assessor",
+      "label_source": "SYNTHETIC"
+    }
+  ],
+  "ranking": [
+    2,
+    3,
+    1
+  ],
+  "candidate_ids": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "assessment": {
+    "scenario_id": "SYNTHETIC_math",
+    "assessor_id": "SYNTHETIC_fixture",
+    "label_source": "SYNTHETIC",
+    "provenance_status": "declared_not_independently_verified",
+    "k": 3,
+    "returned_at_k": 3,
+    "candidate_count": 4,
+    "judged_count": 4,
+    "label_coverage": 1.0,
+    "complete_candidate_labels": true,
+    "relevant_threshold": 2,
+    "gain": "2**grade-1",
+    "metrics": {
+      "precision_at_k": 0.6666666666666666,
+      "recall_at_k": 1.0,
+      "ndcg_at_k": 0.6920202103528978
+    },
+    "unavailable_reasons": {
+      "precision_at_k": null,
+      "recall_at_k": null,
+      "ndcg_at_k": null
+    },
+    "interpretation": "SYNTHETIC_ONLY_NOT_SCOUTING_QUALITY"
+  }
+}

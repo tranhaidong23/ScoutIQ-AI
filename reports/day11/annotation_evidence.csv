@@ -1,0 +1,174 @@
+scenario_id,player_id,name,position,sub_position,age,minutes_played,market_value_in_eur,valuation_date,current_club_id,current_club_name,foot,goals_per90,assists_per90,evidence_scope
+young_low_budget_striker,685145,Filip Bundgaard,Attack,Centre-Forward,21,1597,2500000.0,2026-05-25,206,Bröndby IF,left,0.3944896681277395,0.0563556668753913,attack_output_and_role
+young_low_budget_striker,703772,Milan Smit,Attack,Centre-Forward,23,2133,2000000.0,2025-12-02,1435,Go Ahead Eagles,right,0.4219409282700422,0.0843881856540084,attack_output_and_role
+young_low_budget_striker,923838,Steve Ngoura,Attack,Centre-Forward,21,2093,5000000.0,2026-06-04,520,Cercle Brugge,right,0.3010033444816054,0.2150023889154323,attack_output_and_role
+young_low_budget_striker,818445,Milan Zonneveld,Attack,Centre-Forward,22,1319,450000.0,2026-05-28,468,Sparta Rotterdam,right,0.7505686125852918,0.2729340409401061,attack_output_and_role
+young_low_budget_striker,1360186,Barney Stewart,Attack,Centre-Forward,22,1430,1000000.0,2026-05-20,1191,Falkirk FC,right,0.6293706293706294,0.1258741258741259,attack_output_and_role
+young_low_budget_striker,1063292,Deniz Gül,Attack,Centre-Forward,21,1566,5000000.0,2026-05-28,720,FC Porto,right,0.3448275862068966,0.1149425287356321,attack_output_and_role
+young_low_budget_striker,1285174,Hyllarion Goore,Attack,Centre-Forward,20,1415,4000000.0,2026-06-04,157,KAA Gent,right,0.3180212014134275,0.254416961130742,attack_output_and_role
+young_low_budget_striker,885150,Carlos Paraco,Attack,Centre-Forward,22,2194,1500000.0,2026-06-02,3592,Kryvbas Kryvyi Rig,right,0.3281677301731996,0.1230628988149498,attack_output_and_role
+young_low_budget_striker,1067497,Vadym Sydun,Attack,Centre-Forward,21,2034,400000.0,2026-06-02,84122,Epicentr Kamyanets-Podilskyi,right,0.3539823008849557,0.0884955752212389,attack_output_and_role
+young_low_budget_striker,703657,Zachary Sapsford,Attack,Centre-Forward,23,2751,800000.0,2026-05-20,1519,Dundee United FC,right,0.3271537622682661,0.1308615049073064,attack_output_and_role
+young_low_budget_striker,931900,Gustavo Varela,Attack,Centre-Forward,21,1522,3000000.0,2026-05-28,2424,Gil Vicente FC,right,0.354796320630749,0.1773981603153745,attack_output_and_role
+young_low_budget_striker,467720,Youssoufa Moukoko,Attack,Centre-Forward,21,1586,5000000.0,2026-05-25,190,FC Copenhagen,left,0.5674653215636822,0.1134930643127364,attack_output_and_role
+young_low_budget_striker,1176295,Pape Moussa Fall,Attack,Centre-Forward,21,1772,3500000.0,2026-06-04,3901,RAAL La Louvière,right,0.5586907449209932,0.0507900677200902,attack_output_and_role
+young_low_budget_striker,1179658,Peter Itodo,Attack,Centre-Forward,22,2134,1800000.0,2026-06-02,55686,TOV FK Metalist 1925 Kharkiv,both,0.6326148078725399,0.0421743205248359,attack_output_and_role
+young_low_budget_striker,847279,Oumar Diakité,Attack,Centre-Forward,22,1522,5000000.0,2026-06-04,520,Cercle Brugge,right,0.4139290407358738,0.1182654402102496,attack_output_and_role
+young_low_budget_striker,670987,Tawanda Maswanhise,Attack,Centre-Forward,23,2738,5000000.0,2026-05-20,987,Motherwell FC,,0.6245434623813002,0.0657414170927684,attack_output_and_role
+young_low_budget_striker,845568,Marko Milovanović,Attack,Centre-Forward,22,1535,2500000.0,2026-05-28,2521,FC Alverca,right,0.5276872964169381,0.1172638436482084,attack_output_and_role
+young_low_budget_striker,514895,Alexander Lind,Attack,Centre-Forward,23,1345,5000000.0,2026-05-25,4172,Pisa Sporting Club,right,0.3345724907063197,0.2676579925650557,attack_output_and_role
+young_low_budget_striker,938388,Panagiotis Tsantilas,Attack,Centre-Forward,22,1442,500000.0,2026-06-04,3060,APS Atromitos Athinon,left,0.3744798890429958,0.0,attack_output_and_role
+young_low_budget_striker,1045187,Igor Krasnopir,Attack,Centre-Forward,23,1743,1500000.0,2026-06-02,85465,Karpaty Lviv,right,0.3614457831325301,0.2065404475043029,attack_output_and_role
+young_low_budget_striker,1122196,Aaron Bibout,Attack,Centre-Forward,21,1474,3500000.0,2026-06-04,1184,KRC Genk,,0.3663500678426051,0.0,attack_output_and_role
+young_low_budget_striker,1111025,Baboucarr Faal,Attack,Centre-Forward,23,2552,2500000.0,2026-06-02,85465,Karpaty Lviv,left,0.3879310344827586,0.1763322884012539,attack_output_and_role
+creative_midfielder,787305,Ivan Komarov,Midfield,Attacking Midfield,23,1493,1500000.0,2026-05-26,1083,FK Rostov,left,0.1205626255860683,0.2411252511721366,attack_output_and_role
+creative_midfielder,896234,Guillermo Balzi,Midfield,Attacking Midfield,24,1646,1000000.0,2026-06-04,2672,APO Levadiakos Football Club,left,0.3280680437424058,0.3280680437424058,attack_output_and_role
+creative_midfielder,485672,Elijah Just,Midfield,Attacking Midfield,26,2396,2500000.0,2026-05-20,987,Motherwell FC,left,0.2629382303839733,0.3005008347245409,attack_output_and_role
+creative_midfielder,652061,Adam Karabec,Midfield,Attacking Midfield,22,1399,7000000.0,2026-06-01,197,AC Sparta Prague,left,0.1929949964260185,0.1929949964260185,attack_output_and_role
+creative_midfielder,537854,Artem Bondarenko,Midfield,Attacking Midfield,25,2147,8000000.0,2026-06-02,660,FC Shakhtar Donetsk,left,0.167675826734979,0.2515137401024686,attack_output_and_role
+creative_midfielder,543302,Jeppe Erenbjerg,Midfield,Attacking Midfield,26,2776,4000000.0,2026-06-04,3508,Zulte Waregem,left,0.4214697406340058,0.1621037463976945,attack_output_and_role
+creative_midfielder,387106,Lovro Majer,Midfield,Attacking Midfield,28,1434,8000000.0,2026-05-27,82,VfL Wolfsburg,left,0.1882845188284518,0.3138075313807531,attack_output_and_role
+creative_midfielder,503638,Mohamed Ihattaren,Midfield,Attacking Midfield,24,2083,3000000.0,2026-05-28,385,Fortuna Sittardia Combinatie,left,0.2592414786365818,0.4752760441670667,attack_output_and_role
+creative_midfielder,351738,Lincoln,Midfield,Attacking Midfield,27,2435,3500000.0,2026-05-28,2521,FC Alverca,left,0.0739219712525667,0.1848049281314168,attack_output_and_role
+creative_midfielder,1175048,Robin van Cruijsen,Midfield,Attacking Midfield,20,1420,1200000.0,2026-05-28,724,FC Volendam,left,0.2535211267605634,0.1901408450704225,attack_output_and_role
+experienced_defender,640692,Oumar Sako,Defender,Centre-Back,30,2017,2500000.0,2026-05-26,1083,FK Rostov,right,,,context_profile_only
+experienced_defender,250450,Wessel Dammers,Defender,Centre-Back,31,2145,800000.0,2026-05-25,5724,Randers FC,right,,,context_profile_only
+experienced_defender,168408,Lubomir Satka,Defender,Centre-Back,30,2326,1500000.0,2026-05-21,152,Samsunspor,right,,,context_profile_only
+experienced_defender,292534,Eric Smith,Defender,Centre-Back,29,2636,5000000.0,2026-05-27,35,FC St. Pauli,right,,,context_profile_only
+experienced_defender,278296,Antonio Raíllo,Defender,Centre-Back,34,2070,1000000.0,2026-06-05,237,RCD Mallorca,right,,,context_profile_only
+experienced_defender,257376,Domingos Duarte,Defender,Centre-Back,31,2998,800000.0,2026-06-05,3709,Getafe CF,right,,,context_profile_only
+experienced_defender,323876,Thalisson,Defender,Centre-Back,28,2529,700000.0,2026-05-21,820,Gençlerbirliği Spor Kulübü,right,,,context_profile_only
+experienced_defender,187147,Hjörtur Hermannsson,Defender,Centre-Back,31,2299,400000.0,2026-06-04,60949,Volou Neos Podosferikos Syllogos,right,,,context_profile_only
+experienced_defender,187718,Clinton Mata,Defender,Centre-Back,33,3742,2500000.0,2026-06-01,1041,Olympique Lyon,right,,,context_profile_only
+experienced_defender,357884,Fernando Calero,Defender,Centre-Back,30,2240,2000000.0,2026-06-05,714,RCD Espanyol Barcelona,right,,,context_profile_only
+experienced_defender,357003,Martin Erlić,Defender,Centre-Back,28,2170,4000000.0,2026-05-25,865,FC Midtjylland,right,,,context_profile_only
+experienced_defender,338285,Unai Núñez,Defender,Centre-Back,29,2267,3500000.0,2026-06-05,276,Hellas Verona,right,,,context_profile_only
+experienced_defender,257986,Damon Mirani,Defender,Centre-Back,30,3218,450000.0,2026-05-28,1304,Heracles Almelo,right,,,context_profile_only
+experienced_defender,227538,Igor Vujacic,Defender,Centre-Back,31,2582,2800000.0,2026-05-26,2698,FC Rubin Kazan,right,,,context_profile_only
+experienced_defender,149525,Antonio Caracciolo,Defender,Centre-Back,35,3165,800000.0,2026-05-29,4172,Pisa Sporting Club,right,,,context_profile_only
+experienced_defender,351955,Federico Baschirotto,Defender,Centre-Back,29,2631,3500000.0,2026-05-29,2239,US Cremonese,right,,,context_profile_only
+experienced_defender,253817,Craig Halkett,Defender,Centre-Back,31,2361,500000.0,2026-05-20,43,Heart of Midlothian FC,right,,,context_profile_only
+experienced_defender,112948,Jakub Brabec,Defender,Centre-Back,33,2240,400000.0,2026-05-28,2425,Rio Ave FC,right,,,context_profile_only
+experienced_defender,235767,John Souttar,Defender,Centre-Back,29,2884,2000000.0,2026-05-20,124,Rangers FC,right,,,context_profile_only
+experienced_defender,448471,Magnus Jensen,Defender,Centre-Back,29,2160,700000.0,2026-05-25,5817,Sönderjyske Fodbold,right,,,context_profile_only
+experienced_defender,165513,Berat Djimsiti,Defender,Centre-Back,33,3498,4000000.0,2026-05-29,800,Atalanta BC,right,,,context_profile_only
+experienced_defender,250844,Alexander Djiku,Defender,Centre-Back,31,2172,3500000.0,2026-05-26,232,FK Spartak Moskva,right,,,context_profile_only
+experienced_defender,163847,Eli Dasa,Defender,Centre-Back,33,2113,700000.0,2026-05-28,467,NEC Nijmegen,right,,,context_profile_only
+experienced_defender,276111,David Costas,Defender,Centre-Back,31,2064,1200000.0,2026-06-05,2497,Real Oviedo,right,,,context_profile_only
+experienced_defender,236168,Brandon Mechele,Defender,Centre-Back,33,4783,2800000.0,2026-06-04,2282,Club Brugge KV,right,,,context_profile_only
+experienced_defender,430797,Sam Kersten,Defender,Centre-Back,28,2697,2000000.0,2026-05-28,306,SC Heerenveen,right,,,context_profile_only
+experienced_defender,85906,Danny da Costa,Defender,Centre-Back,32,2968,1200000.0,2026-05-27,39,1.FSV Mainz 05,right,,,context_profile_only
+experienced_defender,133731,Patrick Mainka,Defender,Centre-Back,31,3240,2500000.0,2026-05-27,2036,1. Fußballclub Heidenheim 1846,right,,,context_profile_only
+experienced_defender,124502,Matthias Ginter,Defender,Centre-Back,32,4606,5000000.0,2026-05-27,60,SC Freiburg,right,,,context_profile_only
+experienced_defender,187908,Hugo Sousa,Defender,Centre-Back,34,2218,150000.0,2026-06-04,30120,Athlitiki Enosi Kifisias,right,,,context_profile_only
+experienced_defender,265542,Semih Güler,Defender,Centre-Back,31,2141,800000.0,2026-05-21,2832,Gaziantep FK,right,,,context_profile_only
+experienced_defender,325222,Zan Zuzek,Defender,Centre-Back,29,2744,700000.0,2026-05-21,820,Gençlerbirliği Spor Kulübü,right,,,context_profile_only
+experienced_defender,244221,Christian Burgess,Defender,Centre-Back,34,3957,1800000.0,2026-06-04,3948,Union Saint-Gilloise,right,,,context_profile_only
+experienced_defender,242758,Giannis Kargas,Defender,Centre-Back,31,2241,250000.0,2026-06-04,60949,Volou Neos Podosferikos Syllogos,right,,,context_profile_only
+experienced_defender,307870,Shogo Taniguchi,Defender,Centre-Back,34,2955,750000.0,2026-06-04,475,Sint-Truidense VV,right,,,context_profile_only
+experienced_defender,160736,Noë Dussenne,Defender,Centre-Back,34,2237,300000.0,2026-06-04,2727,Oud-Heverlee Leuven,right,,,context_profile_only
+experienced_defender,293829,Maksim Osipenko,Defender,Centre-Back,32,2314,3000000.0,2026-05-26,121,FK Dinamo Moskva,right,,,context_profile_only
+experienced_defender,182894,Jean-Philippe Gbamin,Defender,Centre-Back,30,2518,2000000.0,2026-06-01,347,FC Metz,right,,,context_profile_only
+experienced_defender,836441,Gaspar,Defender,Centre-Back,28,2168,3000000.0,2026-05-29,1005,US Lecce,right,,,context_profile_only
+experienced_defender,160986,Matteo Bianchetti,Defender,Centre-Back,33,2287,800000.0,2026-05-29,2239,US Cremonese,right,,,context_profile_only
+experienced_defender,289446,Yerry Mina,Defender,Centre-Back,31,2243,2500000.0,2026-05-29,1390,Cagliari Calcio,right,,,context_profile_only
+experienced_defender,463133,Wagane Faye,Defender,Centre-Back,32,2304,400000.0,2026-06-04,3901,RAAL La Louvière,right,,,context_profile_only
+experienced_defender,249730,Guillermo Maripán,Defender,Centre-Back,32,2194,2000000.0,2026-05-29,416,Torino FC,right,,,context_profile_only
+experienced_defender,358143,Chidozie Awaziem,Defender,Centre-Back,29,2283,2500000.0,2026-06-01,995,FC Nantes,right,,,context_profile_only
+experienced_defender,335744,Miguel Campos,Defender,Centre-Back,29,2082,800000.0,2026-06-02,18303,FC Oleksandriya,right,,,context_profile_only
+experienced_defender,428302,Anfernee Dijksteel,Defender,Centre-Back,29,2687,1200000.0,2026-05-21,120,Kocaelispor,right,,,context_profile_only
+experienced_defender,118847,Dominik Kohr,Defender,Centre-Back,32,2635,2000000.0,2026-05-27,39,1.FSV Mainz 05,right,,,context_profile_only
+experienced_defender,92947,Sergi Gómez,Defender,Centre-Back,34,2494,300000.0,2026-05-28,2521,FC Alverca,right,,,context_profile_only
+experienced_defender,435228,Ardian Ismajli,Defender,Centre-Back,29,2067,5000000.0,2026-05-29,416,Torino FC,right,,,context_profile_only
+experienced_defender,225393,Alex Gogic,Defender,Centre-Back,32,3143,200000.0,2026-05-20,465,St. Mirren FC,right,,,context_profile_only
+experienced_defender,282199,Erik Palmer-Brown,Defender,Centre-Back,29,2365,1500000.0,2026-06-04,265,Panathinaikos Athlitikos Omilos,right,,,context_profile_only
+experienced_defender,99922,Marc Bartra,Defender,Centre-Back,35,2496,900000.0,2026-06-05,150,Real Betis Balompié,right,,,context_profile_only
+experienced_defender,191829,Dimitrios Goutas,Defender,Centre-Back,32,2907,800000.0,2026-05-21,820,Gençlerbirliği Spor Kulübü,right,,,context_profile_only
+experienced_defender,657155,Sidney Lima,Defender,Centre-Back,29,3438,3500000.0,2026-05-28,2423,CD Santa Clara,right,,,context_profile_only
+experienced_defender,406151,Zé Pedro,Defender,Centre-Back,29,2093,3000000.0,2026-05-29,1390,Cagliari Calcio,right,,,context_profile_only
+experienced_defender,238266,Duje Caleta-Car,Defender,Centre-Back,29,2629,2800000.0,2026-06-05,681,Real Sociedad,right,,,context_profile_only
+experienced_defender,80293,Aïssa Mandi,Defender,Centre-Back,34,3698,1000000.0,2026-06-01,1082,LOSC Lille,right,,,context_profile_only
+experienced_defender,148153,Lewis Dunk,Defender,Centre-Back,34,2927,3500000.0,2026-06-03,1237,Brighton & Hove Albion,right,,,context_profile_only
+experienced_defender,449796,Alejandro Catena,Defender,Centre-Back,31,3249,2600000.0,2026-06-05,331,CA Osasuna,right,,,context_profile_only
+experienced_defender,118534,Michael Keane,Defender,Centre-Back,33,2770,3000000.0,2026-06-03,29,Everton FC,right,,,context_profile_only
+experienced_defender,144244,Pantelis Hatzidiakos,Defender,Centre-Back,29,2893,3000000.0,2026-05-25,190,FC Copenhagen,right,,,context_profile_only
+experienced_defender,258987,Carl Starfelt,Defender,Centre-Back,31,2394,4500000.0,2026-06-05,940,Celta de Vigo,right,,,context_profile_only
+experienced_defender,246291,Diego Llorente,Defender,Centre-Back,32,2192,2500000.0,2026-06-05,150,Real Betis Balompié,right,,,context_profile_only
+experienced_defender,312678,Léo Duarte,Defender,Centre-Back,29,2710,2500000.0,2026-05-21,330,Clube Atlético Mineiro,right,,,context_profile_only
+experienced_defender,277384,Martin Valjent,Defender,Centre-Back,30,3362,3000000.0,2026-06-05,237,RCD Mallorca,right,,,context_profile_only
+experienced_defender,127108,Florian Lejeune,Defender,Centre-Back,35,3608,1800000.0,2026-06-05,367,Rayo Vallecano,right,,,context_profile_only
+experienced_defender,187105,Mike van der Hoorn,Defender,Centre-Back,33,3290,750000.0,2026-05-28,200,FC Utrecht,right,,,context_profile_only
+experienced_defender,169681,Frederico Venâncio,Defender,Centre-Back,33,2082,300000.0,2026-05-28,2423,CD Santa Clara,right,,,context_profile_only
+experienced_defender,296227,Iván Márquez,Defender,Centre-Back,32,2592,450000.0,2026-05-28,385,Fortuna Sittardia Combinatie,right,,,context_profile_only
+experienced_defender,245021,Sergiy Chobotenko,Defender,Centre-Back,29,2610,1500000.0,2026-06-02,53646,FK Polissya Zhytomyr,right,,,context_profile_only
+experienced_defender,329145,Diego Carlos,Defender,Centre-Back,33,2308,5000000.0,2026-05-29,1047,Como 1907,right,,,context_profile_only
+experienced_defender,322293,Felix Beijmo,Defender,Centre-Back,28,2428,3000000.0,2026-05-25,678,Aarhus GF,right,,,context_profile_only
+experienced_defender,154147,Hauke Wahl,Defender,Centre-Back,32,2921,1500000.0,2026-05-27,35,FC St. Pauli,right,,,context_profile_only
+experienced_defender,402970,Dimitrios Stavropoulos,Defender,Centre-Back,29,2654,600000.0,2026-06-04,3060,APS Atromitos Athinon,right,,,context_profile_only
+experienced_defender,235339,Dmitriy Chistyakov,Defender,Centre-Back,32,2222,750000.0,2026-05-26,1083,FK Rostov,right,,,context_profile_only
+experienced_defender,340460,Philippe Sandler,Defender,Centre-Back,29,2123,2000000.0,2026-05-28,467,NEC Nijmegen,right,,,context_profile_only
+experienced_defender,81512,Christian Kabasele,Defender,Centre-Back,35,2321,750000.0,2026-05-29,410,Udinese Calcio,right,,,context_profile_only
+experienced_defender,137313,Buatu,Defender,Centre-Back,32,2925,600000.0,2026-05-28,2424,Gil Vicente FC,right,,,context_profile_only
+experienced_defender,221150,Dakonam Djené,Defender,Centre-Back,34,2585,1400000.0,2026-06-05,3709,Getafe CF,right,,,context_profile_only
+experienced_defender,93740,Willi Orbán,Defender,Centre-Back,33,3310,5000000.0,2026-05-27,23826,RB Leipzig,right,,,context_profile_only
+experienced_defender,249639,Yevgen Misyura,Defender,Centre-Back,32,2034,150000.0,2026-06-02,81401,SC Poltava,right,,,context_profile_only
+experienced_defender,203348,Chancel Mbemba,Defender,Centre-Back,31,2047,2000000.0,2026-06-01,1082,LOSC Lille,right,,,context_profile_only
+experienced_defender,250779,Brendan Chardonnet,Defender,Centre-Back,31,2547,4000000.0,2026-06-01,3911,Stade Brestois 29,right,,,context_profile_only
+experienced_defender,170720,Mawouna Amevor,Defender,Centre-Back,34,2966,200000.0,2026-05-28,724,FC Volendam,right,,,context_profile_only
+experienced_defender,396516,Nicholas Opoku,Defender,Centre-Back,28,2432,1500000.0,2026-05-21,10484,Kasimpasa,right,,,context_profile_only
+experienced_defender,335209,Kevin Diks,Defender,Centre-Back,29,2688,5000000.0,2026-05-27,18,Borussia Mönchengladbach,right,,,context_profile_only
+experienced_defender,214238,Nikita Chernov,Defender,Centre-Back,30,2067,1500000.0,2026-05-26,2696,PFK Krylya Sovetov Samara,right,,,context_profile_only
+experienced_defender,354173,Adil Demirbağ,Defender,Centre-Back,28,2088,3000000.0,2026-05-21,2293,Konyaspor,right,,,context_profile_only
+experienced_defender,137648,Sverrir Ingi Ingason,Defender,Centre-Back,32,2374,1800000.0,2026-06-04,265,Panathinaikos Athlitikos Omilos,right,,,context_profile_only
+experienced_defender,274694,Ionuț Nedelcearu,Defender,Centre-Back,30,2385,1500000.0,2026-05-26,71985,Akron Togliatti,right,,,context_profile_only
+experienced_defender,393858,Aleksandr Soldatenkov,Defender,Centre-Back,29,2532,2000000.0,2026-05-26,2696,PFK Krylya Sovetov Samara,right,,,context_profile_only
+experienced_defender,373187,Maracás,Defender,Centre-Back,32,2594,700000.0,2026-05-28,979,Moreirense FC,right,,,context_profile_only
+experienced_defender,295024,Samet Akaydin,Defender,Centre-Back,32,2571,1200000.0,2026-05-21,126,Caykur Rizespor,right,,,context_profile_only
+experienced_defender,173504,James Tarkowski,Defender,Centre-Back,33,3630,5000000.0,2026-06-03,29,Everton FC,right,,,context_profile_only
+budget_goalkeeper,225360,Raphael Sallinger,Goalkeeper,Goalkeeper,30,2700,450000.0,2026-05-20,903,Hibernian FC,right,,,context_profile_only
+budget_goalkeeper,576566,Zafer Görgen,Goalkeeper,Goalkeeper,25,1800,800000.0,2026-05-21,2832,Gaziantep FK,right,,,context_profile_only
+budget_goalkeeper,567668,Nikolaos Christogeorgos,Goalkeeper,Goalkeeper,26,2183,1000000.0,2026-06-04,653,Omilos Filathlon Irakliou FC,right,,,context_profile_only
+budget_goalkeeper,393686,Tobias Lawal,Goalkeeper,Goalkeeper,26,2370,2000000.0,2026-06-04,1184,KRC Genk,right,,,context_profile_only
+budget_goalkeeper,284430,Aarón Escandell,Goalkeeper,Goalkeeper,30,3240,3000000.0,2026-06-05,2497,Real Oviedo,right,,,context_profile_only
+budget_goalkeeper,345437,Mateusz Lis,Goalkeeper,Goalkeeper,29,3060,2500000.0,2026-05-21,1467,Göztepe,right,,,context_profile_only
+budget_goalkeeper,964590,Kaique Pereira,Goalkeeper,Goalkeeper,23,2520,2000000.0,2026-05-28,1023,Sociedade Esportiva Palmeiras,right,,,context_profile_only
+budget_goalkeeper,729638,Oleksandr Kemkin,Goalkeeper,Goalkeeper,23,2266,1000000.0,2026-06-02,3592,Kryvbas Kryvyi Rig,right,,,context_profile_only
+budget_goalkeeper,464373,Elías Ólafsson,Goalkeeper,Goalkeeper,26,3182,3000000.0,2026-05-25,865,FC Midtjylland,right,,,context_profile_only
+budget_goalkeeper,903223,Martin Delavallée,Goalkeeper,Goalkeeper,22,2100,1500000.0,2026-06-04,172,Royal Charleroi Sporting Club,right,,,context_profile_only
+budget_goalkeeper,526448,Maksim Borisko,Goalkeeper,Goalkeeper,26,2070,2000000.0,2026-05-26,2741,FK Baltika,right,,,context_profile_only
+budget_goalkeeper,290346,André Ferreira,Goalkeeper,Goalkeeper,30,1980,600000.0,2026-05-28,979,Moreirense FC,right,,,context_profile_only
+budget_goalkeeper,463233,Daniel Bielica,Goalkeeper,Goalkeeper,27,2970,800000.0,2026-05-28,132,NAC Breda,right,,,context_profile_only
+budget_goalkeeper,936008,Oleksandr Saputin,Goalkeeper,Goalkeeper,22,2070,900000.0,2026-06-02,10690,Zorya Lugansk,right,,,context_profile_only
+budget_goalkeeper,655135,Calum Ward,Goalkeeper,Goalkeeper,25,2970,800000.0,2026-05-20,987,Motherwell FC,right,,,context_profile_only
+budget_goalkeeper,403564,Jon McCracken,Goalkeeper,Goalkeeper,26,3180,500000.0,2026-05-20,511,Dundee FC,right,,,context_profile_only
+budget_goalkeeper,357117,Alban Lafont,Goalkeeper,Goalkeeper,27,2865,3000000.0,2026-06-04,265,Panathinaikos Athlitikos Omilos,right,,,context_profile_only
+budget_goalkeeper,162101,Andreas Hansen,Goalkeeper,Goalkeeper,30,1920,1000000.0,2026-05-25,2778,FC Nordsjaelland,right,,,context_profile_only
+budget_goalkeeper,388359,Bahadır Güngördü,Goalkeeper,Goalkeeper,30,1980,700000.0,2026-05-21,2293,Konyaspor,right,,,context_profile_only
+budget_goalkeeper,717394,Yuriy-Volodymyr Gereta,Goalkeeper,Goalkeeper,22,2520,400000.0,2026-06-02,48726,Rukh Lviv,right,,,context_profile_only
+budget_goalkeeper,337290,Shamal George,Goalkeeper,Goalkeeper,28,3218,300000.0,2026-05-20,465,St. Mirren FC,right,,,context_profile_only
+budget_goalkeeper,256339,Emil Audero,Goalkeeper,Goalkeeper,29,3150,2800000.0,2026-05-29,2239,US Cremonese,right,,,context_profile_only
+budget_goalkeeper,226073,Ivo Grbic,Goalkeeper,Goalkeeper,30,2880,1000000.0,2026-05-21,6646,Fatih Karagümrük,right,,,context_profile_only
+budget_goalkeeper,450233,Moisés Ramírez,Goalkeeper,Goalkeeper,25,1980,800000.0,2026-06-04,30120,Athlitiki Enosi Kifisias,right,,,context_profile_only
+budget_goalkeeper,1083190,Ivan Pakholyuk,Goalkeeper,Goalkeeper,22,2430,1000000.0,2026-06-02,48332,Kolos Kovalivka,right,,,context_profile_only
+budget_goalkeeper,678503,Danylo Varakuta,Goalkeeper,Goalkeeper,24,2880,800000.0,2026-06-02,55686,TOV FK Metalist 1925 Kharkiv,right,,,context_profile_only
+budget_goalkeeper,918827,Aleksandr Degtev,Goalkeeper,Goalkeeper,21,1800,800000.0,2026-05-26,41231,FK Sochi,right,,,context_profile_only
+budget_goalkeeper,389624,Evgeniy Staver,Goalkeeper,Goalkeeper,28,2700,2500000.0,2026-05-26,2698,FC Rubin Kazan,right,,,context_profile_only
+budget_goalkeeper,725816,Bernt Klaverboer,Goalkeeper,Goalkeeper,20,2880,3000000.0,2026-05-28,306,SC Heerenveen,right,,,context_profile_only
+budget_goalkeeper,390304,Federico Ravaglia,Goalkeeper,Goalkeeper,26,2219,1800000.0,2026-05-29,1025,Bologna Football Club 1909,right,,,context_profile_only
+budget_goalkeeper,250543,Nordin Jackers,Goalkeeper,Goalkeeper,28,2322,1200000.0,2026-06-04,2282,Club Brugge KV,right,,,context_profile_only
+budget_goalkeeper,317057,Adrian Semper,Goalkeeper,Goalkeeper,28,2340,1800000.0,2026-05-29,4172,Pisa Sporting Club,right,,,context_profile_only
+budget_goalkeeper,204189,Okan Kocuk,Goalkeeper,Goalkeeper,30,2970,2000000.0,2026-05-21,152,Samsunspor,right,,,context_profile_only
+budget_goalkeeper,790669,Kayne van Oevelen,Goalkeeper,Goalkeeper,22,2941,2000000.0,2026-05-28,724,FC Volendam,right,,,context_profile_only
+budget_goalkeeper,241923,Lorenzo Montipò,Goalkeeper,Goalkeeper,30,3240,1200000.0,2026-05-29,276,Hellas Verona,right,,,context_profile_only
+budget_goalkeeper,527026,Ricardo Velho,Goalkeeper,Goalkeeper,27,2070,3000000.0,2026-05-21,820,Gençlerbirliği Spor Kulübü,right,,,context_profile_only
+budget_goalkeeper,457979,Lucas Lund,Goalkeeper,Goalkeeper,26,2550,2000000.0,2026-05-25,1063,Viborg FF,right,,,context_profile_only
+budget_goalkeeper,424022,Rustam Yatimov,Goalkeeper,Goalkeeper,27,2655,2000000.0,2026-05-26,1083,FK Rostov,right,,,context_profile_only
+budget_goalkeeper,387197,Etienne Vaessen,Goalkeeper,Goalkeeper,30,2598,2500000.0,2026-05-28,202,FC Groningen,right,,,context_profile_only
+budget_goalkeeper,264302,Dimitar Mitov,Goalkeeper,Goalkeeper,29,2970,800000.0,2026-05-20,370,Aberdeen FC,right,,,context_profile_only
+budget_goalkeeper,534477,Bogdan Ovsyannikov,Goalkeeper,Goalkeeper,27,2610,900000.0,2026-05-26,14589,FC Orenburg,right,,,context_profile_only
+budget_goalkeeper,338665,Brent Gabriël,Goalkeeper,Goalkeeper,27,3240,1000000.0,2026-06-04,3508,Zulte Waregem,right,,,context_profile_only
+budget_goalkeeper,341535,Igor Vekic,Goalkeeper,Goalkeeper,28,2070,500000.0,2026-05-25,443,Vejle Boldklub,right,,,context_profile_only
+budget_goalkeeper,361032,Bilal Bayazıt,Goalkeeper,Goalkeeper,27,2520,1800000.0,2026-05-21,3205,Kayserispor,right,,,context_profile_only
+budget_goalkeeper,451244,David Volk,Goalkeeper,Goalkeeper,25,1890,900000.0,2026-05-26,75231,Dinamo Makhachkala,right,,,context_profile_only
+budget_goalkeeper,360338,Marcos Peano,Goalkeeper,Goalkeeper,27,3060,2000000.0,2026-06-04,3901,RAAL La Louvière,right,,,context_profile_only
+budget_goalkeeper,449084,Oleg Bilyk,Goalkeeper,Goalkeeper,28,2340,400000.0,2026-06-02,84122,Epicentr Kamyanets-Podilskyi,right,,,context_profile_only

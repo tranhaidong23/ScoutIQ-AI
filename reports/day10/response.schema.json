@@ -1,0 +1,1202 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "scoutiq.service.v1"
+    },
+    "status": {
+      "enum": [
+        "ok",
+        "no_candidates",
+        "zero_reference_vector"
+      ]
+    },
+    "request": {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "type": "object",
+      "properties": {
+        "reference_player_id": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "filters": {
+          "type": "object",
+          "properties": {
+            "position": {
+              "enum": [
+                "Attack",
+                "Midfield",
+                "Defender",
+                "Goalkeeper"
+              ]
+            },
+            "min_age": {
+              "type": "number",
+              "minimum": 0
+            },
+            "max_age": {
+              "type": "number",
+              "minimum": 0
+            },
+            "max_budget_eur": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "min_minutes": {
+              "type": "number",
+              "minimum": 0
+            },
+            "budget_value": {
+              "type": "number",
+              "minimum": 0
+            },
+            "budget_unit": {
+              "enum": [
+                "EUR",
+                "EUR_million"
+              ]
+            },
+            "sub_positions": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "uniqueItems": true
+            },
+            "min_goals_per90": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "min_assists_per90": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "preferred_foot": {
+              "enum": [
+                "left",
+                "right",
+                "both",
+                null
+              ]
+            },
+            "foot_mode": {
+              "enum": [
+                "hard",
+                "soft"
+              ]
+            },
+            "excluded_club_ids": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "position"
+          ],
+          "additionalProperties": false
+        },
+        "method": {
+          "enum": [
+            "cosine",
+            "weighted_cosine",
+            "knn_cosine",
+            "knn_weighted_cosine"
+          ]
+        },
+        "top_k": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "include_comparison": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "reference_player_id",
+        "filters",
+        "method",
+        "top_k",
+        "include_comparison"
+      ],
+      "additionalProperties": false
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "method": {
+          "enum": [
+            "cosine",
+            "weighted_cosine",
+            "knn_cosine",
+            "knn_weighted_cosine"
+          ]
+        },
+        "filters": {
+          "type": "object"
+        },
+        "candidate_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "rankable_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "returned_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "top_k": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "dataset": {
+          "type": "object",
+          "properties": {
+            "version": {
+              "type": "string"
+            },
+            "content_sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            },
+            "csv_sha256": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^[a-f0-9]{64}$"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "rows": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "columns": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "season": {
+              "const": "2025/26"
+            },
+            "cutoff": {
+              "const": "2026-06-12"
+            },
+            "source": {
+              "const": "Transfermarkt"
+            }
+          },
+          "required": [
+            "version",
+            "content_sha256",
+            "csv_sha256",
+            "rows",
+            "columns",
+            "season",
+            "cutoff",
+            "source"
+          ],
+          "additionalProperties": false
+        },
+        "configuration_id": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "method",
+        "filters",
+        "candidate_count",
+        "rankable_count",
+        "returned_count",
+        "top_k",
+        "dataset",
+        "configuration_id",
+        "limitations"
+      ],
+      "additionalProperties": false
+    },
+    "explanation": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "scoutiq.explanation.v1"
+        },
+        "cutoff": {
+          "type": "string"
+        },
+        "season": {
+          "const": "2025/26"
+        },
+        "recommendation": {
+          "type": "object",
+          "properties": {
+            "reference": {
+              "type": "object",
+              "properties": {
+                "player_id": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "name": {
+                  "type": "string"
+                },
+                "position": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "player_id",
+                "name",
+                "position"
+              ],
+              "additionalProperties": false
+            },
+            "results": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "player_id": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "position": {
+                    "enum": [
+                      "Attack",
+                      "Midfield",
+                      "Defender",
+                      "Goalkeeper"
+                    ]
+                  },
+                  "rank": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "similarity_score": {
+                    "type": "number",
+                    "minimum": -1,
+                    "maximum": 1
+                  },
+                  "age": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "minutes_played": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "market_value_in_eur": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "cosine_components": {
+                    "type": "object",
+                    "additionalProperties": {
+                      "type": "number"
+                    }
+                  },
+                  "evidence": {
+                    "type": "object",
+                    "additionalProperties": {
+                      "type": "object",
+                      "properties": {
+                        "candidate": {},
+                        "reference": {}
+                      },
+                      "required": [
+                        "candidate",
+                        "reference"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "constraint_evidence": {
+                    "type": "object"
+                  },
+                  "soft_preference_match": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "player_id",
+                  "name",
+                  "position",
+                  "rank",
+                  "similarity_score",
+                  "age",
+                  "minutes_played",
+                  "market_value_in_eur",
+                  "cosine_components",
+                  "evidence",
+                  "constraint_evidence",
+                  "soft_preference_match"
+                ],
+                "additionalProperties": true
+              }
+            },
+            "status": {
+              "enum": [
+                "ok",
+                "no_candidates",
+                "zero_reference_vector"
+              ]
+            },
+            "eligible_count": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "excluded_zero_vectors": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "top_k_requested": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "cutoff": {
+              "type": "string"
+            },
+            "search_constraints": {
+              "type": "object"
+            },
+            "filter_audit": {
+              "type": "object",
+              "properties": {
+                "after_hard_constraints": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "catalogue_before": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "stages": {
+                  "type": "array",
+                  "items": {
+                    "type": "object"
+                  }
+                }
+              },
+              "required": [
+                "after_hard_constraints",
+                "catalogue_before",
+                "stages"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "reference",
+            "results",
+            "status",
+            "eligible_count",
+            "excluded_zero_vectors",
+            "top_k_requested",
+            "cutoff",
+            "search_constraints",
+            "filter_audit"
+          ],
+          "additionalProperties": true
+        },
+        "reference": {
+          "type": "object",
+          "properties": {
+            "values": {
+              "type": "object",
+              "properties": {
+                "player_id": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "name": {
+                  "type": "string"
+                },
+                "position": {
+                  "enum": [
+                    "Attack",
+                    "Midfield",
+                    "Defender",
+                    "Goalkeeper"
+                  ]
+                },
+                "age": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "minutes_played": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "market_value_in_eur": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "foot": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "sub_position": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "valuation_date": {
+                  "type": "string"
+                },
+                "current_club_id": {
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                },
+                "current_club_name": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "club_name_verified": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "player_id",
+                "name",
+                "position",
+                "age",
+                "minutes_played",
+                "market_value_in_eur",
+                "foot",
+                "sub_position",
+                "valuation_date",
+                "current_club_id",
+                "current_club_name",
+                "club_name_verified"
+              ],
+              "additionalProperties": false
+            },
+            "missing_fields": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "units": {
+              "type": "object"
+            }
+          },
+          "required": [
+            "values",
+            "missing_fields",
+            "units"
+          ],
+          "additionalProperties": false
+        },
+        "explanations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "evidence": {
+                "type": "object",
+                "properties": {
+                  "rank": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "candidate": {
+                    "type": "object",
+                    "properties": {
+                      "values": {
+                        "type": "object",
+                        "properties": {
+                          "player_id": {
+                            "type": "integer",
+                            "minimum": 1
+                          },
+                          "name": {
+                            "type": "string"
+                          },
+                          "position": {
+                            "enum": [
+                              "Attack",
+                              "Midfield",
+                              "Defender",
+                              "Goalkeeper"
+                            ]
+                          },
+                          "age": {
+                            "type": "number",
+                            "minimum": 0
+                          },
+                          "minutes_played": {
+                            "type": "number",
+                            "minimum": 0
+                          },
+                          "market_value_in_eur": {
+                            "type": "number",
+                            "minimum": 0
+                          },
+                          "foot": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "sub_position": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "valuation_date": {
+                            "type": "string"
+                          },
+                          "current_club_id": {
+                            "type": [
+                              "number",
+                              "null"
+                            ]
+                          },
+                          "current_club_name": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "club_name_verified": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "player_id",
+                          "name",
+                          "position",
+                          "age",
+                          "minutes_played",
+                          "market_value_in_eur",
+                          "foot",
+                          "sub_position",
+                          "valuation_date",
+                          "current_club_id",
+                          "current_club_name",
+                          "club_name_verified"
+                        ],
+                        "additionalProperties": false
+                      },
+                      "missing_fields": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "units": {
+                        "type": "object"
+                      }
+                    },
+                    "required": [
+                      "values",
+                      "missing_fields",
+                      "units"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "reference": {
+                    "type": "object",
+                    "properties": {
+                      "values": {
+                        "type": "object",
+                        "properties": {
+                          "player_id": {
+                            "type": "integer",
+                            "minimum": 1
+                          },
+                          "name": {
+                            "type": "string"
+                          },
+                          "position": {
+                            "enum": [
+                              "Attack",
+                              "Midfield",
+                              "Defender",
+                              "Goalkeeper"
+                            ]
+                          },
+                          "age": {
+                            "type": "number",
+                            "minimum": 0
+                          },
+                          "minutes_played": {
+                            "type": "number",
+                            "minimum": 0
+                          },
+                          "market_value_in_eur": {
+                            "type": "number",
+                            "minimum": 0
+                          },
+                          "foot": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "sub_position": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "valuation_date": {
+                            "type": "string"
+                          },
+                          "current_club_id": {
+                            "type": [
+                              "number",
+                              "null"
+                            ]
+                          },
+                          "current_club_name": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "club_name_verified": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "player_id",
+                          "name",
+                          "position",
+                          "age",
+                          "minutes_played",
+                          "market_value_in_eur",
+                          "foot",
+                          "sub_position",
+                          "valuation_date",
+                          "current_club_id",
+                          "current_club_name",
+                          "club_name_verified"
+                        ],
+                        "additionalProperties": false
+                      },
+                      "missing_fields": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "units": {
+                        "type": "object"
+                      }
+                    },
+                    "required": [
+                      "values",
+                      "missing_fields",
+                      "units"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "similarity": {
+                    "type": "object",
+                    "properties": {
+                      "score": {
+                        "type": "number",
+                        "minimum": -1,
+                        "maximum": 1
+                      },
+                      "method": {
+                        "enum": [
+                          "cosine",
+                          "weighted_cosine"
+                        ]
+                      },
+                      "retrieval": {
+                        "enum": [
+                          "direct",
+                          "sklearn_knn_cosine"
+                        ]
+                      },
+                      "unit": {
+                        "const": "dimensionless"
+                      },
+                      "range": {
+                        "const": [
+                          -1,
+                          1
+                        ]
+                      },
+                      "component_sum": {
+                        "type": "number"
+                      },
+                      "is_probability": {
+                        "const": false
+                      }
+                    },
+                    "required": [
+                      "score",
+                      "method",
+                      "retrieval",
+                      "unit",
+                      "range",
+                      "component_sum",
+                      "is_probability"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "selected_features": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "feature": {
+                          "type": "string"
+                        },
+                        "source_column": {
+                          "type": "string"
+                        },
+                        "unit": {
+                          "type": "string"
+                        },
+                        "kind": {
+                          "enum": [
+                            "numeric",
+                            "categorical"
+                          ]
+                        },
+                        "candidate_value": {},
+                        "reference_value": {},
+                        "weight": {
+                          "type": "number",
+                          "minimum": 0
+                        },
+                        "cosine_component_sum": {
+                          "type": "number"
+                        },
+                        "encoded_components": {
+                          "type": "object",
+                          "additionalProperties": {
+                            "type": "number"
+                          }
+                        }
+                      },
+                      "required": [
+                        "feature",
+                        "source_column",
+                        "unit",
+                        "kind",
+                        "candidate_value",
+                        "reference_value",
+                        "weight",
+                        "cosine_component_sum",
+                        "encoded_components"
+                      ],
+                      "additionalProperties": true
+                    },
+                    "minItems": 1
+                  },
+                  "hard_constraints": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "field": {
+                          "type": "string"
+                        },
+                        "operation": {
+                          "type": "string"
+                        },
+                        "required": {},
+                        "observed": {},
+                        "passed": {
+                          "const": true
+                        },
+                        "unit": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "field",
+                        "operation",
+                        "required",
+                        "observed",
+                        "passed",
+                        "unit"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "minItems": 1
+                  },
+                  "soft_preference": {
+                    "type": [
+                      "object",
+                      "null"
+                    ]
+                  },
+                  "scope": {
+                    "type": "string"
+                  },
+                  "position_limitation": {
+                    "type": "string"
+                  },
+                  "limitations": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "required": [
+                  "rank",
+                  "candidate",
+                  "reference",
+                  "similarity",
+                  "selected_features",
+                  "hard_constraints",
+                  "soft_preference",
+                  "scope",
+                  "position_limitation",
+                  "limitations"
+                ],
+                "additionalProperties": false
+              },
+              "text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "evidence",
+              "text"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "status": {
+          "enum": [
+            "ok",
+            "no_candidates",
+            "zero_reference_vector"
+          ]
+        },
+        "empty_reason": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "fit_audit": {
+          "type": "object"
+        },
+        "request": {
+          "type": "object"
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "schema_version",
+        "cutoff",
+        "season",
+        "recommendation",
+        "reference",
+        "explanations",
+        "status",
+        "empty_reason",
+        "fit_audit",
+        "request",
+        "limitations"
+      ],
+      "additionalProperties": false
+    },
+    "comparisons": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "schema_version": {
+            "const": "scoutiq.comparison.v1"
+          },
+          "cutoff": {
+            "type": "string"
+          },
+          "season": {
+            "const": "2025/26"
+          },
+          "reference_player_id": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "players": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "values": {
+                  "type": "object",
+                  "properties": {
+                    "player_id": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "position": {
+                      "enum": [
+                        "Attack",
+                        "Midfield",
+                        "Defender",
+                        "Goalkeeper"
+                      ]
+                    },
+                    "age": {
+                      "type": "number",
+                      "minimum": 0
+                    },
+                    "minutes_played": {
+                      "type": "number",
+                      "minimum": 0
+                    },
+                    "market_value_in_eur": {
+                      "type": "number",
+                      "minimum": 0
+                    },
+                    "foot": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "sub_position": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "valuation_date": {
+                      "type": "string"
+                    },
+                    "current_club_id": {
+                      "type": [
+                        "number",
+                        "null"
+                      ]
+                    },
+                    "current_club_name": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "club_name_verified": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "player_id",
+                    "name",
+                    "position",
+                    "age",
+                    "minutes_played",
+                    "market_value_in_eur",
+                    "foot",
+                    "sub_position",
+                    "valuation_date",
+                    "current_club_id",
+                    "current_club_name",
+                    "club_name_verified"
+                  ],
+                  "additionalProperties": false
+                },
+                "missing_fields": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "units": {
+                  "type": "object"
+                }
+              },
+              "required": [
+                "values",
+                "missing_fields",
+                "units"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 2,
+            "maxItems": 5
+          },
+          "scope": {
+            "type": "string"
+          },
+          "numeric_differences": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "player_id": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "reference_player_id": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "metric": {
+                  "type": "string"
+                },
+                "source_column": {
+                  "type": "string"
+                },
+                "unit": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                },
+                "reference_value": {
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                },
+                "signed_difference": {
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                },
+                "absolute_difference": {
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                },
+                "relative_difference_pct": {
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                },
+                "relative_reason": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "direction": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "player_id",
+                "reference_player_id",
+                "metric",
+                "source_column",
+                "unit",
+                "value",
+                "reference_value",
+                "signed_difference",
+                "absolute_difference",
+                "relative_difference_pct",
+                "relative_reason",
+                "direction"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "categorical_comparisons": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          },
+          "difference_definition": {
+            "type": "string"
+          },
+          "limitations": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "schema_version",
+          "cutoff",
+          "season",
+          "reference_player_id",
+          "players",
+          "scope",
+          "numeric_differences",
+          "categorical_comparisons",
+          "difference_definition",
+          "limitations"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "status",
+    "request",
+    "metadata",
+    "explanation",
+    "comparisons"
+  ],
+  "additionalProperties": false
+}

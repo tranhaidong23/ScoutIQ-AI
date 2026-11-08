@@ -1,0 +1,2 @@
+player_id,name,position,snapshot_age,raw_dob,source_csv_row,source_rows,distinct_raw_dob_values,cutoff,parsed_dob,dob_status,calendar_age,legacy_approx_age,days_lived,birthday_on_cutoff,leap_day_born,calendar_minus_snapshot,finding,correction_status,source_truth_status
+341429,Davinson Sánchez,Defender,29,1996-06-12 00:00:00,20869,1,1,2026-06-12,1996-06-12,valid,30,29,10957,True,False,1,approximate_year_length,PROPOSED,local_snapshot_not_externally_verified

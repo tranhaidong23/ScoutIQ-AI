@@ -1,0 +1,29 @@
+feature,source,transformation,unit,engine_role,cutoff_availability
+player_id,appearances.player_id + players.player_id,group/join ID,ID,identity,stable ID; ingestion time unknown
+matches_played,appearances.game_id + games.season/date,nunique game_id after event cutoff,matches,display,event-date bounded; publication time unknown
+minutes_played,appearances.minutes_played + games,sum valid appearances,minutes,eligibility/filter; Defender/GK context vector,event-date bounded; publication time unknown
+goals,appearances + games,sum valid appearances,count,display/derivation only,event-date bounded; publication time unknown
+assists,appearances + games,sum valid appearances,count,display/derivation only,event-date bounded; publication time unknown
+goals_per90,"goals/assists, minutes_played",count * 90 / minutes,per90,Attack/Midfield vector/filter,inherits event and publication limitations
+assists_per90,"goals/assists, minutes_played",count * 90 / minutes,per90,Attack/Midfield vector/filter,inherits event and publication limitations
+goal_contributions_per90,"goals, assists, minutes_played",(goals+assists)*90/minutes,per90,not in engine vector,inherits event limitations; redundant signal excluded
+name,players current snapshot,first row per player_id,metadata,display/identity only,NO as-of version; historical availability unverified
+position,players current snapshot,first row per player_id,metadata,hard filter and representation group,NO as-of version; historical availability unverified
+sub_position,players current snapshot,first row per player_id,metadata,hard filter; Attack/Midfield/Defender categorical vector,NO as-of version; historical availability unverified
+age,players.date_of_birth + cutoff,"int(days/365.2425), calendar correction PROPOSED only",years,filter; Defender/GK context vector,DOB publication unknown; one boundary arithmetic mismatch
+foot,players current snapshot,first row per player_id,metadata,hard/soft preference; Defender/GK categorical vector,NO as-of version; historical availability unverified
+height_in_cm,players.height_in_cm,"first row, no imputation",cm,not in vector,NO as-of version; known 19cm outlier not repaired
+current_club_id,players.current_club_*,first row per player_id,metadata,club exclusion/display only,current metadata; historical validity unverified
+current_club_name,players.current_club_*,first row per player_id,metadata,club exclusion/display only,current metadata; historical validity unverified
+image_url,players current snapshot,first row per player_id,metadata,display only,NO as-of version; historical availability unverified
+valuation_date,player_valuations.date,latest positive value date <= cutoff,date,eligibility/evidence,date bounded; recording/publication time unknown
+market_value_in_eur,player_valuations.market_value_in_eur,latest positive valuation <= cutoff,EUR,budget/display; never skill,date bounded estimate; NOT transfer fee
+club_name_verified,clubs.name joined current_club_id,many-to-one lookup,name,display only,verified lookup is NOT verification at cutoff
+valuation_age_days,cutoff - valuation_date,calendar day difference 0..365,days,eligibility/evidence,inherits valuation limitations
+goal_contributions,goals+assists,sum,count,not in vector,redundant with per90; excluded from vector
+market_value_m,market_value_in_eur,EUR/1000000,million EUR,display; not skill,inherits valuation limitations
+log1p_market_value_m,market_value_m,natural log(1+x),dimensionless,not in vector,inherits valuation limitations
+minutes_reliability,minutes_played,"min(minutes/2700,1)",heuristic 0..1,not in vector,not statistical confidence or independent performance
+goals_per90_position_percentile,per90 across full eligible catalogue by position,100 * average_rank / group_size,percentile 0..100,not in vector,full-catalogue reference; must recompute train-only if ever used for temporal evaluation
+assists_per90_position_percentile,per90 across full eligible catalogue by position,100 * average_rank / group_size,percentile 0..100,not in vector,full-catalogue reference; must recompute train-only if ever used for temporal evaluation
+goal_contributions_per90_position_percentile,per90 across full eligible catalogue by position,100 * average_rank / group_size,percentile 0..100,not in vector,full-catalogue reference; must recompute train-only if ever used for temporal evaluation

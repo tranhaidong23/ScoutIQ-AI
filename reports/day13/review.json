@@ -1,0 +1,152 @@
+{
+  "schema_version": "scoutiq.pilot-review.v1",
+  "status": "BLOCKED_NO_REVIEWED_HUMAN_LABELS",
+  "annotation_counts": {
+    "rows": 32,
+    "graded": 0,
+    "abstain": 0,
+    "pending": 32
+  },
+  "reviewed_human_grades": 0,
+  "registered_assessors": 0,
+  "coverage": [],
+  "review_queue": [],
+  "readiness": {
+    "schema_version": "scoutiq.evaluation-readiness.v1",
+    "annotation_counts": {
+      "rows": 32,
+      "graded": 0,
+      "abstain": 0,
+      "pending": 32
+    },
+    "k": 5,
+    "cases": [
+      {
+        "scenario_id": "young_low_budget_striker",
+        "candidate_count": 22,
+        "pilot_count": 8,
+        "status": "BLOCKED_NO_REVIEWED_HUMAN_LABELS",
+        "assessments": [],
+        "agreement": {
+          "scenario_id": "young_low_budget_striker",
+          "assessment_scope": "attack_output_and_role",
+          "label_source": "independent_human",
+          "status": "BLOCKED",
+          "reason": "need_two_independent_compatible_label_sets",
+          "pairs": [],
+          "interpretation": "agreement_not_relevance_quality; independence_declared_requires_external_audit"
+        }
+      },
+      {
+        "scenario_id": "creative_midfielder",
+        "candidate_count": 10,
+        "pilot_count": 8,
+        "status": "BLOCKED_NO_REVIEWED_HUMAN_LABELS",
+        "assessments": [],
+        "agreement": {
+          "scenario_id": "creative_midfielder",
+          "assessment_scope": "attack_output_and_role",
+          "label_source": "independent_human",
+          "status": "BLOCKED",
+          "reason": "need_two_independent_compatible_label_sets",
+          "pairs": [],
+          "interpretation": "agreement_not_relevance_quality; independence_declared_requires_external_audit"
+        }
+      },
+      {
+        "scenario_id": "experienced_defender",
+        "candidate_count": 94,
+        "pilot_count": 8,
+        "status": "BLOCKED_NO_REVIEWED_HUMAN_LABELS",
+        "assessments": [],
+        "agreement": {
+          "scenario_id": "experienced_defender",
+          "assessment_scope": "context_profile_only",
+          "label_source": "independent_human",
+          "status": "BLOCKED",
+          "reason": "need_two_independent_compatible_label_sets",
+          "pairs": [],
+          "interpretation": "agreement_not_relevance_quality; independence_declared_requires_external_audit"
+        }
+      },
+      {
+        "scenario_id": "budget_goalkeeper",
+        "candidate_count": 47,
+        "pilot_count": 8,
+        "status": "BLOCKED_NO_REVIEWED_HUMAN_LABELS",
+        "assessments": [],
+        "agreement": {
+          "scenario_id": "budget_goalkeeper",
+          "assessment_scope": "context_profile_only",
+          "label_source": "independent_human",
+          "status": "BLOCKED",
+          "reason": "need_two_independent_compatible_label_sets",
+          "pairs": [],
+          "interpretation": "agreement_not_relevance_quality; independence_declared_requires_external_audit"
+        }
+      }
+    ],
+    "coverage_status": "COMPUTABLE_WITH_FROZEN_QUERY_POOLS; not quality",
+    "temporal_evaluation_status": "BLOCKED_NO_ASOF_METADATA_OR_VALID_TEMPORAL_SPLIT",
+    "actual_relevance_metrics": null,
+    "actual_agreement_summary": null,
+    "synthetic_metrics_are_real_quality": false
+  },
+  "actual_final_relevance_metrics": null,
+  "final_evaluation_status": "BLOCKED_PILOT_IS_NOT_FINAL_EVALUATION",
+  "interpretation": "Registry is a declaration requiring external review; no automatic adjudication. Agreement is per scenario on common graded items only; missing is never zero.",
+  "run_utc": "2026-11-06T12:50:35.603853+00:00",
+  "input_sha256": {
+    "reports/day12/audit.json": "98de4d975acee985f7c79a6bb04bac9cc9bcccf0731ddaeb56d131bdff7d7838",
+    "data/raw/appearances.csv.gz": "e096c2b158fc3d52c4550526c4d4850dd62f31007652f4bcae112eadb1646802",
+    "data/raw/clubs.csv.gz": "aa57ab56e87faffaea1e8697439a32caf10116d8f2f2dfb3a57193c0bb1d641b",
+    "data/raw/games.csv.gz": "142561989017d379bcf9e72bad0b87e0996bae0e7b710ebb3def9255f464c741",
+    "data/raw/player_valuations.csv.gz": "608e32e5ad2231074f3505c469ad727be66d7e6efda6af918afd85379439631d",
+    "data/raw/players.csv.gz": "d22e407981d5b51a79bf8ff59835729f3526f7dc3495a6d8ed2f852ed2e86403",
+    "data/processed/scoutiq_candidates_2025_26.csv": "5480a88b2fb13047f65364db1795ee8f1871108de7de998f2fdc97cc1571edc9",
+    "data/processed/scoutiq_features_2025_26.csv": "425aeb9cf0f7ed13077bf31c6b5326ad02ef010253a45a043c92eabfab4ca6b0",
+    "data/processed/scoutiq_players_2025_26.csv": "b459f4749c88e41a9da578cf72260ae2976e51a63405ed1527d1f53dad5c4780",
+    "src/evaluation/__init__.py": "d7cba831010fcce21cf7f98279e7b491c858d3fd3725084a109d3d168a2db5f5",
+    "src/evaluation/audit.py": "0b1e54ae228ba933f4f63f2047800edfd81e90b84d1b045b27b6feecedcd3bb2",
+    "src/evaluation/integrity.py": "66dc91df91419b15fd293dd5f99b50f093cb960ab0c23e0ec60ff59ac3ef70a3",
+    "src/evaluation/metrics.py": "5163f9c6fe0026f3e7a346f1b92b2ec3fde98196d1d24ead0f2bab2884a9b12a",
+    "src/evaluation/pilot.py": "0d43a6529abac9de6357e4d038513ec2ef4652c8a26ad5de533461a7c18f03f1",
+    "src/evaluation/run_day11.py": "a07f124aada6778ed5cd5670687713a700a2beeb77a6ca7d25eafa39dc490dd3",
+    "src/evaluation/run_day12.py": "75f1a14b233ed2bee9957d840152d78cc5733b04cc0249d368819f6961d301d8",
+    "reports/day11/evaluation.json": "817e74ecf4c7fbfecf68b7db46fd5424f492f45574538121c202e694ada9ab79",
+    "reports/day11/audit_evidence.json": "0ce2603d717eead4f2615a3709774104de237b049d7753fa179ce19ea6d110d7",
+    "reports/day11/annotation_evidence.csv": "c2fe168d57ef8118f181bdb3a2f00476aaf25e86fc5eb2d6646930a0bd3bac1b",
+    "src/recommendation/baseline.py": "bcfbbecf21b1cbb0b2a5d25bc41aceb0421982b890fe3b43efce1c688a5f52e8",
+    "src/recommendation/comparison.py": "c05e6e5c4674f21421f353da9649c17020a3d875dcc9dc69146d2d0d392434c3",
+    "src/recommendation/config.py": "e64718e76a4ab5ad37e0b4bec7ee33088bb898fc75aa331da68ffa8a2285a326",
+    "src/recommendation/constraints.py": "0331ef8611d48111e886afc3eb4b86479f1a89ef442553a0a71caa9af5a4bba2",
+    "src/recommendation/evaluation.py": "b264a0dd504beeb70899ebcaaf80a2ca28786d32866063a68dcd6dff1200c2e9",
+    "src/recommendation/explainability.py": "e52b92e7bceb5a5cf8521e16e64bc319df83c3a02196a288b385dd5677909051",
+    "src/recommendation/knn.py": "2bc47525fd39d9413b77f82082ecaeda7755d48c531589940fd6a80046caaacc",
+    "src/recommendation/run_day10.py": "0f64da2ad0c21ec45741e95c6bc6361e6cb281d6fc239701eff515770a1eb2ce",
+    "src/recommendation/run_day5.py": "a87f7e01444778159e6defdcd8e36265ea92c6e5fc66ab2c51063542dd07b544",
+    "src/recommendation/run_day6.py": "73a0ff14aebbabc44110a1513d63d22d2128bd62afe01193c1ba593046bea4b1",
+    "src/recommendation/run_day7.py": "86daa6c1ba6f4462562e73479d9545b821ee760ce019cb090a033d231f6de63e",
+    "src/recommendation/run_day8.py": "826157da29a69f55c1e9c4c3db9d28615bb2b48042f80ed40c9cf9b39a63ea3a",
+    "src/recommendation/run_day9.py": "02ad759a01775cf2aa35b78c12b4f9cbadfa0b4617ceb8311e2cb21b2cc060ac",
+    "src/recommendation/schemas.py": "b8630f0b1e7bc7f1fe07cf01163f87fe1d8e471074eacdb5eca4528e849a472c",
+    "src/recommendation/service.py": "9ed8296120ed18b7a9b9e4721acf7b5f3b5584eb861bff69bd2aa247d46d25ec",
+    "src/recommendation/weighted.py": "d12f2600a22c6379f78936717c68773e84c83f06d509e91a60b32b95a47ac3e3",
+    "reports/day12/pilot_manifest.json": "cf5d9dd1a31d569973e561caf68c3c95cf81cc66b7926b114aa5e7aa510b1b56",
+    "reports/day12/correction_proposal.json": "0b964050fef8a0899e57c5976bcfc7c0952e5a32442c88d6bc4e401f1e791b4a",
+    "reports/day12/assessor_registry.json": "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f",
+    "reports/day12/pilot_annotation_template.csv": "15c7cc6b608c4d664391eae7b4371e0205b704b269f15e5fc6cf131b13e49205"
+  },
+  "submission_sources": [],
+  "registry_sha256": "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f",
+  "source_sha256": {
+    "src/evaluation/review.py": "6ec54a86595781213056e22d5b9a4373aeb1ed184f53f7528d245806e5f88422",
+    "src/evaluation/run_day13.py": "b99295d2a1da51a8f7f1b86ac026c4144e860938a5d9c0f976195fb5b23163eb"
+  },
+  "correction": {
+    "status": "PROPOSED",
+    "applied": false,
+    "decision": "DEFERRED_PENDING_DOB_REVIEW_AND_EXPLICIT_AUTHORIZATION",
+    "proposal_sha256": "0b964050fef8a0899e57c5976bcfc7c0952e5a32442c88d6bc4e401f1e791b4a"
+  }
+}

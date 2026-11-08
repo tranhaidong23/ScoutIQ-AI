@@ -1,0 +1,1297 @@
+{
+  "input_path": "data/processed/scoutiq_features_2025_26.csv",
+  "input_sha256": "425aeb9cf0f7ed13077bf31c6b5326ad02ef010253a45a043c92eabfab4ca6b0",
+  "environment": {
+    "python": "3.13.7",
+    "pandas": "3.0.6",
+    "numpy": "2.5.4",
+    "scikit_learn": "1.9.1"
+  },
+  "input_quality": {
+    "rows": 4112,
+    "columns": 28,
+    "schema": {
+      "player_id": "int64",
+      "matches_played": "int64",
+      "minutes_played": "int64",
+      "goals": "int64",
+      "assists": "int64",
+      "goals_per90": "float64",
+      "assists_per90": "float64",
+      "goal_contributions_per90": "float64",
+      "name": "str",
+      "position": "str",
+      "sub_position": "str",
+      "age": "int64",
+      "foot": "str",
+      "height_in_cm": "float64",
+      "current_club_id": "int64",
+      "current_club_name": "str",
+      "image_url": "str",
+      "valuation_date": "str",
+      "market_value_in_eur": "float64",
+      "club_name_verified": "str",
+      "valuation_age_days": "int64",
+      "goal_contributions": "int64",
+      "market_value_m": "float64",
+      "log1p_market_value_m": "float64",
+      "minutes_reliability": "float64",
+      "goals_per90_position_percentile": "float64",
+      "assists_per90_position_percentile": "float64",
+      "goal_contributions_per90_position_percentile": "float64"
+    },
+    "unique_player_ids": 4112,
+    "duplicate_player_ids": 0,
+    "missing_by_column": {
+      "player_id": 0,
+      "matches_played": 0,
+      "minutes_played": 0,
+      "goals": 0,
+      "assists": 0,
+      "goals_per90": 0,
+      "assists_per90": 0,
+      "goal_contributions_per90": 0,
+      "name": 0,
+      "position": 0,
+      "sub_position": 0,
+      "age": 0,
+      "foot": 24,
+      "height_in_cm": 23,
+      "current_club_id": 0,
+      "current_club_name": 16,
+      "image_url": 0,
+      "valuation_date": 0,
+      "market_value_in_eur": 0,
+      "club_name_verified": 16,
+      "valuation_age_days": 0,
+      "goal_contributions": 0,
+      "market_value_m": 0,
+      "log1p_market_value_m": 0,
+      "minutes_reliability": 0,
+      "goals_per90_position_percentile": 0,
+      "assists_per90_position_percentile": 0,
+      "goal_contributions_per90_position_percentile": 0
+    },
+    "infinity_by_column": {
+      "player_id": 0,
+      "matches_played": 0,
+      "minutes_played": 0,
+      "goals": 0,
+      "assists": 0,
+      "goals_per90": 0,
+      "assists_per90": 0,
+      "goal_contributions_per90": 0,
+      "age": 0,
+      "height_in_cm": 0,
+      "current_club_id": 0,
+      "market_value_in_eur": 0,
+      "valuation_age_days": 0,
+      "goal_contributions": 0,
+      "market_value_m": 0,
+      "log1p_market_value_m": 0,
+      "minutes_reliability": 0,
+      "goals_per90_position_percentile": 0,
+      "assists_per90_position_percentile": 0,
+      "goal_contributions_per90_position_percentile": 0
+    },
+    "numeric_ranges": {
+      "player_id": {
+        "min": 3333.0,
+        "max": 1396595.0
+      },
+      "matches_played": {
+        "min": 10.0,
+        "max": 60.0
+      },
+      "minutes_played": {
+        "min": 900.0,
+        "max": 4970.0
+      },
+      "goals": {
+        "min": 0.0,
+        "max": 61.0
+      },
+      "assists": {
+        "min": 0.0,
+        "max": 32.0
+      },
+      "goals_per90": {
+        "min": 0.0,
+        "max": 1.2661439114391144
+      },
+      "assists_per90": {
+        "min": 0.0,
+        "max": 0.7390510948905109
+      },
+      "goal_contributions_per90": {
+        "min": 0.0,
+        "max": 1.4321955719557196
+      },
+      "age": {
+        "min": 17.0,
+        "max": 42.0
+      },
+      "height_in_cm": {
+        "min": 19.0,
+        "max": 206.0
+      },
+      "current_club_id": {
+        "min": 3.0,
+        "max": 110302.0
+      },
+      "market_value_in_eur": {
+        "min": 25000.0,
+        "max": 200000000.0
+      },
+      "valuation_age_days": {
+        "min": 1.0,
+        "max": 254.0
+      },
+      "goal_contributions": {
+        "min": 0.0,
+        "max": 69.0
+      },
+      "market_value_m": {
+        "min": 0.025,
+        "max": 200.0
+      },
+      "log1p_market_value_m": {
+        "min": 0.0246926125903715,
+        "max": 5.303304908059076
+      },
+      "minutes_reliability": {
+        "min": 0.3333333333333333,
+        "max": 1.0
+      },
+      "goals_per90_position_percentile": {
+        "min": 1.841359773371105,
+        "max": 100.0
+      },
+      "assists_per90_position_percentile": {
+        "min": 5.099150141643059,
+        "max": 100.0
+      },
+      "goal_contributions_per90_position_percentile": {
+        "min": 0.2360717658168083,
+        "max": 100.0
+      }
+    },
+    "position_counts": {
+      "Defender": 1523,
+      "Midfield": 1204,
+      "Attack": 1059,
+      "Goalkeeper": 326
+    },
+    "max_absolute_per90_error": {
+      "goals_per90": 2.220446049250313e-16,
+      "assists_per90": 9.71445146547012e-17,
+      "goal_contributions_per90": 2.220446049250313e-16
+    }
+  },
+  "model": {
+    "cutoff": "2026-06-12",
+    "fit_mode": "explicit_reference_ids",
+    "positions": {
+      "Attack": {
+        "numeric": [
+          "goals_per90",
+          "assists_per90"
+        ],
+        "categorical": [
+          "sub_position"
+        ],
+        "scope": "attacking_output_and_role",
+        "limitation": "Chỉ mô tả ghi bàn/kiến tạo và vai trò; thiếu xG, pressing và bối cảnh giải đấu.",
+        "encoded_features": [
+          "goals_per90",
+          "assists_per90",
+          "sub_position=Centre-Forward",
+          "sub_position=Left Winger",
+          "sub_position=Right Winger",
+          "sub_position=Second Striker"
+        ],
+        "fit_count": 1058,
+        "fit_ids_sha256": "5dd3000c1c29d0fff3753674c85e3734b9c20f1c43f0e570ebdc91ef5afd54cb",
+        "scaler_mean": [
+          0.3007760551494467,
+          0.1618242692694756
+        ],
+        "scaler_scale": [
+          0.18566669563376342,
+          0.11555465121503172
+        ],
+        "categories": {
+          "sub_position": [
+            "Centre-Forward",
+            "Left Winger",
+            "Right Winger",
+            "Second Striker"
+          ]
+        },
+        "zero_vector_count": 0,
+        "missing_or_unseen_categories": {
+          "sub_position": 0
+        }
+      },
+      "Defender": {
+        "numeric": [
+          "age",
+          "minutes_played"
+        ],
+        "categorical": [
+          "sub_position",
+          "foot"
+        ],
+        "scope": "context_profile_only",
+        "limitation": "Chỉ tương đồng hồ sơ tuổi/thời lượng/vai trò/chân thuận; không đo năng lực phòng ngự.",
+        "encoded_features": [
+          "age",
+          "minutes_played",
+          "sub_position=Centre-Back",
+          "sub_position=Left-Back",
+          "sub_position=Right-Back",
+          "foot=both",
+          "foot=left",
+          "foot=right"
+        ],
+        "fit_count": 1522,
+        "fit_ids_sha256": "25bb5da99ffb876de6dc5445705e2849e0cb8b579bb752e54a3656854467a9a0",
+        "scaler_mean": [
+          26.720105124835744,
+          2144.53679369251
+        ],
+        "scaler_scale": [
+          4.11039872152583,
+          795.4594579884348
+        ],
+        "categories": {
+          "sub_position": [
+            "Centre-Back",
+            "Left-Back",
+            "Right-Back"
+          ],
+          "foot": [
+            "both",
+            "left",
+            "right"
+          ]
+        },
+        "zero_vector_count": 0,
+        "missing_or_unseen_categories": {
+          "sub_position": 0,
+          "foot": 3
+        }
+      },
+      "Goalkeeper": {
+        "numeric": [
+          "age",
+          "minutes_played"
+        ],
+        "categorical": [
+          "foot"
+        ],
+        "scope": "context_profile_only",
+        "limitation": "Chỉ tương đồng hồ sơ tuổi/thời lượng/chân thuận; không đo bắt bóng, không dùng bàn thắng.",
+        "encoded_features": [
+          "age",
+          "minutes_played",
+          "foot=both",
+          "foot=left",
+          "foot=right"
+        ],
+        "fit_count": 325,
+        "fit_ids_sha256": "0b7bc243cac6b74e0aaf410482a3b055b5f06e953a3877e378b961c05b6e8bce",
+        "scaler_mean": [
+          28.756923076923076,
+          2409.0738461538463
+        ],
+        "scaler_scale": [
+          4.664034873559068,
+          978.7480986957736
+        ],
+        "categories": {
+          "foot": [
+            "both",
+            "left",
+            "right"
+          ]
+        },
+        "zero_vector_count": 0,
+        "missing_or_unseen_categories": {
+          "foot": 3
+        }
+      },
+      "Midfield": {
+        "numeric": [
+          "goals_per90",
+          "assists_per90"
+        ],
+        "categorical": [
+          "sub_position"
+        ],
+        "scope": "attacking_output_and_role",
+        "limitation": "Chỉ mô tả đóng góp tấn công; thiếu chuyền bóng, kiểm soát và phòng ngự.",
+        "encoded_features": [
+          "goals_per90",
+          "assists_per90",
+          "sub_position=Attacking Midfield",
+          "sub_position=Central Midfield",
+          "sub_position=Defensive Midfield",
+          "sub_position=Left Midfield",
+          "sub_position=Right Midfield"
+        ],
+        "fit_count": 1203,
+        "fit_ids_sha256": "1e466e206d88ab2362872ba803f40b331ee8f272fdd4dd7bb13a001eba577767",
+        "scaler_mean": [
+          0.11683614111726182,
+          0.11698063259633847
+        ],
+        "scaler_scale": [
+          0.11604005119793753,
+          0.10319314357599511
+        ],
+        "categories": {
+          "sub_position": [
+            "Attacking Midfield",
+            "Central Midfield",
+            "Defensive Midfield",
+            "Left Midfield",
+            "Right Midfield"
+          ]
+        },
+        "zero_vector_count": 0,
+        "missing_or_unseen_categories": {
+          "sub_position": 0
+        }
+      }
+    }
+  },
+  "preprocessing_check": {
+    "fit_players": 4108,
+    "query_ids_excluded_from_fit": [
+      132098,
+      137576,
+      139208,
+      629773
+    ],
+    "query_overlap_with_fit": 0,
+    "not_a_temporal_split_or_quality_evaluation": true,
+    "input_hash_unchanged": true
+  },
+  "scenarios": [
+    {
+      "scenario": "attack_budget_30m",
+      "reference": {
+        "player_id": 132098,
+        "name": "Harry Kane",
+        "position": "Attack"
+      },
+      "filters": {
+        "position": "Attack",
+        "min_age": 18.0,
+        "max_age": 29.0,
+        "max_budget_eur": 30000000.0,
+        "min_minutes": 1800.0
+      },
+      "top_k_requested": 5,
+      "eligible_count": 349,
+      "excluded_zero_vectors": 0,
+      "cutoff": "2026-06-12",
+      "similarity_scope": "attacking_output_and_role",
+      "warnings": [
+        "Chỉ mô tả ghi bàn/kiến tạo và vai trò; thiếu xG, pressing và bối cảnh giải đấu.",
+        "Similarity là cosine trong không gian đã chuẩn hóa, không phải xác suất chuyển nhượng hoặc điểm kỹ năng.",
+        "Market value là ước tính lịch sử; CLB là metadata hiện có, chưa xác minh đúng CLB tại cutoff."
+      ],
+      "results": [
+        {
+          "player_id": 929090,
+          "name": "Franculino",
+          "position": "Attack",
+          "sub_position": "Centre-Forward",
+          "age": 21,
+          "minutes_played": 2060,
+          "market_value_in_eur": 22000000.0,
+          "valuation_date": "2026-05-25",
+          "rank": 1,
+          "club": "FC Midtjylland",
+          "similarity_score": 0.991291280497,
+          "similarity_scope": "attacking_output_and_role",
+          "evidence": {
+            "goals_per90": {
+              "reference": 1.2661439114391144,
+              "candidate": 0.9174757281553398
+            },
+            "assists_per90": {
+              "reference": 0.1660516605166051,
+              "candidate": 0.1310679611650485
+            },
+            "sub_position": {
+              "reference": "Centre-Forward",
+              "candidate": "Centre-Forward"
+            }
+          },
+          "cosine_components": {
+            "goals_per90": 0.9375338024047978,
+            "assists_per90": -0.0005285915104621128,
+            "sub_position=Centre-Forward": 0.054286069602364484,
+            "sub_position=Left Winger": 0.0,
+            "sub_position=Right Winger": 0.0,
+            "sub_position=Second Striker": 0.0
+          },
+          "explanation": "goals_per90: 0.9174757281553398 (tham chiếu 1.2661439114391144); assists_per90: 0.1310679611650485 (tham chiếu 0.1660516605166051); sub_position: Centre-Forward (tham chiếu Centre-Forward). Chỉ mô tả ghi bàn/kiến tạo và vai trò; thiếu xG, pressing và bối cảnh giải đấu."
+        },
+        {
+          "player_id": 424784,
+          "name": "Luis Suárez",
+          "position": "Attack",
+          "sub_position": "Centre-Forward",
+          "age": 28,
+          "minutes_played": 3767,
+          "market_value_in_eur": 30000000.0,
+          "valuation_date": "2026-05-28",
+          "rank": 2,
+          "club": "Sporting CP",
+          "similarity_score": 0.976605571952,
+          "similarity_scope": "attacking_output_and_role",
+          "evidence": {
+            "goals_per90": {
+              "reference": 1.2661439114391144,
+              "candidate": 0.8123174940270772
+            },
+            "assists_per90": {
+              "reference": 0.1660516605166051,
+              "candidate": 0.2150252190071675
+            },
+            "sub_position": {
+              "reference": "Centre-Forward",
+              "candidate": "Centre-Forward"
+            }
+          },
+          "cosine_components": {
+            "goals_per90": 0.9118786059612082,
+            "assists_per90": 0.0010721322387387403,
+            "sub_position=Centre-Forward": 0.06365483375190586,
+            "sub_position=Left Winger": 0.0,
+            "sub_position=Right Winger": 0.0,
+            "sub_position=Second Striker": 0.0
+          },
+          "explanation": "goals_per90: 0.8123174940270772 (tham chiếu 1.2661439114391144); assists_per90: 0.2150252190071675 (tham chiếu 0.1660516605166051); sub_position: Centre-Forward (tham chiếu Centre-Forward). Chỉ mô tả ghi bàn/kiến tạo và vai trò; thiếu xG, pressing và bối cảnh giải đấu."
+        },
+        {
+          "player_id": 333647,
+          "name": "Jonathan Burkardt",
+          "position": "Attack",
+          "sub_position": "Centre-Forward",
+          "age": 25,
+          "minutes_played": 1882,
+          "market_value_in_eur": 30000000.0,
+          "valuation_date": "2026-05-27",
+          "rank": 3,
+          "club": "Eintracht Frankfurt",
+          "similarity_score": 0.946797161851,
+          "similarity_scope": "attacking_output_and_role",
+          "evidence": {
+            "goals_per90": {
+              "reference": 1.2661439114391144,
+              "candidate": 0.7173219978746015
+            },
+            "assists_per90": {
+              "reference": 0.1660516605166051,
+              "candidate": 0.0956429330499468
+            },
+            "sub_position": {
+              "reference": "Centre-Forward",
+              "candidate": "Centre-Forward"
+            }
+          },
+          "cosine_components": {
+            "goals_per90": 0.8734856976776462,
+            "assists_per90": -0.001568921394107607,
+            "sub_position=Centre-Forward": 0.07488038556758617,
+            "sub_position=Left Winger": 0.0,
+            "sub_position=Right Winger": 0.0,
+            "sub_position=Second Striker": 0.0
+          },
+          "explanation": "goals_per90: 0.7173219978746015 (tham chiếu 1.2661439114391144); assists_per90: 0.0956429330499468 (tham chiếu 0.1660516605166051); sub_position: Centre-Forward (tham chiếu Centre-Forward). Chỉ mô tả ghi bàn/kiến tạo và vai trò; thiếu xG, pressing và bối cảnh giải đấu."
+        },
+        {
+          "player_id": 524590,
+          "name": "Júnior Brumado",
+          "position": "Attack",
+          "sub_position": "Centre-Forward",
+          "age": 27,
+          "minutes_played": 1992,
+          "market_value_in_eur": 800000.0,
+          "valuation_date": "2026-05-25",
+          "rank": 4,
+          "club": "FC Midtjylland",
+          "similarity_score": 0.944356227329,
+          "similarity_scope": "attacking_output_and_role",
+          "evidence": {
+            "goals_per90": {
+              "reference": 1.2661439114391144,
+              "candidate": 0.7228915662650602
+            },
+            "assists_per90": {
+              "reference": 0.1660516605166051,
+              "candidate": 0.0903614457831325
+            },
+            "sub_position": {
+              "reference": "Centre-Forward",
+              "candidate": "Centre-Forward"
+            }
+          },
+          "cosine_components": {
+            "goals_per90": 0.872238719600564,
+            "assists_per90": -0.0016693868404118971,
+            "sub_position=Centre-Forward": 0.07378689456906984,
+            "sub_position=Left Winger": 0.0,
+            "sub_position=Right Winger": 0.0,
+            "sub_position=Second Striker": 0.0
+          },
+          "explanation": "goals_per90: 0.7228915662650602 (tham chiếu 1.2661439114391144); assists_per90: 0.0903614457831325 (tham chiếu 0.1660516605166051); sub_position: Centre-Forward (tham chiếu Centre-Forward). Chỉ mô tả ghi bàn/kiến tạo và vai trò; thiếu xG, pressing và bối cảnh giải đấu."
+        },
+        {
+          "player_id": 315867,
+          "name": "Gianluca Scamacca",
+          "position": "Attack",
+          "sub_position": "Centre-Forward",
+          "age": 27,
+          "minutes_played": 2016,
+          "market_value_in_eur": 25000000.0,
+          "valuation_date": "2026-05-29",
+          "rank": 5,
+          "club": "Atalanta BC",
+          "similarity_score": 0.938443228163,
+          "similarity_scope": "attacking_output_and_role",
+          "evidence": {
+            "goals_per90": {
+              "reference": 1.2661439114391144,
+              "candidate": 0.625
+            },
+            "assists_per90": {
+              "reference": 0.1660516605166051,
+              "candidate": 0.1339285714285714
+            },
+            "sub_position": {
+              "reference": "Centre-Forward",
+              "candidate": "Centre-Forward"
+            }
+          },
+          "cosine_components": {
+            "goals_per90": 0.8460819344943973,
+            "assists_per90": -0.0008229573547595688,
+            "sub_position=Centre-Forward": 0.09318425102376539,
+            "sub_position=Left Winger": 0.0,
+            "sub_position=Right Winger": 0.0,
+            "sub_position=Second Striker": 0.0
+          },
+          "explanation": "goals_per90: 0.625 (tham chiếu 1.2661439114391144); assists_per90: 0.1339285714285714 (tham chiếu 0.1660516605166051); sub_position: Centre-Forward (tham chiếu Centre-Forward). Chỉ mô tả ghi bàn/kiến tạo và vai trò; thiếu xG, pressing và bối cảnh giải đấu."
+        }
+      ],
+      "status": "ok",
+      "scenario_checks": "passed"
+    },
+    {
+      "scenario": "midfield_budget_15m",
+      "reference": {
+        "player_id": 137576,
+        "name": "Hans Vanaken",
+        "position": "Midfield"
+      },
+      "filters": {
+        "position": "Midfield",
+        "min_age": 20.0,
+        "max_age": 30.0,
+        "max_budget_eur": 15000000.0,
+        "min_minutes": 1800.0
+      },
+      "top_k_requested": 5,
+      "eligible_count": 405,
+      "excluded_zero_vectors": 0,
+      "cutoff": "2026-06-12",
+      "similarity_scope": "attacking_output_and_role",
+      "warnings": [
+        "Chỉ mô tả đóng góp tấn công; thiếu chuyền bóng, kiểm soát và phòng ngự.",
+        "Similarity là cosine trong không gian đã chuẩn hóa, không phải xác suất chuyển nhượng hoặc điểm kỹ năng.",
+        "Market value là ước tính lịch sử; CLB là metadata hiện có, chưa xác minh đúng CLB tại cutoff."
+      ],
+      "results": [
+        {
+          "player_id": 577455,
+          "name": "Ringo Meerveld",
+          "position": "Midfield",
+          "sub_position": "Attacking Midfield",
+          "age": 23,
+          "minutes_played": 2689,
+          "market_value_in_eur": 5000000.0,
+          "valuation_date": "2026-05-28",
+          "rank": 1,
+          "club": "SC Heerenveen",
+          "similarity_score": 0.999738896421,
+          "similarity_scope": "attacking_output_and_role",
+          "evidence": {
+            "goals_per90": {
+              "reference": 0.2290076335877862,
+              "candidate": 0.2342878393454815
+            },
+            "assists_per90": {
+              "reference": 0.1335877862595419,
+              "candidate": 0.1338787653402752
+            },
+            "sub_position": {
+              "reference": "Attacking Midfield",
+              "candidate": "Attacking Midfield"
+            }
+          },
+          "cosine_components": {
+            "goals_per90": 0.48791819352466,
+            "assists_per90": 0.01314175218392275,
+            "sub_position=Attacking Midfield": 0.49867895071205237,
+            "sub_position=Central Midfield": 0.0,
+            "sub_position=Defensive Midfield": 0.0,
+            "sub_position=Left Midfield": 0.0,
+            "sub_position=Right Midfield": 0.0
+          },
+          "explanation": "goals_per90: 0.2342878393454815 (tham chiếu 0.2290076335877862); assists_per90: 0.1338787653402752 (tham chiếu 0.1335877862595419); sub_position: Attacking Midfield (tham chiếu Attacking Midfield). Chỉ mô tả đóng góp tấn công; thiếu chuyền bóng, kiểm soát và phòng ngự."
+        },
+        {
+          "player_id": 293200,
+          "name": "Nikola Vlašić",
+          "position": "Midfield",
+          "sub_position": "Attacking Midfield",
+          "age": 28,
+          "minutes_played": 3350,
+          "market_value_in_eur": 10000000.0,
+          "valuation_date": "2026-05-29",
+          "rank": 2,
+          "club": "Torino FC",
+          "similarity_score": 0.998564549237,
+          "similarity_scope": "attacking_output_and_role",
+          "evidence": {
+            "goals_per90": {
+              "reference": 0.2290076335877862,
+              "candidate": 0.2417910447761194
+            },
+            "assists_per90": {
+              "reference": 0.1335877862595419,
+              "candidate": 0.1343283582089552
+            },
+            "sub_position": {
+              "reference": "Attacking Midfield",
+              "candidate": "Attacking Midfield"
+            }
+          },
+          "cosine_components": {
+            "goals_per90": 0.5026314588137766,
+            "assists_per90": 0.013063686547667564,
+            "sub_position=Attacking Midfield": 0.48286940387590066,
+            "sub_position=Central Midfield": 0.0,
+            "sub_position=Defensive Midfield": 0.0,
+            "sub_position=Left Midfield": 0.0,
+            "sub_position=Right Midfield": 0.0
+          },
+          "explanation": "goals_per90: 0.2417910447761194 (tham chiếu 0.2290076335877862); assists_per90: 0.1343283582089552 (tham chiếu 0.1335877862595419); sub_position: Attacking Midfield (tham chiếu Attacking Midfield). Chỉ mô tả đóng góp tấn công; thiếu chuyền bóng, kiểm soát và phòng ngự."
+        },
+        {
+          "player_id": 507341,
+          "name": "Fabian Rieder",
+          "position": "Midfield",
+          "sub_position": "Attacking Midfield",
+          "age": 24,
+          "minutes_played": 2530,
+          "market_value_in_eur": 12000000.0,
+          "valuation_date": "2026-05-27",
+          "rank": 3,
+          "club": "Stade Rennais FC",
+          "similarity_score": 0.99478500531,
+          "similarity_scope": "attacking_output_and_role",
+          "evidence": {
+            "goals_per90": {
+              "reference": 0.2290076335877862,
+              "candidate": 0.2134387351778656
+            },
+            "assists_per90": {
+              "reference": 0.1335877862595419,
+              "candidate": 0.1422924901185771
+            },
+            "sub_position": {
+              "reference": "Attacking Midfield",
+              "candidate": "Attacking Midfield"
+            }
+          },
+          "cosine_components": {
+            "goals_per90": 0.4340835188222585,
+            "assists_per90": 0.021292927221924232,
+            "sub_position=Attacking Midfield": 0.5394085592662137,
+            "sub_position=Central Midfield": 0.0,
+            "sub_position=Defensive Midfield": 0.0,
+            "sub_position=Left Midfield": 0.0,
+            "sub_position=Right Midfield": 0.0
+          },
+          "explanation": "goals_per90: 0.2134387351778656 (tham chiếu 0.2290076335877862); assists_per90: 0.1422924901185771 (tham chiếu 0.1335877862595419); sub_position: Attacking Midfield (tham chiếu Attacking Midfield). Chỉ mô tả đóng góp tấn công; thiếu chuyền bóng, kiểm soát và phòng ngự."
+        },
+        {
+          "player_id": 441216,
+          "name": "Thijs Oosting",
+          "position": "Midfield",
+          "sub_position": "Attacking Midfield",
+          "age": 26,
+          "minutes_played": 2834,
+          "market_value_in_eur": 900000.0,
+          "valuation_date": "2026-05-28",
+          "rank": 4,
+          "club": "PEC Zwolle",
+          "similarity_score": 0.993635479486,
+          "similarity_scope": "attacking_output_and_role",
+          "evidence": {
+            "goals_per90": {
+              "reference": 0.2290076335877862,
+              "candidate": 0.2540578687367678
+            },
+            "assists_per90": {
+              "reference": 0.1335877862595419,
+              "candidate": 0.1270289343683839
+            },
+            "sub_position": {
+              "reference": "Attacking Midfield",
+              "candidate": "Attacking Midfield"
+            }
+          },
+          "cosine_components": {
+            "goals_per90": 0.5261472746855289,
+            "assists_per90": 0.007212801094831903,
+            "sub_position=Attacking Midfield": 0.46027540370570835,
+            "sub_position=Central Midfield": 0.0,
+            "sub_position=Defensive Midfield": 0.0,
+            "sub_position=Left Midfield": 0.0,
+            "sub_position=Right Midfield": 0.0
+          },
+          "explanation": "goals_per90: 0.2540578687367678 (tham chiếu 0.2290076335877862); assists_per90: 0.1270289343683839 (tham chiếu 0.1335877862595419); sub_position: Attacking Midfield (tham chiếu Attacking Midfield). Chỉ mô tả đóng góp tấn công; thiếu chuyền bóng, kiểm soát và phòng ngự."
+        },
+        {
+          "player_id": 345577,
+          "name": "Carlo Holse",
+          "position": "Midfield",
+          "sub_position": "Attacking Midfield",
+          "age": 27,
+          "minutes_played": 2640,
+          "market_value_in_eur": 7000000.0,
+          "valuation_date": "2026-05-21",
+          "rank": 5,
+          "club": "Samsunspor",
+          "similarity_score": 0.986994574727,
+          "similarity_scope": "attacking_output_and_role",
+          "evidence": {
+            "goals_per90": {
+              "reference": 0.2290076335877862,
+              "candidate": 0.2727272727272727
+            },
+            "assists_per90": {
+              "reference": 0.1335877862595419,
+              "candidate": 0.1363636363636363
+            },
+            "sub_position": {
+              "reference": "Attacking Midfield",
+              "candidate": "Attacking Midfield"
+            }
+          },
+          "cosine_components": {
+            "goals_per90": 0.5503744881248958,
+            "assists_per90": 0.012811052450988713,
+            "sub_position=Attacking Midfield": 0.42380903415135224,
+            "sub_position=Central Midfield": 0.0,
+            "sub_position=Defensive Midfield": 0.0,
+            "sub_position=Left Midfield": 0.0,
+            "sub_position=Right Midfield": 0.0
+          },
+          "explanation": "goals_per90: 0.2727272727272727 (tham chiếu 0.2290076335877862); assists_per90: 0.1363636363636363 (tham chiếu 0.1335877862595419); sub_position: Attacking Midfield (tham chiếu Attacking Midfield). Chỉ mô tả đóng góp tấn công; thiếu chuyền bóng, kiểm soát và phòng ngự."
+        }
+      ],
+      "status": "ok",
+      "scenario_checks": "passed"
+    },
+    {
+      "scenario": "defender_context_15m",
+      "reference": {
+        "player_id": 139208,
+        "name": "Virgil van Dijk",
+        "position": "Defender"
+      },
+      "filters": {
+        "position": "Defender",
+        "min_age": 22.0,
+        "max_age": 32.0,
+        "max_budget_eur": 15000000.0,
+        "min_minutes": 2000.0
+      },
+      "top_k_requested": 5,
+      "eligible_count": 512,
+      "excluded_zero_vectors": 0,
+      "cutoff": "2026-06-12",
+      "similarity_scope": "context_profile_only",
+      "warnings": [
+        "Chỉ tương đồng hồ sơ tuổi/thời lượng/vai trò/chân thuận; không đo năng lực phòng ngự.",
+        "Similarity là cosine trong không gian đã chuẩn hóa, không phải xác suất chuyển nhượng hoặc điểm kỹ năng.",
+        "Market value là ước tính lịch sử; CLB là metadata hiện có, chưa xác minh đúng CLB tại cutoff."
+      ],
+      "results": [
+        {
+          "player_id": 124502,
+          "name": "Matthias Ginter",
+          "position": "Defender",
+          "sub_position": "Centre-Back",
+          "age": 32,
+          "minutes_played": 4606,
+          "market_value_in_eur": 5000000.0,
+          "valuation_date": "2026-05-27",
+          "rank": 1,
+          "club": "SC Freiburg",
+          "similarity_score": 0.996192118553,
+          "similarity_scope": "context_profile_only",
+          "evidence": {
+            "age": {
+              "reference": 34,
+              "candidate": 32
+            },
+            "minutes_played": {
+              "reference": 4941,
+              "candidate": 4606
+            },
+            "sub_position": {
+              "reference": "Centre-Back",
+              "candidate": "Centre-Back"
+            },
+            "foot": {
+              "reference": "right",
+              "candidate": "right"
+            }
+          },
+          "cosine_components": {
+            "age": 0.14955962730401665,
+            "minutes_played": 0.7151518268521502,
+            "sub_position=Centre-Back": 0.06574033219861158,
+            "sub_position=Left-Back": 0.0,
+            "sub_position=Right-Back": 0.0,
+            "foot=both": 0.0,
+            "foot=left": 0.0,
+            "foot=right": 0.06574033219861158
+          },
+          "explanation": "age: 32 (tham chiếu 34); minutes_played: 4606 (tham chiếu 4941); sub_position: Centre-Back (tham chiếu Centre-Back); foot: right (tham chiếu right). Chỉ tương đồng hồ sơ tuổi/thời lượng/vai trò/chân thuận; không đo năng lực phòng ngự."
+        },
+        {
+          "player_id": 256448,
+          "name": "Gianluca Mancini",
+          "position": "Defender",
+          "sub_position": "Centre-Back",
+          "age": 30,
+          "minutes_played": 3693,
+          "market_value_in_eur": 15000000.0,
+          "valuation_date": "2026-05-29",
+          "rank": 2,
+          "club": "Associazione Sportiva Roma",
+          "similarity_score": 0.967313717455,
+          "similarity_scope": "context_profile_only",
+          "evidence": {
+            "age": {
+              "reference": 34,
+              "candidate": 30
+            },
+            "minutes_played": {
+              "reference": 4941,
+              "candidate": 3693
+            },
+            "sub_position": {
+              "reference": "Centre-Back",
+              "candidate": "Centre-Back"
+            },
+            "foot": {
+              "reference": "right",
+              "candidate": "right"
+            }
+          },
+          "cosine_components": {
+            "age": 0.1332839573112557,
+            "minutes_played": 0.6454084548309426,
+            "sub_position=Centre-Back": 0.09431065265618843,
+            "sub_position=Left-Back": 0.0,
+            "sub_position=Right-Back": 0.0,
+            "foot=both": 0.0,
+            "foot=left": 0.0,
+            "foot=right": 0.09431065265618843
+          },
+          "explanation": "age: 30 (tham chiếu 34); minutes_played: 3693 (tham chiếu 4941); sub_position: Centre-Back (tham chiếu Centre-Back); foot: right (tham chiếu right). Chỉ tương đồng hồ sơ tuổi/thời lượng/vai trò/chân thuận; không đo năng lực phòng ngự."
+        },
+        {
+          "player_id": 243028,
+          "name": "Jan Bednarek",
+          "position": "Defender",
+          "sub_position": "Centre-Back",
+          "age": 30,
+          "minutes_played": 3588,
+          "market_value_in_eur": 11000000.0,
+          "valuation_date": "2026-05-28",
+          "rank": 3,
+          "club": "FC Porto",
+          "similarity_score": 0.961436148329,
+          "similarity_scope": "context_profile_only",
+          "evidence": {
+            "age": {
+              "reference": 34,
+              "candidate": 30
+            },
+            "minutes_played": {
+              "reference": 4941,
+              "candidate": 3588
+            },
+            "sub_position": {
+              "reference": "Centre-Back",
+              "candidate": "Centre-Back"
+            },
+            "foot": {
+              "reference": "right",
+              "candidate": "right"
+            }
+          },
+          "cosine_components": {
+            "age": 0.13875170628856237,
+            "minutes_played": 0.6263252666192025,
+            "sub_position=Centre-Back": 0.09817958771043334,
+            "sub_position=Left-Back": 0.0,
+            "sub_position=Right-Back": 0.0,
+            "foot=both": 0.0,
+            "foot=left": 0.0,
+            "foot=right": 0.09817958771043334
+          },
+          "explanation": "age: 30 (tham chiếu 34); minutes_played: 3588 (tham chiếu 4941); sub_position: Centre-Back (tham chiếu Centre-Back); foot: right (tham chiếu right). Chỉ tương đồng hồ sơ tuổi/thời lượng/vai trò/chân thuận; không đo năng lực phòng ngự."
+        },
+        {
+          "player_id": 328784,
+          "name": "Robin Koch",
+          "position": "Defender",
+          "sub_position": "Centre-Back",
+          "age": 29,
+          "minutes_played": 3755,
+          "market_value_in_eur": 10000000.0,
+          "valuation_date": "2026-05-27",
+          "rank": 4,
+          "club": "Eintracht Frankfurt",
+          "similarity_score": 0.953971039433,
+          "similarity_scope": "context_profile_only",
+          "evidence": {
+            "age": {
+              "reference": 34,
+              "candidate": 29
+            },
+            "minutes_played": {
+              "reference": 4941,
+              "candidate": 3755
+            },
+            "sub_position": {
+              "reference": "Centre-Back",
+              "candidate": "Centre-Back"
+            },
+            "foot": {
+              "reference": "right",
+              "candidate": "right"
+            }
+          },
+          "cosine_components": {
+            "age": 0.09278853333805763,
+            "minutes_played": 0.6722736670069949,
+            "sub_position=Centre-Back": 0.09445441954381122,
+            "sub_position=Left-Back": 0.0,
+            "sub_position=Right-Back": 0.0,
+            "foot=both": 0.0,
+            "foot=left": 0.0,
+            "foot=right": 0.09445441954381122
+          },
+          "explanation": "age: 29 (tham chiếu 34); minutes_played: 3755 (tham chiếu 4941); sub_position: Centre-Back (tham chiếu Centre-Back); foot: right (tham chiếu right). Chỉ tương đồng hồ sơ tuổi/thời lượng/vai trò/chân thuận; không đo năng lực phòng ngự."
+        },
+        {
+          "player_id": 277384,
+          "name": "Martin Valjent",
+          "position": "Defender",
+          "sub_position": "Centre-Back",
+          "age": 30,
+          "minutes_played": 3362,
+          "market_value_in_eur": 3000000.0,
+          "valuation_date": "2026-06-05",
+          "rank": 5,
+          "club": "RCD Mallorca",
+          "similarity_score": 0.942175084552,
+          "similarity_scope": "context_profile_only",
+          "evidence": {
+            "age": {
+              "reference": 34,
+              "candidate": 30
+            },
+            "minutes_played": {
+              "reference": 4941,
+              "candidate": 3362
+            },
+            "sub_position": {
+              "reference": "Centre-Back",
+              "candidate": "Centre-Back"
+            },
+            "foot": {
+              "reference": "right",
+              "candidate": "right"
+            }
+          },
+          "cosine_components": {
+            "age": 0.15141577499401554,
+            "minutes_played": 0.576478148490768,
+            "sub_position=Centre-Back": 0.10714058053348509,
+            "sub_position=Left-Back": 0.0,
+            "sub_position=Right-Back": 0.0,
+            "foot=both": 0.0,
+            "foot=left": 0.0,
+            "foot=right": 0.10714058053348509
+          },
+          "explanation": "age: 30 (tham chiếu 34); minutes_played: 3362 (tham chiếu 4941); sub_position: Centre-Back (tham chiếu Centre-Back); foot: right (tham chiếu right). Chỉ tương đồng hồ sơ tuổi/thời lượng/vai trò/chân thuận; không đo năng lực phòng ngự."
+        }
+      ],
+      "status": "ok",
+      "scenario_checks": "passed"
+    },
+    {
+      "scenario": "goalkeeper_context_10m",
+      "reference": {
+        "player_id": 629773,
+        "name": "Lukas Hornicek",
+        "position": "Goalkeeper"
+      },
+      "filters": {
+        "position": "Goalkeeper",
+        "min_age": 20.0,
+        "max_age": 30.0,
+        "max_budget_eur": 10000000.0,
+        "min_minutes": 1800.0
+      },
+      "top_k_requested": 5,
+      "eligible_count": 107,
+      "excluded_zero_vectors": 0,
+      "cutoff": "2026-06-12",
+      "similarity_scope": "context_profile_only",
+      "warnings": [
+        "Chỉ tương đồng hồ sơ tuổi/thời lượng/chân thuận; không đo bắt bóng, không dùng bàn thắng.",
+        "Similarity là cosine trong không gian đã chuẩn hóa, không phải xác suất chuyển nhượng hoặc điểm kỹ năng.",
+        "Market value là ước tính lịch sử; CLB là metadata hiện có, chưa xác minh đúng CLB tại cutoff."
+      ],
+      "results": [
+        {
+          "player_id": 426849,
+          "name": "Jari De Busser",
+          "position": "Goalkeeper",
+          "sub_position": "Goalkeeper",
+          "age": 26,
+          "minutes_played": 4200,
+          "market_value_in_eur": 4000000.0,
+          "valuation_date": "2026-05-28",
+          "rank": 1,
+          "club": "Go Ahead Eagles",
+          "similarity_score": 0.982356067714,
+          "similarity_scope": "context_profile_only",
+          "evidence": {
+            "age": {
+              "reference": 23,
+              "candidate": 26
+            },
+            "minutes_played": {
+              "reference": 4970,
+              "candidate": 4200
+            },
+            "foot": {
+              "reference": "right",
+              "candidate": "right"
+            }
+          },
+          "cosine_components": {
+            "age": 0.1099733879577219,
+            "minutes_played": 0.7216539263106655,
+            "foot=both": 0.0,
+            "foot=left": 0.0,
+            "foot=right": 0.1507287534455949
+          },
+          "explanation": "age: 26 (tham chiếu 23); minutes_played: 4200 (tham chiếu 4970); foot: right (tham chiếu right). Chỉ tương đồng hồ sơ tuổi/thời lượng/chân thuận; không đo bắt bóng, không dùng bàn thắng."
+        },
+        {
+          "player_id": 550829,
+          "name": "Matej Kovar",
+          "position": "Goalkeeper",
+          "sub_position": "Goalkeeper",
+          "age": 26,
+          "minutes_played": 4050,
+          "market_value_in_eur": 8000000.0,
+          "valuation_date": "2026-05-28",
+          "rank": 2,
+          "club": "PSV Eindhoven",
+          "similarity_score": 0.979647260314,
+          "similarity_scope": "context_profile_only",
+          "evidence": {
+            "age": {
+              "reference": 23,
+              "candidate": 26
+            },
+            "minutes_played": {
+              "reference": 4970,
+              "candidate": 4050
+            },
+            "foot": {
+              "reference": "right",
+              "candidate": "right"
+            }
+          },
+          "cosine_components": {
+            "age": 0.11686033731355606,
+            "minutes_played": 0.7026189651186179,
+            "foot=both": 0.0,
+            "foot=left": 0.0,
+            "foot=right": 0.16016795788155258
+          },
+          "explanation": "age: 26 (tham chiếu 23); minutes_played: 4050 (tham chiếu 4970); foot: right (tham chiếu right). Chỉ tương đồng hồ sơ tuổi/thời lượng/chân thuận; không đo bắt bóng, không dùng bàn thắng."
+        },
+        {
+          "player_id": 361256,
+          "name": "Berke Özer",
+          "position": "Goalkeeper",
+          "sub_position": "Goalkeeper",
+          "age": 26,
+          "minutes_played": 4035,
+          "market_value_in_eur": 10000000.0,
+          "valuation_date": "2026-06-01",
+          "rank": 3,
+          "club": "LOSC Lille",
+          "similarity_score": 0.979263577909,
+          "similarity_scope": "context_profile_only",
+          "evidence": {
+            "age": {
+              "reference": 23,
+              "candidate": 26
+            },
+            "minutes_played": {
+              "reference": 4970,
+              "candidate": 4035
+            },
+            "foot": {
+              "reference": "right",
+              "candidate": "right"
+            }
+          },
+          "cosine_components": {
+            "age": 0.11758548277944318,
+            "minutes_played": 0.7005162579635252,
+            "foot=both": 0.0,
+            "foot=left": 0.0,
+            "foot=right": 0.16116183716607466
+          },
+          "explanation": "age: 26 (tham chiếu 23); minutes_played: 4035 (tham chiếu 4970); foot: right (tham chiếu right). Chỉ tương đồng hồ sơ tuổi/thời lượng/chân thuận; không đo bắt bóng, không dùng bàn thắng."
+        },
+        {
+          "player_id": 370997,
+          "name": "Dominik Kotarski",
+          "position": "Goalkeeper",
+          "sub_position": "Goalkeeper",
+          "age": 26,
+          "minutes_played": 3690,
+          "market_value_in_eur": 5000000.0,
+          "valuation_date": "2026-05-25",
+          "rank": 4,
+          "club": "FC Copenhagen",
+          "similarity_score": 0.962188221381,
+          "similarity_scope": "context_profile_only",
+          "evidence": {
+            "age": {
+              "reference": 23,
+              "candidate": 26
+            },
+            "minutes_played": {
+              "reference": 4970,
+              "candidate": 3690
+            },
+            "foot": {
+              "reference": "right",
+              "candidate": "right"
+            }
+          },
+          "cosine_components": {
+            "age": 0.136210200222142,
+            "minutes_played": 0.6392892770244383,
+            "foot=both": 0.0,
+            "foot=left": 0.0,
+            "foot=right": 0.18668874413463737
+          },
+          "explanation": "age: 26 (tham chiếu 23); minutes_played: 3690 (tham chiếu 4970); foot: right (tham chiếu right). Chỉ tương đồng hồ sơ tuổi/thời lượng/chân thuận; không đo bắt bóng, không dùng bàn thắng."
+        },
+        {
+          "player_id": 463527,
+          "name": "Kjell Scherpen",
+          "position": "Goalkeeper",
+          "sub_position": "Goalkeeper",
+          "age": 26,
+          "minutes_played": 3555,
+          "market_value_in_eur": 8000000.0,
+          "valuation_date": "2026-06-04",
+          "rank": 5,
+          "club": "Union Saint-Gilloise",
+          "similarity_score": 0.949398826393,
+          "similarity_scope": "context_profile_only",
+          "evidence": {
+            "age": {
+              "reference": 23,
+              "candidate": 26
+            },
+            "minutes_played": {
+              "reference": 4970,
+              "candidate": 3555
+            },
+            "foot": {
+              "reference": "right",
+              "candidate": "right"
+            }
+          },
+          "cosine_components": {
+            "age": 0.14451953504667786,
+            "minutes_played": 0.6068018312383117,
+            "foot=both": 0.0,
+            "foot=left": 0.0,
+            "foot=right": 0.19807746010786773
+          },
+          "explanation": "age: 26 (tham chiếu 23); minutes_played: 3555 (tham chiếu 4970); foot: right (tham chiếu right). Chỉ tương đồng hồ sơ tuổi/thời lượng/chân thuận; không đo bắt bóng, không dùng bàn thắng."
+        }
+      ],
+      "status": "ok",
+      "scenario_checks": "passed"
+    },
+    {
+      "scenario": "empty_budget",
+      "reference": {
+        "player_id": 132098,
+        "name": "Harry Kane",
+        "position": "Attack"
+      },
+      "filters": {
+        "position": "Attack",
+        "min_age": 18.0,
+        "max_age": 29.0,
+        "max_budget_eur": 0.0,
+        "min_minutes": 1800.0
+      },
+      "top_k_requested": 5,
+      "eligible_count": 0,
+      "excluded_zero_vectors": 0,
+      "cutoff": "2026-06-12",
+      "similarity_scope": "attacking_output_and_role",
+      "warnings": [
+        "Chỉ mô tả ghi bàn/kiến tạo và vai trò; thiếu xG, pressing và bối cảnh giải đấu.",
+        "Similarity là cosine trong không gian đã chuẩn hóa, không phải xác suất chuyển nhượng hoặc điểm kỹ năng.",
+        "Market value là ước tính lịch sử; CLB là metadata hiện có, chưa xác minh đúng CLB tại cutoff."
+      ],
+      "results": [],
+      "status": "no_candidates",
+      "scenario_checks": "passed"
+    }
+  ]
+}

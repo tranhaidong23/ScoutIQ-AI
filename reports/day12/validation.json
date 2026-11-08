@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-03",
+  "baseline": {
+    "command": ".venv/Scripts/python.exe -B -m pytest tests -q -p no:cacheprovider",
+    "passed": 619,
+    "failed": 0,
+    "seconds": 109.16,
+    "exit_code": 0
+  },
+  "day12_tests": {
+    "command": ".venv/Scripts/python.exe -B -m pytest tests/test_day12_integrity.py tests/test_day12_pilot.py -q -p no:cacheprovider",
+    "passed": 98,
+    "failed": 0,
+    "seconds": 8.75,
+    "exit_code": 0
+  },
+  "final_full_suite": {
+    "command": ".venv/Scripts/python.exe -B -m pytest tests -q -p no:cacheprovider",
+    "passed": 717,
+    "failed": 0,
+    "seconds": 144.09,
+    "exit_code": 0,
+    "old_tests": 619,
+    "new_day12_tests": 98
+  },
+  "runner": {
+    "command": ".venv/Scripts/python.exe -B -m src.evaluation.run_day12",
+    "exit_code": 0,
+    "age_rows": 4112,
+    "age_discrepancies": 1,
+    "pilot_rows": 32,
+    "human_labels": 0,
+    "correction_applied": false
+  },
+  "real_relevance_and_agreement": "BLOCKED_NO_INDEPENDENT_HUMAN_LABELS",
+  "git_actions": "no index edit, stage, commit, fetch, push or deploy",
+  "preservation": {
+    "before_files": 128,
+    "changed_docs": [
+      "reports/insights_and_defense.md",
+      "reports/PRESENTATION_AND_DEFENSE.md",
+      "reports/project_log.md",
+      "docs/ARCHITECTURE.md",
+      "docs/FILE_INVENTORY.md",
+      "docs/HANDOFF.md",
+      "docs/PROJECT_CONTEXT.md",
+      "docs/SETUP.md",
+      "AGENTS.md",
+      "CLAUDE.md"
+    ],
+    "old_document_bytes_preserved": 10,
+    "unchanged_prior_files": 118,
+    "unexpected_changes": []
+  },
+  "data_manifest_checks": {
+    "data/processed/scoutiq_candidates_2025_26.csv": true,
+    "data/processed/scoutiq_features_2025_26.csv": true,
+    "data/processed/scoutiq_players_2025_26.csv": true,
+    "data/raw/appearances.csv.gz": true,
+    "data/raw/clubs.csv.gz": true,
+    "data/raw/games.csv.gz": true,
+    "data/raw/player_valuations.csv.gz": true,
+    "data/raw/players.csv.gz": true
+  },
+  "run_source_hashes_current": true,
+  "git_diff_check_exit_code": 0,
+  "broken_relative_links": [],
+  "new_file_trailing_whitespace": [],
+  "credential_pattern_scan": {
+    "matches": [],
+    "scope": "changed docs/new Day12 files; heuristic only"
+  },
+  "branch": "main",
+  "head": "c4d638c2d10c542c897ccf95dedde540814925b1",
+  "origin": "https://github.com/tranhaidong23/ScoutIQ-AI.git",
+  "git_index_sha256": "e6aa240d15d89b0cc6f88f5a28f2d2fd59d7fa4b247c3acc47f0738a947b5270",
+  "git_index_unchanged": true,
+  "new_code_and_test_sha256": {
+    "src/evaluation/integrity.py": "66dc91df91419b15fd293dd5f99b50f093cb960ab0c23e0ec60ff59ac3ef70a3",
+    "src/evaluation/pilot.py": "0d43a6529abac9de6357e4d038513ec2ef4652c8a26ad5de533461a7c18f03f1",
+    "src/evaluation/run_day12.py": "75f1a14b233ed2bee9957d840152d78cc5733b04cc0249d368819f6961d301d8",
+    "tests/test_day12_integrity.py": "9f7270ab79bf7ee2348d192fce03e53ef7982a8da2e4b9638155eb794cf38551",
+    "tests/test_day12_pilot.py": "e32a537c8d5163eee0742fbd36c9caee91450a92a73a8143d2c4d6e32cc6d676"
+  },
+  "day12_new_files": [
+    "src/evaluation/integrity.py",
+    "src/evaluation/pilot.py",
+    "src/evaluation/run_day12.py",
+    "tests/test_day12_integrity.py",
+    "tests/test_day12_pilot.py",
+    "reports/day12/age_discrepancies.csv",
+    "reports/day12/age_integrity_audit.csv",
+    "reports/day12/age_integrity_findings.md",
+    "reports/day12/assessor_registry.json",
+    "reports/day12/audit.json",
+    "reports/day12/correction_proposal.json",
+    "reports/day12/coverage_analysis.csv",
+    "reports/day12/eligibility_exclusions.csv",
+    "reports/day12/evaluation_readiness.md",
+    "reports/day12/feature_lineage.csv",
+    "reports/day12/pilot_annotation_guide.md",
+    "reports/day12/pilot_annotation_template.csv",
+    "reports/day12/pilot_evidence.csv",
+    "reports/day12/pilot_manifest.json",
+    "reports/day12/provenance_audit.md",
+    "reports/day12/readiness.json",
+    "reports/day12/summary.md",
+    "reports/day12/temporal_leakage_review.md",
+    "reports/day12/validation.json"
+  ]
+}

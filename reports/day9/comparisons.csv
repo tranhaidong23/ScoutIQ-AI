@@ -1,0 +1,449 @@
+scenario,engine,group,player_id,reference_player_id,metric,source_column,unit,value,reference_value,signed_difference,absolute_difference,relative_difference_pct,relative_reason,direction
+young_low_budget_striker,cosine,1,132098,132098,age,age,years,32.0,32.0,0.0,0.0,0.0,,equal
+young_low_budget_striker,cosine,1,132098,132098,minutes_played,minutes_played,minutes,4336.0,4336.0,0.0,0.0,0.0,,equal
+young_low_budget_striker,cosine,1,132098,132098,market_value_in_eur,market_value_in_eur,EUR,60000000.0,60000000.0,0.0,0.0,0.0,,equal
+young_low_budget_striker,cosine,1,132098,132098,goals_per90,goals_per90,goals/90 minutes,1.2661439114391144,1.2661439114391144,0.0,0.0,0.0,,equal
+young_low_budget_striker,cosine,1,132098,132098,assists_per90,assists_per90,assists/90 minutes,0.1660516605166051,0.1660516605166051,0.0,0.0,0.0,,equal
+young_low_budget_striker,cosine,1,1360186,132098,age,age,years,22.0,32.0,-10.0,10.0,-31.25,,lower
+young_low_budget_striker,cosine,1,1360186,132098,minutes_played,minutes_played,minutes,1430.0,4336.0,-2906.0,2906.0,-67.02029520295203,,lower
+young_low_budget_striker,cosine,1,1360186,132098,market_value_in_eur,market_value_in_eur,EUR,1000000.0,60000000.0,-59000000.0,59000000.0,-98.33333333333333,,lower
+young_low_budget_striker,cosine,1,1360186,132098,goals_per90,goals_per90,goals/90 minutes,0.6293706293706294,1.2661439114391144,-0.636773282068485,0.636773282068485,-50.29233062019948,,lower
+young_low_budget_striker,cosine,1,1360186,132098,assists_per90,assists_per90,assists/90 minutes,0.1258741258741259,0.1660516605166051,-0.04017753464247922,0.04017753464247922,-24.195804195804165,,lower
+young_low_budget_striker,cosine,1,818445,132098,age,age,years,22.0,32.0,-10.0,10.0,-31.25,,lower
+young_low_budget_striker,cosine,1,818445,132098,minutes_played,minutes_played,minutes,1319.0,4336.0,-3017.0,3017.0,-69.58025830258303,,lower
+young_low_budget_striker,cosine,1,818445,132098,market_value_in_eur,market_value_in_eur,EUR,450000.0,60000000.0,-59550000.0,59550000.0,-99.25,,lower
+young_low_budget_striker,cosine,1,818445,132098,goals_per90,goals_per90,goals/90 minutes,0.7505686125852918,1.2661439114391144,-0.5155752988538226,0.5155752988538226,-40.72011832113251,,lower
+young_low_budget_striker,cosine,1,818445,132098,assists_per90,assists_per90,assists/90 minutes,0.2729340409401061,0.1660516605166051,0.10688238042350098,0.10688238042350098,64.36694465504172,,higher
+young_low_budget_striker,cosine,1,467720,132098,age,age,years,21.0,32.0,-11.0,11.0,-34.375,,lower
+young_low_budget_striker,cosine,1,467720,132098,minutes_played,minutes_played,minutes,1586.0,4336.0,-2750.0,2750.0,-63.42250922509225,,lower
+young_low_budget_striker,cosine,1,467720,132098,market_value_in_eur,market_value_in_eur,EUR,5000000.0,60000000.0,-55000000.0,55000000.0,-91.66666666666666,,lower
+young_low_budget_striker,cosine,1,467720,132098,goals_per90,goals_per90,goals/90 minutes,0.5674653215636822,1.2661439114391144,-0.6986785898754322,0.6986785898754322,-55.18160957558968,,lower
+young_low_budget_striker,cosine,1,467720,132098,assists_per90,assists_per90,assists/90 minutes,0.1134930643127364,0.1660516605166051,-0.05255859620386871,0.05255859620386871,-31.65195460277428,,lower
+young_low_budget_striker,cosine,1,670987,132098,age,age,years,23.0,32.0,-9.0,9.0,-28.125,,lower
+young_low_budget_striker,cosine,1,670987,132098,minutes_played,minutes_played,minutes,2738.0,4336.0,-1598.0,1598.0,-36.85424354243542,,lower
+young_low_budget_striker,cosine,1,670987,132098,market_value_in_eur,market_value_in_eur,EUR,5000000.0,60000000.0,-55000000.0,55000000.0,-91.66666666666666,,lower
+young_low_budget_striker,cosine,1,670987,132098,goals_per90,goals_per90,goals/90 minutes,0.6245434623813002,1.2661439114391144,-0.6416004490578142,0.6416004490578142,-50.673580093163615,,lower
+young_low_budget_striker,cosine,1,670987,132098,assists_per90,assists_per90,assists/90 minutes,0.0657414170927684,0.1660516605166051,-0.10031024342383671,0.10031024342383671,-60.40905770635502,,lower
+young_low_budget_striker,cosine,2,132098,132098,age,age,years,32.0,32.0,0.0,0.0,0.0,,equal
+young_low_budget_striker,cosine,2,132098,132098,minutes_played,minutes_played,minutes,4336.0,4336.0,0.0,0.0,0.0,,equal
+young_low_budget_striker,cosine,2,132098,132098,market_value_in_eur,market_value_in_eur,EUR,60000000.0,60000000.0,0.0,0.0,0.0,,equal
+young_low_budget_striker,cosine,2,132098,132098,goals_per90,goals_per90,goals/90 minutes,1.2661439114391144,1.2661439114391144,0.0,0.0,0.0,,equal
+young_low_budget_striker,cosine,2,132098,132098,assists_per90,assists_per90,assists/90 minutes,0.1660516605166051,0.1660516605166051,0.0,0.0,0.0,,equal
+young_low_budget_striker,cosine,2,845568,132098,age,age,years,22.0,32.0,-10.0,10.0,-31.25,,lower
+young_low_budget_striker,cosine,2,845568,132098,minutes_played,minutes_played,minutes,1535.0,4336.0,-2801.0,2801.0,-64.59870848708486,,lower
+young_low_budget_striker,cosine,2,845568,132098,market_value_in_eur,market_value_in_eur,EUR,2500000.0,60000000.0,-57500000.0,57500000.0,-95.83333333333334,,lower
+young_low_budget_striker,cosine,2,845568,132098,goals_per90,goals_per90,goals/90 minutes,0.5276872964169381,1.2661439114391144,-0.7384566150221763,0.7384566150221763,-58.32327655257116,,lower
+young_low_budget_striker,cosine,2,845568,132098,assists_per90,assists_per90,assists/90 minutes,0.1172638436482084,0.1660516605166051,-0.04878781686839671,0.04878781686839671,-29.381107491856696,,lower
+young_low_budget_striker,weighted,1,132098,132098,age,age,years,32.0,32.0,0.0,0.0,0.0,,equal
+young_low_budget_striker,weighted,1,132098,132098,minutes_played,minutes_played,minutes,4336.0,4336.0,0.0,0.0,0.0,,equal
+young_low_budget_striker,weighted,1,132098,132098,market_value_in_eur,market_value_in_eur,EUR,60000000.0,60000000.0,0.0,0.0,0.0,,equal
+young_low_budget_striker,weighted,1,132098,132098,goals_per90,goals_per90,goals/90 minutes,1.2661439114391144,1.2661439114391144,0.0,0.0,0.0,,equal
+young_low_budget_striker,weighted,1,132098,132098,assists_per90,assists_per90,assists/90 minutes,0.1660516605166051,0.1660516605166051,0.0,0.0,0.0,,equal
+young_low_budget_striker,weighted,1,1360186,132098,age,age,years,22.0,32.0,-10.0,10.0,-31.25,,lower
+young_low_budget_striker,weighted,1,1360186,132098,minutes_played,minutes_played,minutes,1430.0,4336.0,-2906.0,2906.0,-67.02029520295203,,lower
+young_low_budget_striker,weighted,1,1360186,132098,market_value_in_eur,market_value_in_eur,EUR,1000000.0,60000000.0,-59000000.0,59000000.0,-98.33333333333333,,lower
+young_low_budget_striker,weighted,1,1360186,132098,goals_per90,goals_per90,goals/90 minutes,0.6293706293706294,1.2661439114391144,-0.636773282068485,0.636773282068485,-50.29233062019948,,lower
+young_low_budget_striker,weighted,1,1360186,132098,assists_per90,assists_per90,assists/90 minutes,0.1258741258741259,0.1660516605166051,-0.04017753464247922,0.04017753464247922,-24.195804195804165,,lower
+young_low_budget_striker,weighted,1,818445,132098,age,age,years,22.0,32.0,-10.0,10.0,-31.25,,lower
+young_low_budget_striker,weighted,1,818445,132098,minutes_played,minutes_played,minutes,1319.0,4336.0,-3017.0,3017.0,-69.58025830258303,,lower
+young_low_budget_striker,weighted,1,818445,132098,market_value_in_eur,market_value_in_eur,EUR,450000.0,60000000.0,-59550000.0,59550000.0,-99.25,,lower
+young_low_budget_striker,weighted,1,818445,132098,goals_per90,goals_per90,goals/90 minutes,0.7505686125852918,1.2661439114391144,-0.5155752988538226,0.5155752988538226,-40.72011832113251,,lower
+young_low_budget_striker,weighted,1,818445,132098,assists_per90,assists_per90,assists/90 minutes,0.2729340409401061,0.1660516605166051,0.10688238042350098,0.10688238042350098,64.36694465504172,,higher
+young_low_budget_striker,weighted,1,467720,132098,age,age,years,21.0,32.0,-11.0,11.0,-34.375,,lower
+young_low_budget_striker,weighted,1,467720,132098,minutes_played,minutes_played,minutes,1586.0,4336.0,-2750.0,2750.0,-63.42250922509225,,lower
+young_low_budget_striker,weighted,1,467720,132098,market_value_in_eur,market_value_in_eur,EUR,5000000.0,60000000.0,-55000000.0,55000000.0,-91.66666666666666,,lower
+young_low_budget_striker,weighted,1,467720,132098,goals_per90,goals_per90,goals/90 minutes,0.5674653215636822,1.2661439114391144,-0.6986785898754322,0.6986785898754322,-55.18160957558968,,lower
+young_low_budget_striker,weighted,1,467720,132098,assists_per90,assists_per90,assists/90 minutes,0.1134930643127364,0.1660516605166051,-0.05255859620386871,0.05255859620386871,-31.65195460277428,,lower
+young_low_budget_striker,weighted,1,845568,132098,age,age,years,22.0,32.0,-10.0,10.0,-31.25,,lower
+young_low_budget_striker,weighted,1,845568,132098,minutes_played,minutes_played,minutes,1535.0,4336.0,-2801.0,2801.0,-64.59870848708486,,lower
+young_low_budget_striker,weighted,1,845568,132098,market_value_in_eur,market_value_in_eur,EUR,2500000.0,60000000.0,-57500000.0,57500000.0,-95.83333333333334,,lower
+young_low_budget_striker,weighted,1,845568,132098,goals_per90,goals_per90,goals/90 minutes,0.5276872964169381,1.2661439114391144,-0.7384566150221763,0.7384566150221763,-58.32327655257116,,lower
+young_low_budget_striker,weighted,1,845568,132098,assists_per90,assists_per90,assists/90 minutes,0.1172638436482084,0.1660516605166051,-0.04878781686839671,0.04878781686839671,-29.381107491856696,,lower
+young_low_budget_striker,weighted,2,132098,132098,age,age,years,32.0,32.0,0.0,0.0,0.0,,equal
+young_low_budget_striker,weighted,2,132098,132098,minutes_played,minutes_played,minutes,4336.0,4336.0,0.0,0.0,0.0,,equal
+young_low_budget_striker,weighted,2,132098,132098,market_value_in_eur,market_value_in_eur,EUR,60000000.0,60000000.0,0.0,0.0,0.0,,equal
+young_low_budget_striker,weighted,2,132098,132098,goals_per90,goals_per90,goals/90 minutes,1.2661439114391144,1.2661439114391144,0.0,0.0,0.0,,equal
+young_low_budget_striker,weighted,2,132098,132098,assists_per90,assists_per90,assists/90 minutes,0.1660516605166051,0.1660516605166051,0.0,0.0,0.0,,equal
+young_low_budget_striker,weighted,2,670987,132098,age,age,years,23.0,32.0,-9.0,9.0,-28.125,,lower
+young_low_budget_striker,weighted,2,670987,132098,minutes_played,minutes_played,minutes,2738.0,4336.0,-1598.0,1598.0,-36.85424354243542,,lower
+young_low_budget_striker,weighted,2,670987,132098,market_value_in_eur,market_value_in_eur,EUR,5000000.0,60000000.0,-55000000.0,55000000.0,-91.66666666666666,,lower
+young_low_budget_striker,weighted,2,670987,132098,goals_per90,goals_per90,goals/90 minutes,0.6245434623813002,1.2661439114391144,-0.6416004490578142,0.6416004490578142,-50.673580093163615,,lower
+young_low_budget_striker,weighted,2,670987,132098,assists_per90,assists_per90,assists/90 minutes,0.0657414170927684,0.1660516605166051,-0.10031024342383671,0.10031024342383671,-60.40905770635502,,lower
+young_low_budget_striker,knn_cosine,1,132098,132098,age,age,years,32.0,32.0,0.0,0.0,0.0,,equal
+young_low_budget_striker,knn_cosine,1,132098,132098,minutes_played,minutes_played,minutes,4336.0,4336.0,0.0,0.0,0.0,,equal
+young_low_budget_striker,knn_cosine,1,132098,132098,market_value_in_eur,market_value_in_eur,EUR,60000000.0,60000000.0,0.0,0.0,0.0,,equal
+young_low_budget_striker,knn_cosine,1,132098,132098,goals_per90,goals_per90,goals/90 minutes,1.2661439114391144,1.2661439114391144,0.0,0.0,0.0,,equal
+young_low_budget_striker,knn_cosine,1,132098,132098,assists_per90,assists_per90,assists/90 minutes,0.1660516605166051,0.1660516605166051,0.0,0.0,0.0,,equal
+young_low_budget_striker,knn_cosine,1,1360186,132098,age,age,years,22.0,32.0,-10.0,10.0,-31.25,,lower
+young_low_budget_striker,knn_cosine,1,1360186,132098,minutes_played,minutes_played,minutes,1430.0,4336.0,-2906.0,2906.0,-67.02029520295203,,lower
+young_low_budget_striker,knn_cosine,1,1360186,132098,market_value_in_eur,market_value_in_eur,EUR,1000000.0,60000000.0,-59000000.0,59000000.0,-98.33333333333333,,lower
+young_low_budget_striker,knn_cosine,1,1360186,132098,goals_per90,goals_per90,goals/90 minutes,0.6293706293706294,1.2661439114391144,-0.636773282068485,0.636773282068485,-50.29233062019948,,lower
+young_low_budget_striker,knn_cosine,1,1360186,132098,assists_per90,assists_per90,assists/90 minutes,0.1258741258741259,0.1660516605166051,-0.04017753464247922,0.04017753464247922,-24.195804195804165,,lower
+young_low_budget_striker,knn_cosine,1,818445,132098,age,age,years,22.0,32.0,-10.0,10.0,-31.25,,lower
+young_low_budget_striker,knn_cosine,1,818445,132098,minutes_played,minutes_played,minutes,1319.0,4336.0,-3017.0,3017.0,-69.58025830258303,,lower
+young_low_budget_striker,knn_cosine,1,818445,132098,market_value_in_eur,market_value_in_eur,EUR,450000.0,60000000.0,-59550000.0,59550000.0,-99.25,,lower
+young_low_budget_striker,knn_cosine,1,818445,132098,goals_per90,goals_per90,goals/90 minutes,0.7505686125852918,1.2661439114391144,-0.5155752988538226,0.5155752988538226,-40.72011832113251,,lower
+young_low_budget_striker,knn_cosine,1,818445,132098,assists_per90,assists_per90,assists/90 minutes,0.2729340409401061,0.1660516605166051,0.10688238042350098,0.10688238042350098,64.36694465504172,,higher
+young_low_budget_striker,knn_cosine,1,467720,132098,age,age,years,21.0,32.0,-11.0,11.0,-34.375,,lower
+young_low_budget_striker,knn_cosine,1,467720,132098,minutes_played,minutes_played,minutes,1586.0,4336.0,-2750.0,2750.0,-63.42250922509225,,lower
+young_low_budget_striker,knn_cosine,1,467720,132098,market_value_in_eur,market_value_in_eur,EUR,5000000.0,60000000.0,-55000000.0,55000000.0,-91.66666666666666,,lower
+young_low_budget_striker,knn_cosine,1,467720,132098,goals_per90,goals_per90,goals/90 minutes,0.5674653215636822,1.2661439114391144,-0.6986785898754322,0.6986785898754322,-55.18160957558968,,lower
+young_low_budget_striker,knn_cosine,1,467720,132098,assists_per90,assists_per90,assists/90 minutes,0.1134930643127364,0.1660516605166051,-0.05255859620386871,0.05255859620386871,-31.65195460277428,,lower
+young_low_budget_striker,knn_cosine,1,670987,132098,age,age,years,23.0,32.0,-9.0,9.0,-28.125,,lower
+young_low_budget_striker,knn_cosine,1,670987,132098,minutes_played,minutes_played,minutes,2738.0,4336.0,-1598.0,1598.0,-36.85424354243542,,lower
+young_low_budget_striker,knn_cosine,1,670987,132098,market_value_in_eur,market_value_in_eur,EUR,5000000.0,60000000.0,-55000000.0,55000000.0,-91.66666666666666,,lower
+young_low_budget_striker,knn_cosine,1,670987,132098,goals_per90,goals_per90,goals/90 minutes,0.6245434623813002,1.2661439114391144,-0.6416004490578142,0.6416004490578142,-50.673580093163615,,lower
+young_low_budget_striker,knn_cosine,1,670987,132098,assists_per90,assists_per90,assists/90 minutes,0.0657414170927684,0.1660516605166051,-0.10031024342383671,0.10031024342383671,-60.40905770635502,,lower
+young_low_budget_striker,knn_cosine,2,132098,132098,age,age,years,32.0,32.0,0.0,0.0,0.0,,equal
+young_low_budget_striker,knn_cosine,2,132098,132098,minutes_played,minutes_played,minutes,4336.0,4336.0,0.0,0.0,0.0,,equal
+young_low_budget_striker,knn_cosine,2,132098,132098,market_value_in_eur,market_value_in_eur,EUR,60000000.0,60000000.0,0.0,0.0,0.0,,equal
+young_low_budget_striker,knn_cosine,2,132098,132098,goals_per90,goals_per90,goals/90 minutes,1.2661439114391144,1.2661439114391144,0.0,0.0,0.0,,equal
+young_low_budget_striker,knn_cosine,2,132098,132098,assists_per90,assists_per90,assists/90 minutes,0.1660516605166051,0.1660516605166051,0.0,0.0,0.0,,equal
+young_low_budget_striker,knn_cosine,2,845568,132098,age,age,years,22.0,32.0,-10.0,10.0,-31.25,,lower
+young_low_budget_striker,knn_cosine,2,845568,132098,minutes_played,minutes_played,minutes,1535.0,4336.0,-2801.0,2801.0,-64.59870848708486,,lower
+young_low_budget_striker,knn_cosine,2,845568,132098,market_value_in_eur,market_value_in_eur,EUR,2500000.0,60000000.0,-57500000.0,57500000.0,-95.83333333333334,,lower
+young_low_budget_striker,knn_cosine,2,845568,132098,goals_per90,goals_per90,goals/90 minutes,0.5276872964169381,1.2661439114391144,-0.7384566150221763,0.7384566150221763,-58.32327655257116,,lower
+young_low_budget_striker,knn_cosine,2,845568,132098,assists_per90,assists_per90,assists/90 minutes,0.1172638436482084,0.1660516605166051,-0.04878781686839671,0.04878781686839671,-29.381107491856696,,lower
+young_low_budget_striker,knn_weighted,1,132098,132098,age,age,years,32.0,32.0,0.0,0.0,0.0,,equal
+young_low_budget_striker,knn_weighted,1,132098,132098,minutes_played,minutes_played,minutes,4336.0,4336.0,0.0,0.0,0.0,,equal
+young_low_budget_striker,knn_weighted,1,132098,132098,market_value_in_eur,market_value_in_eur,EUR,60000000.0,60000000.0,0.0,0.0,0.0,,equal
+young_low_budget_striker,knn_weighted,1,132098,132098,goals_per90,goals_per90,goals/90 minutes,1.2661439114391144,1.2661439114391144,0.0,0.0,0.0,,equal
+young_low_budget_striker,knn_weighted,1,132098,132098,assists_per90,assists_per90,assists/90 minutes,0.1660516605166051,0.1660516605166051,0.0,0.0,0.0,,equal
+young_low_budget_striker,knn_weighted,1,1360186,132098,age,age,years,22.0,32.0,-10.0,10.0,-31.25,,lower
+young_low_budget_striker,knn_weighted,1,1360186,132098,minutes_played,minutes_played,minutes,1430.0,4336.0,-2906.0,2906.0,-67.02029520295203,,lower
+young_low_budget_striker,knn_weighted,1,1360186,132098,market_value_in_eur,market_value_in_eur,EUR,1000000.0,60000000.0,-59000000.0,59000000.0,-98.33333333333333,,lower
+young_low_budget_striker,knn_weighted,1,1360186,132098,goals_per90,goals_per90,goals/90 minutes,0.6293706293706294,1.2661439114391144,-0.636773282068485,0.636773282068485,-50.29233062019948,,lower
+young_low_budget_striker,knn_weighted,1,1360186,132098,assists_per90,assists_per90,assists/90 minutes,0.1258741258741259,0.1660516605166051,-0.04017753464247922,0.04017753464247922,-24.195804195804165,,lower
+young_low_budget_striker,knn_weighted,1,818445,132098,age,age,years,22.0,32.0,-10.0,10.0,-31.25,,lower
+young_low_budget_striker,knn_weighted,1,818445,132098,minutes_played,minutes_played,minutes,1319.0,4336.0,-3017.0,3017.0,-69.58025830258303,,lower
+young_low_budget_striker,knn_weighted,1,818445,132098,market_value_in_eur,market_value_in_eur,EUR,450000.0,60000000.0,-59550000.0,59550000.0,-99.25,,lower
+young_low_budget_striker,knn_weighted,1,818445,132098,goals_per90,goals_per90,goals/90 minutes,0.7505686125852918,1.2661439114391144,-0.5155752988538226,0.5155752988538226,-40.72011832113251,,lower
+young_low_budget_striker,knn_weighted,1,818445,132098,assists_per90,assists_per90,assists/90 minutes,0.2729340409401061,0.1660516605166051,0.10688238042350098,0.10688238042350098,64.36694465504172,,higher
+young_low_budget_striker,knn_weighted,1,467720,132098,age,age,years,21.0,32.0,-11.0,11.0,-34.375,,lower
+young_low_budget_striker,knn_weighted,1,467720,132098,minutes_played,minutes_played,minutes,1586.0,4336.0,-2750.0,2750.0,-63.42250922509225,,lower
+young_low_budget_striker,knn_weighted,1,467720,132098,market_value_in_eur,market_value_in_eur,EUR,5000000.0,60000000.0,-55000000.0,55000000.0,-91.66666666666666,,lower
+young_low_budget_striker,knn_weighted,1,467720,132098,goals_per90,goals_per90,goals/90 minutes,0.5674653215636822,1.2661439114391144,-0.6986785898754322,0.6986785898754322,-55.18160957558968,,lower
+young_low_budget_striker,knn_weighted,1,467720,132098,assists_per90,assists_per90,assists/90 minutes,0.1134930643127364,0.1660516605166051,-0.05255859620386871,0.05255859620386871,-31.65195460277428,,lower
+young_low_budget_striker,knn_weighted,1,845568,132098,age,age,years,22.0,32.0,-10.0,10.0,-31.25,,lower
+young_low_budget_striker,knn_weighted,1,845568,132098,minutes_played,minutes_played,minutes,1535.0,4336.0,-2801.0,2801.0,-64.59870848708486,,lower
+young_low_budget_striker,knn_weighted,1,845568,132098,market_value_in_eur,market_value_in_eur,EUR,2500000.0,60000000.0,-57500000.0,57500000.0,-95.83333333333334,,lower
+young_low_budget_striker,knn_weighted,1,845568,132098,goals_per90,goals_per90,goals/90 minutes,0.5276872964169381,1.2661439114391144,-0.7384566150221763,0.7384566150221763,-58.32327655257116,,lower
+young_low_budget_striker,knn_weighted,1,845568,132098,assists_per90,assists_per90,assists/90 minutes,0.1172638436482084,0.1660516605166051,-0.04878781686839671,0.04878781686839671,-29.381107491856696,,lower
+young_low_budget_striker,knn_weighted,2,132098,132098,age,age,years,32.0,32.0,0.0,0.0,0.0,,equal
+young_low_budget_striker,knn_weighted,2,132098,132098,minutes_played,minutes_played,minutes,4336.0,4336.0,0.0,0.0,0.0,,equal
+young_low_budget_striker,knn_weighted,2,132098,132098,market_value_in_eur,market_value_in_eur,EUR,60000000.0,60000000.0,0.0,0.0,0.0,,equal
+young_low_budget_striker,knn_weighted,2,132098,132098,goals_per90,goals_per90,goals/90 minutes,1.2661439114391144,1.2661439114391144,0.0,0.0,0.0,,equal
+young_low_budget_striker,knn_weighted,2,132098,132098,assists_per90,assists_per90,assists/90 minutes,0.1660516605166051,0.1660516605166051,0.0,0.0,0.0,,equal
+young_low_budget_striker,knn_weighted,2,670987,132098,age,age,years,23.0,32.0,-9.0,9.0,-28.125,,lower
+young_low_budget_striker,knn_weighted,2,670987,132098,minutes_played,minutes_played,minutes,2738.0,4336.0,-1598.0,1598.0,-36.85424354243542,,lower
+young_low_budget_striker,knn_weighted,2,670987,132098,market_value_in_eur,market_value_in_eur,EUR,5000000.0,60000000.0,-55000000.0,55000000.0,-91.66666666666666,,lower
+young_low_budget_striker,knn_weighted,2,670987,132098,goals_per90,goals_per90,goals/90 minutes,0.6245434623813002,1.2661439114391144,-0.6416004490578142,0.6416004490578142,-50.673580093163615,,lower
+young_low_budget_striker,knn_weighted,2,670987,132098,assists_per90,assists_per90,assists/90 minutes,0.0657414170927684,0.1660516605166051,-0.10031024342383671,0.10031024342383671,-60.40905770635502,,lower
+creative_midfielder,cosine,1,137576,137576,age,age,years,33.0,33.0,0.0,0.0,0.0,,equal
+creative_midfielder,cosine,1,137576,137576,minutes_played,minutes_played,minutes,4716.0,4716.0,0.0,0.0,0.0,,equal
+creative_midfielder,cosine,1,137576,137576,market_value_in_eur,market_value_in_eur,EUR,5000000.0,5000000.0,0.0,0.0,0.0,,equal
+creative_midfielder,cosine,1,137576,137576,goals_per90,goals_per90,goals/90 minutes,0.2290076335877862,0.2290076335877862,0.0,0.0,0.0,,equal
+creative_midfielder,cosine,1,137576,137576,assists_per90,assists_per90,assists/90 minutes,0.1335877862595419,0.1335877862595419,0.0,0.0,0.0,,equal
+creative_midfielder,cosine,1,1175048,137576,age,age,years,20.0,33.0,-13.0,13.0,-39.39393939393939,,lower
+creative_midfielder,cosine,1,1175048,137576,minutes_played,minutes_played,minutes,1420.0,4716.0,-3296.0,3296.0,-69.88973706530959,,lower
+creative_midfielder,cosine,1,1175048,137576,market_value_in_eur,market_value_in_eur,EUR,1200000.0,5000000.0,-3800000.0,3800000.0,-76.0,,lower
+creative_midfielder,cosine,1,1175048,137576,goals_per90,goals_per90,goals/90 minutes,0.2535211267605634,0.2290076335877862,0.02451349317277718,0.02451349317277718,10.704225352112704,,higher
+creative_midfielder,cosine,1,1175048,137576,assists_per90,assists_per90,assists/90 minutes,0.1901408450704225,0.1335877862595419,0.0565530588108806,0.0565530588108806,42.33400402414493,,higher
+creative_midfielder,cosine,1,543302,137576,age,age,years,26.0,33.0,-7.0,7.0,-21.21212121212121,,lower
+creative_midfielder,cosine,1,543302,137576,minutes_played,minutes_played,minutes,2776.0,4716.0,-1940.0,1940.0,-41.13655640373198,,lower
+creative_midfielder,cosine,1,543302,137576,market_value_in_eur,market_value_in_eur,EUR,4000000.0,5000000.0,-1000000.0,1000000.0,-20.0,,lower
+creative_midfielder,cosine,1,543302,137576,goals_per90,goals_per90,goals/90 minutes,0.4214697406340058,0.2290076335877862,0.19246210704621958,0.19246210704621958,84.0417867435159,,higher
+creative_midfielder,cosine,1,543302,137576,assists_per90,assists_per90,assists/90 minutes,0.1621037463976945,0.1335877862595419,0.028515960138152607,0.028515960138152607,21.346233017702822,,higher
+creative_midfielder,cosine,1,652061,137576,age,age,years,22.0,33.0,-11.0,11.0,-33.33333333333333,,lower
+creative_midfielder,cosine,1,652061,137576,minutes_played,minutes_played,minutes,1399.0,4716.0,-3317.0,3317.0,-70.33502968617472,,lower
+creative_midfielder,cosine,1,652061,137576,market_value_in_eur,market_value_in_eur,EUR,7000000.0,5000000.0,2000000.0,2000000.0,40.0,,higher
+creative_midfielder,cosine,1,652061,137576,goals_per90,goals_per90,goals/90 minutes,0.1929949964260185,0.2290076335877862,-0.0360126371617677,0.0360126371617677,-15.725518227305232,,lower
+creative_midfielder,cosine,1,652061,137576,assists_per90,assists_per90,assists/90 minutes,0.1929949964260185,0.1335877862595419,0.0594072101664766,0.0594072101664766,44.47054018176251,,higher
+creative_midfielder,cosine,1,896234,137576,age,age,years,24.0,33.0,-9.0,9.0,-27.27272727272727,,lower
+creative_midfielder,cosine,1,896234,137576,minutes_played,minutes_played,minutes,1646.0,4716.0,-3070.0,3070.0,-65.09754028837999,,lower
+creative_midfielder,cosine,1,896234,137576,market_value_in_eur,market_value_in_eur,EUR,1000000.0,5000000.0,-4000000.0,4000000.0,-80.0,,lower
+creative_midfielder,cosine,1,896234,137576,goals_per90,goals_per90,goals/90 minutes,0.3280680437424058,0.2290076335877862,0.09906041015461958,0.09906041015461958,43.25637910085056,,higher
+creative_midfielder,cosine,1,896234,137576,assists_per90,assists_per90,assists/90 minutes,0.3280680437424058,0.1335877862595419,0.19448025748286388,0.19448025748286388,145.58236417288677,,higher
+creative_midfielder,cosine,2,137576,137576,age,age,years,33.0,33.0,0.0,0.0,0.0,,equal
+creative_midfielder,cosine,2,137576,137576,minutes_played,minutes_played,minutes,4716.0,4716.0,0.0,0.0,0.0,,equal
+creative_midfielder,cosine,2,137576,137576,market_value_in_eur,market_value_in_eur,EUR,5000000.0,5000000.0,0.0,0.0,0.0,,equal
+creative_midfielder,cosine,2,137576,137576,goals_per90,goals_per90,goals/90 minutes,0.2290076335877862,0.2290076335877862,0.0,0.0,0.0,,equal
+creative_midfielder,cosine,2,137576,137576,assists_per90,assists_per90,assists/90 minutes,0.1335877862595419,0.1335877862595419,0.0,0.0,0.0,,equal
+creative_midfielder,cosine,2,485672,137576,age,age,years,26.0,33.0,-7.0,7.0,-21.21212121212121,,lower
+creative_midfielder,cosine,2,485672,137576,minutes_played,minutes_played,minutes,2396.0,4716.0,-2320.0,2320.0,-49.194232400339274,,lower
+creative_midfielder,cosine,2,485672,137576,market_value_in_eur,market_value_in_eur,EUR,2500000.0,5000000.0,-2500000.0,2500000.0,-50.0,,lower
+creative_midfielder,cosine,2,485672,137576,goals_per90,goals_per90,goals/90 minutes,0.2629382303839733,0.2290076335877862,0.033930596796187096,0.033930596796187096,14.816360601001701,,higher
+creative_midfielder,cosine,2,485672,137576,assists_per90,assists_per90,assists/90 minutes,0.3005008347245409,0.1335877862595419,0.16691304846499902,0.16691304846499902,124.94633913665649,,higher
+creative_midfielder,weighted,1,137576,137576,age,age,years,33.0,33.0,0.0,0.0,0.0,,equal
+creative_midfielder,weighted,1,137576,137576,minutes_played,minutes_played,minutes,4716.0,4716.0,0.0,0.0,0.0,,equal
+creative_midfielder,weighted,1,137576,137576,market_value_in_eur,market_value_in_eur,EUR,5000000.0,5000000.0,0.0,0.0,0.0,,equal
+creative_midfielder,weighted,1,137576,137576,goals_per90,goals_per90,goals/90 minutes,0.2290076335877862,0.2290076335877862,0.0,0.0,0.0,,equal
+creative_midfielder,weighted,1,137576,137576,assists_per90,assists_per90,assists/90 minutes,0.1335877862595419,0.1335877862595419,0.0,0.0,0.0,,equal
+creative_midfielder,weighted,1,543302,137576,age,age,years,26.0,33.0,-7.0,7.0,-21.21212121212121,,lower
+creative_midfielder,weighted,1,543302,137576,minutes_played,minutes_played,minutes,2776.0,4716.0,-1940.0,1940.0,-41.13655640373198,,lower
+creative_midfielder,weighted,1,543302,137576,market_value_in_eur,market_value_in_eur,EUR,4000000.0,5000000.0,-1000000.0,1000000.0,-20.0,,lower
+creative_midfielder,weighted,1,543302,137576,goals_per90,goals_per90,goals/90 minutes,0.4214697406340058,0.2290076335877862,0.19246210704621958,0.19246210704621958,84.0417867435159,,higher
+creative_midfielder,weighted,1,543302,137576,assists_per90,assists_per90,assists/90 minutes,0.1621037463976945,0.1335877862595419,0.028515960138152607,0.028515960138152607,21.346233017702822,,higher
+creative_midfielder,weighted,1,1175048,137576,age,age,years,20.0,33.0,-13.0,13.0,-39.39393939393939,,lower
+creative_midfielder,weighted,1,1175048,137576,minutes_played,minutes_played,minutes,1420.0,4716.0,-3296.0,3296.0,-69.88973706530959,,lower
+creative_midfielder,weighted,1,1175048,137576,market_value_in_eur,market_value_in_eur,EUR,1200000.0,5000000.0,-3800000.0,3800000.0,-76.0,,lower
+creative_midfielder,weighted,1,1175048,137576,goals_per90,goals_per90,goals/90 minutes,0.2535211267605634,0.2290076335877862,0.02451349317277718,0.02451349317277718,10.704225352112704,,higher
+creative_midfielder,weighted,1,1175048,137576,assists_per90,assists_per90,assists/90 minutes,0.1901408450704225,0.1335877862595419,0.0565530588108806,0.0565530588108806,42.33400402414493,,higher
+creative_midfielder,weighted,1,652061,137576,age,age,years,22.0,33.0,-11.0,11.0,-33.33333333333333,,lower
+creative_midfielder,weighted,1,652061,137576,minutes_played,minutes_played,minutes,1399.0,4716.0,-3317.0,3317.0,-70.33502968617472,,lower
+creative_midfielder,weighted,1,652061,137576,market_value_in_eur,market_value_in_eur,EUR,7000000.0,5000000.0,2000000.0,2000000.0,40.0,,higher
+creative_midfielder,weighted,1,652061,137576,goals_per90,goals_per90,goals/90 minutes,0.1929949964260185,0.2290076335877862,-0.0360126371617677,0.0360126371617677,-15.725518227305232,,lower
+creative_midfielder,weighted,1,652061,137576,assists_per90,assists_per90,assists/90 minutes,0.1929949964260185,0.1335877862595419,0.0594072101664766,0.0594072101664766,44.47054018176251,,higher
+creative_midfielder,weighted,1,896234,137576,age,age,years,24.0,33.0,-9.0,9.0,-27.27272727272727,,lower
+creative_midfielder,weighted,1,896234,137576,minutes_played,minutes_played,minutes,1646.0,4716.0,-3070.0,3070.0,-65.09754028837999,,lower
+creative_midfielder,weighted,1,896234,137576,market_value_in_eur,market_value_in_eur,EUR,1000000.0,5000000.0,-4000000.0,4000000.0,-80.0,,lower
+creative_midfielder,weighted,1,896234,137576,goals_per90,goals_per90,goals/90 minutes,0.3280680437424058,0.2290076335877862,0.09906041015461958,0.09906041015461958,43.25637910085056,,higher
+creative_midfielder,weighted,1,896234,137576,assists_per90,assists_per90,assists/90 minutes,0.3280680437424058,0.1335877862595419,0.19448025748286388,0.19448025748286388,145.58236417288677,,higher
+creative_midfielder,weighted,2,137576,137576,age,age,years,33.0,33.0,0.0,0.0,0.0,,equal
+creative_midfielder,weighted,2,137576,137576,minutes_played,minutes_played,minutes,4716.0,4716.0,0.0,0.0,0.0,,equal
+creative_midfielder,weighted,2,137576,137576,market_value_in_eur,market_value_in_eur,EUR,5000000.0,5000000.0,0.0,0.0,0.0,,equal
+creative_midfielder,weighted,2,137576,137576,goals_per90,goals_per90,goals/90 minutes,0.2290076335877862,0.2290076335877862,0.0,0.0,0.0,,equal
+creative_midfielder,weighted,2,137576,137576,assists_per90,assists_per90,assists/90 minutes,0.1335877862595419,0.1335877862595419,0.0,0.0,0.0,,equal
+creative_midfielder,weighted,2,485672,137576,age,age,years,26.0,33.0,-7.0,7.0,-21.21212121212121,,lower
+creative_midfielder,weighted,2,485672,137576,minutes_played,minutes_played,minutes,2396.0,4716.0,-2320.0,2320.0,-49.194232400339274,,lower
+creative_midfielder,weighted,2,485672,137576,market_value_in_eur,market_value_in_eur,EUR,2500000.0,5000000.0,-2500000.0,2500000.0,-50.0,,lower
+creative_midfielder,weighted,2,485672,137576,goals_per90,goals_per90,goals/90 minutes,0.2629382303839733,0.2290076335877862,0.033930596796187096,0.033930596796187096,14.816360601001701,,higher
+creative_midfielder,weighted,2,485672,137576,assists_per90,assists_per90,assists/90 minutes,0.3005008347245409,0.1335877862595419,0.16691304846499902,0.16691304846499902,124.94633913665649,,higher
+creative_midfielder,knn_cosine,1,137576,137576,age,age,years,33.0,33.0,0.0,0.0,0.0,,equal
+creative_midfielder,knn_cosine,1,137576,137576,minutes_played,minutes_played,minutes,4716.0,4716.0,0.0,0.0,0.0,,equal
+creative_midfielder,knn_cosine,1,137576,137576,market_value_in_eur,market_value_in_eur,EUR,5000000.0,5000000.0,0.0,0.0,0.0,,equal
+creative_midfielder,knn_cosine,1,137576,137576,goals_per90,goals_per90,goals/90 minutes,0.2290076335877862,0.2290076335877862,0.0,0.0,0.0,,equal
+creative_midfielder,knn_cosine,1,137576,137576,assists_per90,assists_per90,assists/90 minutes,0.1335877862595419,0.1335877862595419,0.0,0.0,0.0,,equal
+creative_midfielder,knn_cosine,1,1175048,137576,age,age,years,20.0,33.0,-13.0,13.0,-39.39393939393939,,lower
+creative_midfielder,knn_cosine,1,1175048,137576,minutes_played,minutes_played,minutes,1420.0,4716.0,-3296.0,3296.0,-69.88973706530959,,lower
+creative_midfielder,knn_cosine,1,1175048,137576,market_value_in_eur,market_value_in_eur,EUR,1200000.0,5000000.0,-3800000.0,3800000.0,-76.0,,lower
+creative_midfielder,knn_cosine,1,1175048,137576,goals_per90,goals_per90,goals/90 minutes,0.2535211267605634,0.2290076335877862,0.02451349317277718,0.02451349317277718,10.704225352112704,,higher
+creative_midfielder,knn_cosine,1,1175048,137576,assists_per90,assists_per90,assists/90 minutes,0.1901408450704225,0.1335877862595419,0.0565530588108806,0.0565530588108806,42.33400402414493,,higher
+creative_midfielder,knn_cosine,1,543302,137576,age,age,years,26.0,33.0,-7.0,7.0,-21.21212121212121,,lower
+creative_midfielder,knn_cosine,1,543302,137576,minutes_played,minutes_played,minutes,2776.0,4716.0,-1940.0,1940.0,-41.13655640373198,,lower
+creative_midfielder,knn_cosine,1,543302,137576,market_value_in_eur,market_value_in_eur,EUR,4000000.0,5000000.0,-1000000.0,1000000.0,-20.0,,lower
+creative_midfielder,knn_cosine,1,543302,137576,goals_per90,goals_per90,goals/90 minutes,0.4214697406340058,0.2290076335877862,0.19246210704621958,0.19246210704621958,84.0417867435159,,higher
+creative_midfielder,knn_cosine,1,543302,137576,assists_per90,assists_per90,assists/90 minutes,0.1621037463976945,0.1335877862595419,0.028515960138152607,0.028515960138152607,21.346233017702822,,higher
+creative_midfielder,knn_cosine,1,652061,137576,age,age,years,22.0,33.0,-11.0,11.0,-33.33333333333333,,lower
+creative_midfielder,knn_cosine,1,652061,137576,minutes_played,minutes_played,minutes,1399.0,4716.0,-3317.0,3317.0,-70.33502968617472,,lower
+creative_midfielder,knn_cosine,1,652061,137576,market_value_in_eur,market_value_in_eur,EUR,7000000.0,5000000.0,2000000.0,2000000.0,40.0,,higher
+creative_midfielder,knn_cosine,1,652061,137576,goals_per90,goals_per90,goals/90 minutes,0.1929949964260185,0.2290076335877862,-0.0360126371617677,0.0360126371617677,-15.725518227305232,,lower
+creative_midfielder,knn_cosine,1,652061,137576,assists_per90,assists_per90,assists/90 minutes,0.1929949964260185,0.1335877862595419,0.0594072101664766,0.0594072101664766,44.47054018176251,,higher
+creative_midfielder,knn_cosine,1,896234,137576,age,age,years,24.0,33.0,-9.0,9.0,-27.27272727272727,,lower
+creative_midfielder,knn_cosine,1,896234,137576,minutes_played,minutes_played,minutes,1646.0,4716.0,-3070.0,3070.0,-65.09754028837999,,lower
+creative_midfielder,knn_cosine,1,896234,137576,market_value_in_eur,market_value_in_eur,EUR,1000000.0,5000000.0,-4000000.0,4000000.0,-80.0,,lower
+creative_midfielder,knn_cosine,1,896234,137576,goals_per90,goals_per90,goals/90 minutes,0.3280680437424058,0.2290076335877862,0.09906041015461958,0.09906041015461958,43.25637910085056,,higher
+creative_midfielder,knn_cosine,1,896234,137576,assists_per90,assists_per90,assists/90 minutes,0.3280680437424058,0.1335877862595419,0.19448025748286388,0.19448025748286388,145.58236417288677,,higher
+creative_midfielder,knn_cosine,2,137576,137576,age,age,years,33.0,33.0,0.0,0.0,0.0,,equal
+creative_midfielder,knn_cosine,2,137576,137576,minutes_played,minutes_played,minutes,4716.0,4716.0,0.0,0.0,0.0,,equal
+creative_midfielder,knn_cosine,2,137576,137576,market_value_in_eur,market_value_in_eur,EUR,5000000.0,5000000.0,0.0,0.0,0.0,,equal
+creative_midfielder,knn_cosine,2,137576,137576,goals_per90,goals_per90,goals/90 minutes,0.2290076335877862,0.2290076335877862,0.0,0.0,0.0,,equal
+creative_midfielder,knn_cosine,2,137576,137576,assists_per90,assists_per90,assists/90 minutes,0.1335877862595419,0.1335877862595419,0.0,0.0,0.0,,equal
+creative_midfielder,knn_cosine,2,485672,137576,age,age,years,26.0,33.0,-7.0,7.0,-21.21212121212121,,lower
+creative_midfielder,knn_cosine,2,485672,137576,minutes_played,minutes_played,minutes,2396.0,4716.0,-2320.0,2320.0,-49.194232400339274,,lower
+creative_midfielder,knn_cosine,2,485672,137576,market_value_in_eur,market_value_in_eur,EUR,2500000.0,5000000.0,-2500000.0,2500000.0,-50.0,,lower
+creative_midfielder,knn_cosine,2,485672,137576,goals_per90,goals_per90,goals/90 minutes,0.2629382303839733,0.2290076335877862,0.033930596796187096,0.033930596796187096,14.816360601001701,,higher
+creative_midfielder,knn_cosine,2,485672,137576,assists_per90,assists_per90,assists/90 minutes,0.3005008347245409,0.1335877862595419,0.16691304846499902,0.16691304846499902,124.94633913665649,,higher
+creative_midfielder,knn_weighted,1,137576,137576,age,age,years,33.0,33.0,0.0,0.0,0.0,,equal
+creative_midfielder,knn_weighted,1,137576,137576,minutes_played,minutes_played,minutes,4716.0,4716.0,0.0,0.0,0.0,,equal
+creative_midfielder,knn_weighted,1,137576,137576,market_value_in_eur,market_value_in_eur,EUR,5000000.0,5000000.0,0.0,0.0,0.0,,equal
+creative_midfielder,knn_weighted,1,137576,137576,goals_per90,goals_per90,goals/90 minutes,0.2290076335877862,0.2290076335877862,0.0,0.0,0.0,,equal
+creative_midfielder,knn_weighted,1,137576,137576,assists_per90,assists_per90,assists/90 minutes,0.1335877862595419,0.1335877862595419,0.0,0.0,0.0,,equal
+creative_midfielder,knn_weighted,1,543302,137576,age,age,years,26.0,33.0,-7.0,7.0,-21.21212121212121,,lower
+creative_midfielder,knn_weighted,1,543302,137576,minutes_played,minutes_played,minutes,2776.0,4716.0,-1940.0,1940.0,-41.13655640373198,,lower
+creative_midfielder,knn_weighted,1,543302,137576,market_value_in_eur,market_value_in_eur,EUR,4000000.0,5000000.0,-1000000.0,1000000.0,-20.0,,lower
+creative_midfielder,knn_weighted,1,543302,137576,goals_per90,goals_per90,goals/90 minutes,0.4214697406340058,0.2290076335877862,0.19246210704621958,0.19246210704621958,84.0417867435159,,higher
+creative_midfielder,knn_weighted,1,543302,137576,assists_per90,assists_per90,assists/90 minutes,0.1621037463976945,0.1335877862595419,0.028515960138152607,0.028515960138152607,21.346233017702822,,higher
+creative_midfielder,knn_weighted,1,1175048,137576,age,age,years,20.0,33.0,-13.0,13.0,-39.39393939393939,,lower
+creative_midfielder,knn_weighted,1,1175048,137576,minutes_played,minutes_played,minutes,1420.0,4716.0,-3296.0,3296.0,-69.88973706530959,,lower
+creative_midfielder,knn_weighted,1,1175048,137576,market_value_in_eur,market_value_in_eur,EUR,1200000.0,5000000.0,-3800000.0,3800000.0,-76.0,,lower
+creative_midfielder,knn_weighted,1,1175048,137576,goals_per90,goals_per90,goals/90 minutes,0.2535211267605634,0.2290076335877862,0.02451349317277718,0.02451349317277718,10.704225352112704,,higher
+creative_midfielder,knn_weighted,1,1175048,137576,assists_per90,assists_per90,assists/90 minutes,0.1901408450704225,0.1335877862595419,0.0565530588108806,0.0565530588108806,42.33400402414493,,higher
+creative_midfielder,knn_weighted,1,652061,137576,age,age,years,22.0,33.0,-11.0,11.0,-33.33333333333333,,lower
+creative_midfielder,knn_weighted,1,652061,137576,minutes_played,minutes_played,minutes,1399.0,4716.0,-3317.0,3317.0,-70.33502968617472,,lower
+creative_midfielder,knn_weighted,1,652061,137576,market_value_in_eur,market_value_in_eur,EUR,7000000.0,5000000.0,2000000.0,2000000.0,40.0,,higher
+creative_midfielder,knn_weighted,1,652061,137576,goals_per90,goals_per90,goals/90 minutes,0.1929949964260185,0.2290076335877862,-0.0360126371617677,0.0360126371617677,-15.725518227305232,,lower
+creative_midfielder,knn_weighted,1,652061,137576,assists_per90,assists_per90,assists/90 minutes,0.1929949964260185,0.1335877862595419,0.0594072101664766,0.0594072101664766,44.47054018176251,,higher
+creative_midfielder,knn_weighted,1,896234,137576,age,age,years,24.0,33.0,-9.0,9.0,-27.27272727272727,,lower
+creative_midfielder,knn_weighted,1,896234,137576,minutes_played,minutes_played,minutes,1646.0,4716.0,-3070.0,3070.0,-65.09754028837999,,lower
+creative_midfielder,knn_weighted,1,896234,137576,market_value_in_eur,market_value_in_eur,EUR,1000000.0,5000000.0,-4000000.0,4000000.0,-80.0,,lower
+creative_midfielder,knn_weighted,1,896234,137576,goals_per90,goals_per90,goals/90 minutes,0.3280680437424058,0.2290076335877862,0.09906041015461958,0.09906041015461958,43.25637910085056,,higher
+creative_midfielder,knn_weighted,1,896234,137576,assists_per90,assists_per90,assists/90 minutes,0.3280680437424058,0.1335877862595419,0.19448025748286388,0.19448025748286388,145.58236417288677,,higher
+creative_midfielder,knn_weighted,2,137576,137576,age,age,years,33.0,33.0,0.0,0.0,0.0,,equal
+creative_midfielder,knn_weighted,2,137576,137576,minutes_played,minutes_played,minutes,4716.0,4716.0,0.0,0.0,0.0,,equal
+creative_midfielder,knn_weighted,2,137576,137576,market_value_in_eur,market_value_in_eur,EUR,5000000.0,5000000.0,0.0,0.0,0.0,,equal
+creative_midfielder,knn_weighted,2,137576,137576,goals_per90,goals_per90,goals/90 minutes,0.2290076335877862,0.2290076335877862,0.0,0.0,0.0,,equal
+creative_midfielder,knn_weighted,2,137576,137576,assists_per90,assists_per90,assists/90 minutes,0.1335877862595419,0.1335877862595419,0.0,0.0,0.0,,equal
+creative_midfielder,knn_weighted,2,485672,137576,age,age,years,26.0,33.0,-7.0,7.0,-21.21212121212121,,lower
+creative_midfielder,knn_weighted,2,485672,137576,minutes_played,minutes_played,minutes,2396.0,4716.0,-2320.0,2320.0,-49.194232400339274,,lower
+creative_midfielder,knn_weighted,2,485672,137576,market_value_in_eur,market_value_in_eur,EUR,2500000.0,5000000.0,-2500000.0,2500000.0,-50.0,,lower
+creative_midfielder,knn_weighted,2,485672,137576,goals_per90,goals_per90,goals/90 minutes,0.2629382303839733,0.2290076335877862,0.033930596796187096,0.033930596796187096,14.816360601001701,,higher
+creative_midfielder,knn_weighted,2,485672,137576,assists_per90,assists_per90,assists/90 minutes,0.3005008347245409,0.1335877862595419,0.16691304846499902,0.16691304846499902,124.94633913665649,,higher
+experienced_defender,cosine,1,139208,139208,age,age,years,34.0,34.0,0.0,0.0,0.0,,equal
+experienced_defender,cosine,1,139208,139208,minutes_played,minutes_played,minutes,4941.0,4941.0,0.0,0.0,0.0,,equal
+experienced_defender,cosine,1,139208,139208,market_value_in_eur,market_value_in_eur,EUR,15000000.0,15000000.0,0.0,0.0,0.0,,equal
+experienced_defender,cosine,1,236168,139208,age,age,years,33.0,34.0,-1.0,1.0,-2.941176470588235,,lower
+experienced_defender,cosine,1,236168,139208,minutes_played,minutes_played,minutes,4783.0,4941.0,-158.0,158.0,-3.1977332523780615,,lower
+experienced_defender,cosine,1,236168,139208,market_value_in_eur,market_value_in_eur,EUR,2800000.0,15000000.0,-12200000.0,12200000.0,-81.33333333333333,,lower
+experienced_defender,cosine,1,124502,139208,age,age,years,32.0,34.0,-2.0,2.0,-5.88235294117647,,lower
+experienced_defender,cosine,1,124502,139208,minutes_played,minutes_played,minutes,4606.0,4941.0,-335.0,335.0,-6.78000404776361,,lower
+experienced_defender,cosine,1,124502,139208,market_value_in_eur,market_value_in_eur,EUR,5000000.0,15000000.0,-10000000.0,10000000.0,-66.66666666666666,,lower
+experienced_defender,cosine,1,244221,139208,age,age,years,34.0,34.0,0.0,0.0,0.0,,equal
+experienced_defender,cosine,1,244221,139208,minutes_played,minutes_played,minutes,3957.0,4941.0,-984.0,984.0,-19.91499696417729,,lower
+experienced_defender,cosine,1,244221,139208,market_value_in_eur,market_value_in_eur,EUR,1800000.0,15000000.0,-13200000.0,13200000.0,-88.0,,lower
+experienced_defender,cosine,1,187718,139208,age,age,years,33.0,34.0,-1.0,1.0,-2.941176470588235,,lower
+experienced_defender,cosine,1,187718,139208,minutes_played,minutes_played,minutes,3742.0,4941.0,-1199.0,1199.0,-24.266342845577817,,lower
+experienced_defender,cosine,1,187718,139208,market_value_in_eur,market_value_in_eur,EUR,2500000.0,15000000.0,-12500000.0,12500000.0,-83.33333333333334,,lower
+experienced_defender,cosine,2,139208,139208,age,age,years,34.0,34.0,0.0,0.0,0.0,,equal
+experienced_defender,cosine,2,139208,139208,minutes_played,minutes_played,minutes,4941.0,4941.0,0.0,0.0,0.0,,equal
+experienced_defender,cosine,2,139208,139208,market_value_in_eur,market_value_in_eur,EUR,15000000.0,15000000.0,0.0,0.0,0.0,,equal
+experienced_defender,cosine,2,173504,139208,age,age,years,33.0,34.0,-1.0,1.0,-2.941176470588235,,lower
+experienced_defender,cosine,2,173504,139208,minutes_played,minutes_played,minutes,3630.0,4941.0,-1311.0,1311.0,-26.533090467516697,,lower
+experienced_defender,cosine,2,173504,139208,market_value_in_eur,market_value_in_eur,EUR,5000000.0,15000000.0,-10000000.0,10000000.0,-66.66666666666666,,lower
+experienced_defender,weighted,1,139208,139208,age,age,years,34.0,34.0,0.0,0.0,0.0,,equal
+experienced_defender,weighted,1,139208,139208,minutes_played,minutes_played,minutes,4941.0,4941.0,0.0,0.0,0.0,,equal
+experienced_defender,weighted,1,139208,139208,market_value_in_eur,market_value_in_eur,EUR,15000000.0,15000000.0,0.0,0.0,0.0,,equal
+experienced_defender,weighted,1,236168,139208,age,age,years,33.0,34.0,-1.0,1.0,-2.941176470588235,,lower
+experienced_defender,weighted,1,236168,139208,minutes_played,minutes_played,minutes,4783.0,4941.0,-158.0,158.0,-3.1977332523780615,,lower
+experienced_defender,weighted,1,236168,139208,market_value_in_eur,market_value_in_eur,EUR,2800000.0,15000000.0,-12200000.0,12200000.0,-81.33333333333333,,lower
+experienced_defender,weighted,1,124502,139208,age,age,years,32.0,34.0,-2.0,2.0,-5.88235294117647,,lower
+experienced_defender,weighted,1,124502,139208,minutes_played,minutes_played,minutes,4606.0,4941.0,-335.0,335.0,-6.78000404776361,,lower
+experienced_defender,weighted,1,124502,139208,market_value_in_eur,market_value_in_eur,EUR,5000000.0,15000000.0,-10000000.0,10000000.0,-66.66666666666666,,lower
+experienced_defender,weighted,1,244221,139208,age,age,years,34.0,34.0,0.0,0.0,0.0,,equal
+experienced_defender,weighted,1,244221,139208,minutes_played,minutes_played,minutes,3957.0,4941.0,-984.0,984.0,-19.91499696417729,,lower
+experienced_defender,weighted,1,244221,139208,market_value_in_eur,market_value_in_eur,EUR,1800000.0,15000000.0,-13200000.0,13200000.0,-88.0,,lower
+experienced_defender,weighted,1,187718,139208,age,age,years,33.0,34.0,-1.0,1.0,-2.941176470588235,,lower
+experienced_defender,weighted,1,187718,139208,minutes_played,minutes_played,minutes,3742.0,4941.0,-1199.0,1199.0,-24.266342845577817,,lower
+experienced_defender,weighted,1,187718,139208,market_value_in_eur,market_value_in_eur,EUR,2500000.0,15000000.0,-12500000.0,12500000.0,-83.33333333333334,,lower
+experienced_defender,weighted,2,139208,139208,age,age,years,34.0,34.0,0.0,0.0,0.0,,equal
+experienced_defender,weighted,2,139208,139208,minutes_played,minutes_played,minutes,4941.0,4941.0,0.0,0.0,0.0,,equal
+experienced_defender,weighted,2,139208,139208,market_value_in_eur,market_value_in_eur,EUR,15000000.0,15000000.0,0.0,0.0,0.0,,equal
+experienced_defender,weighted,2,173504,139208,age,age,years,33.0,34.0,-1.0,1.0,-2.941176470588235,,lower
+experienced_defender,weighted,2,173504,139208,minutes_played,minutes_played,minutes,3630.0,4941.0,-1311.0,1311.0,-26.533090467516697,,lower
+experienced_defender,weighted,2,173504,139208,market_value_in_eur,market_value_in_eur,EUR,5000000.0,15000000.0,-10000000.0,10000000.0,-66.66666666666666,,lower
+experienced_defender,knn_cosine,1,139208,139208,age,age,years,34.0,34.0,0.0,0.0,0.0,,equal
+experienced_defender,knn_cosine,1,139208,139208,minutes_played,minutes_played,minutes,4941.0,4941.0,0.0,0.0,0.0,,equal
+experienced_defender,knn_cosine,1,139208,139208,market_value_in_eur,market_value_in_eur,EUR,15000000.0,15000000.0,0.0,0.0,0.0,,equal
+experienced_defender,knn_cosine,1,236168,139208,age,age,years,33.0,34.0,-1.0,1.0,-2.941176470588235,,lower
+experienced_defender,knn_cosine,1,236168,139208,minutes_played,minutes_played,minutes,4783.0,4941.0,-158.0,158.0,-3.1977332523780615,,lower
+experienced_defender,knn_cosine,1,236168,139208,market_value_in_eur,market_value_in_eur,EUR,2800000.0,15000000.0,-12200000.0,12200000.0,-81.33333333333333,,lower
+experienced_defender,knn_cosine,1,124502,139208,age,age,years,32.0,34.0,-2.0,2.0,-5.88235294117647,,lower
+experienced_defender,knn_cosine,1,124502,139208,minutes_played,minutes_played,minutes,4606.0,4941.0,-335.0,335.0,-6.78000404776361,,lower
+experienced_defender,knn_cosine,1,124502,139208,market_value_in_eur,market_value_in_eur,EUR,5000000.0,15000000.0,-10000000.0,10000000.0,-66.66666666666666,,lower
+experienced_defender,knn_cosine,1,244221,139208,age,age,years,34.0,34.0,0.0,0.0,0.0,,equal
+experienced_defender,knn_cosine,1,244221,139208,minutes_played,minutes_played,minutes,3957.0,4941.0,-984.0,984.0,-19.91499696417729,,lower
+experienced_defender,knn_cosine,1,244221,139208,market_value_in_eur,market_value_in_eur,EUR,1800000.0,15000000.0,-13200000.0,13200000.0,-88.0,,lower
+experienced_defender,knn_cosine,1,187718,139208,age,age,years,33.0,34.0,-1.0,1.0,-2.941176470588235,,lower
+experienced_defender,knn_cosine,1,187718,139208,minutes_played,minutes_played,minutes,3742.0,4941.0,-1199.0,1199.0,-24.266342845577817,,lower
+experienced_defender,knn_cosine,1,187718,139208,market_value_in_eur,market_value_in_eur,EUR,2500000.0,15000000.0,-12500000.0,12500000.0,-83.33333333333334,,lower
+experienced_defender,knn_cosine,2,139208,139208,age,age,years,34.0,34.0,0.0,0.0,0.0,,equal
+experienced_defender,knn_cosine,2,139208,139208,minutes_played,minutes_played,minutes,4941.0,4941.0,0.0,0.0,0.0,,equal
+experienced_defender,knn_cosine,2,139208,139208,market_value_in_eur,market_value_in_eur,EUR,15000000.0,15000000.0,0.0,0.0,0.0,,equal
+experienced_defender,knn_cosine,2,173504,139208,age,age,years,33.0,34.0,-1.0,1.0,-2.941176470588235,,lower
+experienced_defender,knn_cosine,2,173504,139208,minutes_played,minutes_played,minutes,3630.0,4941.0,-1311.0,1311.0,-26.533090467516697,,lower
+experienced_defender,knn_cosine,2,173504,139208,market_value_in_eur,market_value_in_eur,EUR,5000000.0,15000000.0,-10000000.0,10000000.0,-66.66666666666666,,lower
+experienced_defender,knn_weighted,1,139208,139208,age,age,years,34.0,34.0,0.0,0.0,0.0,,equal
+experienced_defender,knn_weighted,1,139208,139208,minutes_played,minutes_played,minutes,4941.0,4941.0,0.0,0.0,0.0,,equal
+experienced_defender,knn_weighted,1,139208,139208,market_value_in_eur,market_value_in_eur,EUR,15000000.0,15000000.0,0.0,0.0,0.0,,equal
+experienced_defender,knn_weighted,1,236168,139208,age,age,years,33.0,34.0,-1.0,1.0,-2.941176470588235,,lower
+experienced_defender,knn_weighted,1,236168,139208,minutes_played,minutes_played,minutes,4783.0,4941.0,-158.0,158.0,-3.1977332523780615,,lower
+experienced_defender,knn_weighted,1,236168,139208,market_value_in_eur,market_value_in_eur,EUR,2800000.0,15000000.0,-12200000.0,12200000.0,-81.33333333333333,,lower
+experienced_defender,knn_weighted,1,124502,139208,age,age,years,32.0,34.0,-2.0,2.0,-5.88235294117647,,lower
+experienced_defender,knn_weighted,1,124502,139208,minutes_played,minutes_played,minutes,4606.0,4941.0,-335.0,335.0,-6.78000404776361,,lower
+experienced_defender,knn_weighted,1,124502,139208,market_value_in_eur,market_value_in_eur,EUR,5000000.0,15000000.0,-10000000.0,10000000.0,-66.66666666666666,,lower
+experienced_defender,knn_weighted,1,244221,139208,age,age,years,34.0,34.0,0.0,0.0,0.0,,equal
+experienced_defender,knn_weighted,1,244221,139208,minutes_played,minutes_played,minutes,3957.0,4941.0,-984.0,984.0,-19.91499696417729,,lower
+experienced_defender,knn_weighted,1,244221,139208,market_value_in_eur,market_value_in_eur,EUR,1800000.0,15000000.0,-13200000.0,13200000.0,-88.0,,lower
+experienced_defender,knn_weighted,1,187718,139208,age,age,years,33.0,34.0,-1.0,1.0,-2.941176470588235,,lower
+experienced_defender,knn_weighted,1,187718,139208,minutes_played,minutes_played,minutes,3742.0,4941.0,-1199.0,1199.0,-24.266342845577817,,lower
+experienced_defender,knn_weighted,1,187718,139208,market_value_in_eur,market_value_in_eur,EUR,2500000.0,15000000.0,-12500000.0,12500000.0,-83.33333333333334,,lower
+experienced_defender,knn_weighted,2,139208,139208,age,age,years,34.0,34.0,0.0,0.0,0.0,,equal
+experienced_defender,knn_weighted,2,139208,139208,minutes_played,minutes_played,minutes,4941.0,4941.0,0.0,0.0,0.0,,equal
+experienced_defender,knn_weighted,2,139208,139208,market_value_in_eur,market_value_in_eur,EUR,15000000.0,15000000.0,0.0,0.0,0.0,,equal
+experienced_defender,knn_weighted,2,173504,139208,age,age,years,33.0,34.0,-1.0,1.0,-2.941176470588235,,lower
+experienced_defender,knn_weighted,2,173504,139208,minutes_played,minutes_played,minutes,3630.0,4941.0,-1311.0,1311.0,-26.533090467516697,,lower
+experienced_defender,knn_weighted,2,173504,139208,market_value_in_eur,market_value_in_eur,EUR,5000000.0,15000000.0,-10000000.0,10000000.0,-66.66666666666666,,lower
+budget_goalkeeper,cosine,1,629773,629773,age,age,years,23.0,23.0,0.0,0.0,0.0,,equal
+budget_goalkeeper,cosine,1,629773,629773,minutes_played,minutes_played,minutes,4970.0,4970.0,0.0,0.0,0.0,,equal
+budget_goalkeeper,cosine,1,629773,629773,market_value_in_eur,market_value_in_eur,EUR,18000000.0,18000000.0,0.0,0.0,0.0,,equal
+budget_goalkeeper,cosine,1,464373,629773,age,age,years,26.0,23.0,3.0,3.0,13.043478260869565,,higher
+budget_goalkeeper,cosine,1,464373,629773,minutes_played,minutes_played,minutes,3182.0,4970.0,-1788.0,1788.0,-35.97585513078471,,lower
+budget_goalkeeper,cosine,1,464373,629773,market_value_in_eur,market_value_in_eur,EUR,3000000.0,18000000.0,-15000000.0,15000000.0,-83.33333333333334,,lower
+budget_goalkeeper,cosine,1,338665,629773,age,age,years,27.0,23.0,4.0,4.0,17.391304347826086,,higher
+budget_goalkeeper,cosine,1,338665,629773,minutes_played,minutes_played,minutes,3240.0,4970.0,-1730.0,1730.0,-34.80885311871227,,lower
+budget_goalkeeper,cosine,1,338665,629773,market_value_in_eur,market_value_in_eur,EUR,1000000.0,18000000.0,-17000000.0,17000000.0,-94.44444444444444,,lower
+budget_goalkeeper,cosine,1,403564,629773,age,age,years,26.0,23.0,3.0,3.0,13.043478260869565,,higher
+budget_goalkeeper,cosine,1,403564,629773,minutes_played,minutes_played,minutes,3180.0,4970.0,-1790.0,1790.0,-36.016096579476866,,lower
+budget_goalkeeper,cosine,1,403564,629773,market_value_in_eur,market_value_in_eur,EUR,500000.0,18000000.0,-17500000.0,17500000.0,-97.22222222222221,,lower
+budget_goalkeeper,cosine,1,337290,629773,age,age,years,28.0,23.0,5.0,5.0,21.73913043478261,,higher
+budget_goalkeeper,cosine,1,337290,629773,minutes_played,minutes_played,minutes,3218.0,4970.0,-1752.0,1752.0,-35.25150905432596,,lower
+budget_goalkeeper,cosine,1,337290,629773,market_value_in_eur,market_value_in_eur,EUR,300000.0,18000000.0,-17700000.0,17700000.0,-98.33333333333333,,lower
+budget_goalkeeper,cosine,2,629773,629773,age,age,years,23.0,23.0,0.0,0.0,0.0,,equal
+budget_goalkeeper,cosine,2,629773,629773,minutes_played,minutes_played,minutes,4970.0,4970.0,0.0,0.0,0.0,,equal
+budget_goalkeeper,cosine,2,629773,629773,market_value_in_eur,market_value_in_eur,EUR,18000000.0,18000000.0,0.0,0.0,0.0,,equal
+budget_goalkeeper,cosine,2,360338,629773,age,age,years,27.0,23.0,4.0,4.0,17.391304347826086,,higher
+budget_goalkeeper,cosine,2,360338,629773,minutes_played,minutes_played,minutes,3060.0,4970.0,-1910.0,1910.0,-38.43058350100604,,lower
+budget_goalkeeper,cosine,2,360338,629773,market_value_in_eur,market_value_in_eur,EUR,2000000.0,18000000.0,-16000000.0,16000000.0,-88.88888888888889,,lower
+budget_goalkeeper,weighted,1,629773,629773,age,age,years,23.0,23.0,0.0,0.0,0.0,,equal
+budget_goalkeeper,weighted,1,629773,629773,minutes_played,minutes_played,minutes,4970.0,4970.0,0.0,0.0,0.0,,equal
+budget_goalkeeper,weighted,1,629773,629773,market_value_in_eur,market_value_in_eur,EUR,18000000.0,18000000.0,0.0,0.0,0.0,,equal
+budget_goalkeeper,weighted,1,464373,629773,age,age,years,26.0,23.0,3.0,3.0,13.043478260869565,,higher
+budget_goalkeeper,weighted,1,464373,629773,minutes_played,minutes_played,minutes,3182.0,4970.0,-1788.0,1788.0,-35.97585513078471,,lower
+budget_goalkeeper,weighted,1,464373,629773,market_value_in_eur,market_value_in_eur,EUR,3000000.0,18000000.0,-15000000.0,15000000.0,-83.33333333333334,,lower
+budget_goalkeeper,weighted,1,403564,629773,age,age,years,26.0,23.0,3.0,3.0,13.043478260869565,,higher
+budget_goalkeeper,weighted,1,403564,629773,minutes_played,minutes_played,minutes,3180.0,4970.0,-1790.0,1790.0,-36.016096579476866,,lower
+budget_goalkeeper,weighted,1,403564,629773,market_value_in_eur,market_value_in_eur,EUR,500000.0,18000000.0,-17500000.0,17500000.0,-97.22222222222221,,lower
+budget_goalkeeper,weighted,1,338665,629773,age,age,years,27.0,23.0,4.0,4.0,17.391304347826086,,higher
+budget_goalkeeper,weighted,1,338665,629773,minutes_played,minutes_played,minutes,3240.0,4970.0,-1730.0,1730.0,-34.80885311871227,,lower
+budget_goalkeeper,weighted,1,338665,629773,market_value_in_eur,market_value_in_eur,EUR,1000000.0,18000000.0,-17000000.0,17000000.0,-94.44444444444444,,lower
+budget_goalkeeper,weighted,1,337290,629773,age,age,years,28.0,23.0,5.0,5.0,21.73913043478261,,higher
+budget_goalkeeper,weighted,1,337290,629773,minutes_played,minutes_played,minutes,3218.0,4970.0,-1752.0,1752.0,-35.25150905432596,,lower
+budget_goalkeeper,weighted,1,337290,629773,market_value_in_eur,market_value_in_eur,EUR,300000.0,18000000.0,-17700000.0,17700000.0,-98.33333333333333,,lower
+budget_goalkeeper,weighted,2,629773,629773,age,age,years,23.0,23.0,0.0,0.0,0.0,,equal
+budget_goalkeeper,weighted,2,629773,629773,minutes_played,minutes_played,minutes,4970.0,4970.0,0.0,0.0,0.0,,equal
+budget_goalkeeper,weighted,2,629773,629773,market_value_in_eur,market_value_in_eur,EUR,18000000.0,18000000.0,0.0,0.0,0.0,,equal
+budget_goalkeeper,weighted,2,360338,629773,age,age,years,27.0,23.0,4.0,4.0,17.391304347826086,,higher
+budget_goalkeeper,weighted,2,360338,629773,minutes_played,minutes_played,minutes,3060.0,4970.0,-1910.0,1910.0,-38.43058350100604,,lower
+budget_goalkeeper,weighted,2,360338,629773,market_value_in_eur,market_value_in_eur,EUR,2000000.0,18000000.0,-16000000.0,16000000.0,-88.88888888888889,,lower
+budget_goalkeeper,knn_cosine,1,629773,629773,age,age,years,23.0,23.0,0.0,0.0,0.0,,equal
+budget_goalkeeper,knn_cosine,1,629773,629773,minutes_played,minutes_played,minutes,4970.0,4970.0,0.0,0.0,0.0,,equal
+budget_goalkeeper,knn_cosine,1,629773,629773,market_value_in_eur,market_value_in_eur,EUR,18000000.0,18000000.0,0.0,0.0,0.0,,equal
+budget_goalkeeper,knn_cosine,1,464373,629773,age,age,years,26.0,23.0,3.0,3.0,13.043478260869565,,higher
+budget_goalkeeper,knn_cosine,1,464373,629773,minutes_played,minutes_played,minutes,3182.0,4970.0,-1788.0,1788.0,-35.97585513078471,,lower
+budget_goalkeeper,knn_cosine,1,464373,629773,market_value_in_eur,market_value_in_eur,EUR,3000000.0,18000000.0,-15000000.0,15000000.0,-83.33333333333334,,lower
+budget_goalkeeper,knn_cosine,1,338665,629773,age,age,years,27.0,23.0,4.0,4.0,17.391304347826086,,higher
+budget_goalkeeper,knn_cosine,1,338665,629773,minutes_played,minutes_played,minutes,3240.0,4970.0,-1730.0,1730.0,-34.80885311871227,,lower
+budget_goalkeeper,knn_cosine,1,338665,629773,market_value_in_eur,market_value_in_eur,EUR,1000000.0,18000000.0,-17000000.0,17000000.0,-94.44444444444444,,lower
+budget_goalkeeper,knn_cosine,1,403564,629773,age,age,years,26.0,23.0,3.0,3.0,13.043478260869565,,higher
+budget_goalkeeper,knn_cosine,1,403564,629773,minutes_played,minutes_played,minutes,3180.0,4970.0,-1790.0,1790.0,-36.016096579476866,,lower
+budget_goalkeeper,knn_cosine,1,403564,629773,market_value_in_eur,market_value_in_eur,EUR,500000.0,18000000.0,-17500000.0,17500000.0,-97.22222222222221,,lower
+budget_goalkeeper,knn_cosine,1,337290,629773,age,age,years,28.0,23.0,5.0,5.0,21.73913043478261,,higher
+budget_goalkeeper,knn_cosine,1,337290,629773,minutes_played,minutes_played,minutes,3218.0,4970.0,-1752.0,1752.0,-35.25150905432596,,lower
+budget_goalkeeper,knn_cosine,1,337290,629773,market_value_in_eur,market_value_in_eur,EUR,300000.0,18000000.0,-17700000.0,17700000.0,-98.33333333333333,,lower
+budget_goalkeeper,knn_cosine,2,629773,629773,age,age,years,23.0,23.0,0.0,0.0,0.0,,equal
+budget_goalkeeper,knn_cosine,2,629773,629773,minutes_played,minutes_played,minutes,4970.0,4970.0,0.0,0.0,0.0,,equal
+budget_goalkeeper,knn_cosine,2,629773,629773,market_value_in_eur,market_value_in_eur,EUR,18000000.0,18000000.0,0.0,0.0,0.0,,equal
+budget_goalkeeper,knn_cosine,2,360338,629773,age,age,years,27.0,23.0,4.0,4.0,17.391304347826086,,higher
+budget_goalkeeper,knn_cosine,2,360338,629773,minutes_played,minutes_played,minutes,3060.0,4970.0,-1910.0,1910.0,-38.43058350100604,,lower
+budget_goalkeeper,knn_cosine,2,360338,629773,market_value_in_eur,market_value_in_eur,EUR,2000000.0,18000000.0,-16000000.0,16000000.0,-88.88888888888889,,lower
+budget_goalkeeper,knn_weighted,1,629773,629773,age,age,years,23.0,23.0,0.0,0.0,0.0,,equal
+budget_goalkeeper,knn_weighted,1,629773,629773,minutes_played,minutes_played,minutes,4970.0,4970.0,0.0,0.0,0.0,,equal
+budget_goalkeeper,knn_weighted,1,629773,629773,market_value_in_eur,market_value_in_eur,EUR,18000000.0,18000000.0,0.0,0.0,0.0,,equal
+budget_goalkeeper,knn_weighted,1,464373,629773,age,age,years,26.0,23.0,3.0,3.0,13.043478260869565,,higher
+budget_goalkeeper,knn_weighted,1,464373,629773,minutes_played,minutes_played,minutes,3182.0,4970.0,-1788.0,1788.0,-35.97585513078471,,lower
+budget_goalkeeper,knn_weighted,1,464373,629773,market_value_in_eur,market_value_in_eur,EUR,3000000.0,18000000.0,-15000000.0,15000000.0,-83.33333333333334,,lower
+budget_goalkeeper,knn_weighted,1,403564,629773,age,age,years,26.0,23.0,3.0,3.0,13.043478260869565,,higher
+budget_goalkeeper,knn_weighted,1,403564,629773,minutes_played,minutes_played,minutes,3180.0,4970.0,-1790.0,1790.0,-36.016096579476866,,lower
+budget_goalkeeper,knn_weighted,1,403564,629773,market_value_in_eur,market_value_in_eur,EUR,500000.0,18000000.0,-17500000.0,17500000.0,-97.22222222222221,,lower
+budget_goalkeeper,knn_weighted,1,338665,629773,age,age,years,27.0,23.0,4.0,4.0,17.391304347826086,,higher
+budget_goalkeeper,knn_weighted,1,338665,629773,minutes_played,minutes_played,minutes,3240.0,4970.0,-1730.0,1730.0,-34.80885311871227,,lower
+budget_goalkeeper,knn_weighted,1,338665,629773,market_value_in_eur,market_value_in_eur,EUR,1000000.0,18000000.0,-17000000.0,17000000.0,-94.44444444444444,,lower
+budget_goalkeeper,knn_weighted,1,337290,629773,age,age,years,28.0,23.0,5.0,5.0,21.73913043478261,,higher
+budget_goalkeeper,knn_weighted,1,337290,629773,minutes_played,minutes_played,minutes,3218.0,4970.0,-1752.0,1752.0,-35.25150905432596,,lower
+budget_goalkeeper,knn_weighted,1,337290,629773,market_value_in_eur,market_value_in_eur,EUR,300000.0,18000000.0,-17700000.0,17700000.0,-98.33333333333333,,lower
+budget_goalkeeper,knn_weighted,2,629773,629773,age,age,years,23.0,23.0,0.0,0.0,0.0,,equal
+budget_goalkeeper,knn_weighted,2,629773,629773,minutes_played,minutes_played,minutes,4970.0,4970.0,0.0,0.0,0.0,,equal
+budget_goalkeeper,knn_weighted,2,629773,629773,market_value_in_eur,market_value_in_eur,EUR,18000000.0,18000000.0,0.0,0.0,0.0,,equal
+budget_goalkeeper,knn_weighted,2,360338,629773,age,age,years,27.0,23.0,4.0,4.0,17.391304347826086,,higher
+budget_goalkeeper,knn_weighted,2,360338,629773,minutes_played,minutes_played,minutes,3060.0,4970.0,-1910.0,1910.0,-38.43058350100604,,lower
+budget_goalkeeper,knn_weighted,2,360338,629773,market_value_in_eur,market_value_in_eur,EUR,2000000.0,18000000.0,-16000000.0,16000000.0,-88.88888888888889,,lower

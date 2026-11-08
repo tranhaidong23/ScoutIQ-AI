@@ -1,0 +1,26 @@
+{
+  "observed_on": "2026-11-02",
+  "python": "3.13.7",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "scope": "Direct requirements plus pip only; not a complete dependency lock or proof of fresh-install/platform compatibility. No credentials or package index URLs captured.",
+  "requirements_encoding": "UTF-16 LE with BOM",
+  "requirements_sha256": "569066ba6a82bb8dc8c21365ffc35d9f3783383af62e81c5c9a6b2fe8cde6046",
+  "packages": {
+    "pandas": "3.0.6",
+    "numpy": "2.5.4",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2",
+    "scikit-learn": "1.9.1",
+    "requests": "2.34.2",
+    "jupyter": "1.1.1",
+    "ipykernel": "7.4.0",
+    "python-dotenv": "1.2.4",
+    "pytest": "9.1.1",
+    "beautifulsoup4": "4.15.0",
+    "pip": "26.2.1"
+  },
+  "validation": {
+    "pytest": "57 passed in 10.67s",
+    "pip_check": "No broken requirements found."
+  }
+}
